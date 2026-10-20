@@ -1,0 +1,556 @@
+{
+  "created_at": "2026-10-19 10:45:41",
+  "dataset": "dataset_v1_balanced",
+  "dataset_dir": "/mnt/d/生鲜售后agent/agent/data/intent/dataset_v1_balanced",
+  "split_sizes": {
+    "test": 701,
+    "dev": 704
+  },
+  "prices": {
+    "in_per_m": 2.0,
+    "out_per_m": 8.0
+  },
+  "shots": 1,
+  "backends": [
+    {
+      "backend": "fewshot",
+      "display": "few-shot deepseek-chat（1-shot，test）",
+      "split": "test",
+      "strategy": "fewshot-llm",
+      "model": "deepseek-chat",
+      "local_dir": null,
+      "queries": 60,
+      "macro_f1": 0.8403,
+      "accuracy": 0.8333,
+      "exact_match": 0.8333,
+      "multilabel": {
+        "macro": 0.8434,
+        "micro": 0.8361
+      },
+      "latency": {
+        "count": 60,
+        "mean_ms": 3136.8,
+        "p50_ms": 835.6,
+        "p90_ms": 1048.4,
+        "p95_ms": 35304.1,
+        "max_ms": 35521.6
+      },
+      "cost_avg": 0.0042162,
+      "cost_per_1k": 4.2162,
+      "errors": 0,
+      "cached": 0,
+      "per_class": {
+        "query_order": {
+          "precision": 0.625,
+          "recall": 0.8333,
+          "f1": 0.7143,
+          "support": 6
+        },
+        "urge_logistics": {
+          "precision": 1.0,
+          "recall": 0.8333,
+          "f1": 0.9091,
+          "support": 6
+        },
+        "bad_fruit_claim": {
+          "precision": 1.0,
+          "recall": 0.8333,
+          "f1": 0.9091,
+          "support": 6
+        },
+        "short_weight": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 6
+        },
+        "refund_consult": {
+          "precision": 0.7143,
+          "recall": 0.8333,
+          "f1": 0.7692,
+          "support": 6
+        },
+        "invoice": {
+          "precision": 1.0,
+          "recall": 0.8333,
+          "f1": 0.9091,
+          "support": 6
+        },
+        "quality_qa": {
+          "precision": 0.625,
+          "recall": 0.8333,
+          "f1": 0.7143,
+          "support": 6
+        },
+        "complaint": {
+          "precision": 1.0,
+          "recall": 0.6667,
+          "f1": 0.8,
+          "support": 6
+        },
+        "chitchat": {
+          "precision": 0.7143,
+          "recall": 0.8333,
+          "f1": 0.7692,
+          "support": 6
+        },
+        "human_handoff": {
+          "precision": 1.0,
+          "recall": 0.8333,
+          "f1": 0.9091,
+          "support": 6
+        }
+      }
+    },
+    {
+      "backend": "local",
+      "display": "local LoRA（dev）",
+      "split": "dev",
+      "strategy": "local-lora",
+      "model": "deepseek-chat",
+      "local_dir": "data/intent/models/v1",
+      "queries": 704,
+      "macro_f1": 0.7178,
+      "accuracy": 0.7301,
+      "exact_match": 0.7273,
+      "multilabel": {
+        "macro": 0.7163,
+        "micro": 0.7307
+      },
+      "latency": {
+        "count": 704,
+        "mean_ms": 1348.1,
+        "p50_ms": 1358.8,
+        "p90_ms": 1476.0,
+        "p95_ms": 1514.1,
+        "max_ms": 1972.5
+      },
+      "cost_avg": 0.0,
+      "cost_per_1k": 0.0,
+      "errors": 0,
+      "cached": 0,
+      "per_class": {
+        "query_order": {
+          "precision": 0.8223,
+          "recall": 0.7105,
+          "f1": 0.7624,
+          "support": 228
+        },
+        "urge_logistics": {
+          "precision": 0.6434,
+          "recall": 0.8925,
+          "f1": 0.7477,
+          "support": 93
+        },
+        "bad_fruit_claim": {
+          "precision": 0.9333,
+          "recall": 0.875,
+          "f1": 0.9032,
+          "support": 32
+        },
+        "short_weight": {
+          "precision": 0.8667,
+          "recall": 0.7647,
+          "f1": 0.8125,
+          "support": 17
+        },
+        "refund_consult": {
+          "precision": 0.7629,
+          "recall": 0.7872,
+          "f1": 0.7749,
+          "support": 94
+        },
+        "invoice": {
+          "precision": 0.9643,
+          "recall": 0.9,
+          "f1": 0.931,
+          "support": 30
+        },
+        "quality_qa": {
+          "precision": 0.6364,
+          "recall": 0.6863,
+          "f1": 0.6604,
+          "support": 51
+        },
+        "complaint": {
+          "precision": 0.3636,
+          "recall": 0.4444,
+          "f1": 0.4,
+          "support": 18
+        },
+        "chitchat": {
+          "precision": 0.6346,
+          "recall": 0.6471,
+          "f1": 0.6408,
+          "support": 102
+        },
+        "human_handoff": {
+          "precision": 0.6667,
+          "recall": 0.4615,
+          "f1": 0.5455,
+          "support": 39
+        }
+      }
+    },
+    {
+      "backend": "local",
+      "display": "local LoRA（test）",
+      "split": "test",
+      "strategy": "local-lora",
+      "model": "deepseek-chat",
+      "local_dir": "data/intent/models/v2",
+      "queries": 701,
+      "macro_f1": 0.7085,
+      "accuracy": 0.7347,
+      "exact_match": 0.7332,
+      "multilabel": {
+        "macro": 0.7147,
+        "micro": 0.7371
+      },
+      "latency": {
+        "count": 685,
+        "mean_ms": 1649.1,
+        "p50_ms": 1556.5,
+        "p90_ms": 1946.5,
+        "p95_ms": 1955.3,
+        "max_ms": 2320.0
+      },
+      "cost_avg": 0.0,
+      "cost_per_1k": 0.0,
+      "errors": 2,
+      "cached": 0,
+      "per_class": {
+        "query_order": {
+          "precision": 0.7886,
+          "recall": 0.8509,
+          "f1": 0.8186,
+          "support": 228
+        },
+        "urge_logistics": {
+          "precision": 0.8429,
+          "recall": 0.6344,
+          "f1": 0.7239,
+          "support": 93
+        },
+        "bad_fruit_claim": {
+          "precision": 0.9545,
+          "recall": 0.6774,
+          "f1": 0.7925,
+          "support": 31
+        },
+        "short_weight": {
+          "precision": 1.0,
+          "recall": 0.8235,
+          "f1": 0.9032,
+          "support": 17
+        },
+        "refund_consult": {
+          "precision": 0.7315,
+          "recall": 0.8404,
+          "f1": 0.7822,
+          "support": 94
+        },
+        "invoice": {
+          "precision": 1.0,
+          "recall": 0.931,
+          "f1": 0.9643,
+          "support": 29
+        },
+        "quality_qa": {
+          "precision": 0.54,
+          "recall": 0.5294,
+          "f1": 0.5347,
+          "support": 51
+        },
+        "complaint": {
+          "precision": 0.5417,
+          "recall": 0.7222,
+          "f1": 0.619,
+          "support": 18
+        },
+        "chitchat": {
+          "precision": 0.5649,
+          "recall": 0.7255,
+          "f1": 0.6352,
+          "support": 102
+        },
+        "human_handoff": {
+          "precision": 1.0,
+          "recall": 0.1842,
+          "f1": 0.3111,
+          "support": 38
+        }
+      }
+    },
+    {
+      "backend": "local",
+      "display": "local LoRA（test）",
+      "split": "test",
+      "strategy": "local-lora",
+      "model": "deepseek-chat",
+      "local_dir": "data/intent/models/v1",
+      "queries": 701,
+      "macro_f1": 0.7366,
+      "accuracy": 0.7375,
+      "exact_match": 0.7332,
+      "multilabel": {
+        "macro": 0.7409,
+        "micro": 0.7417
+      },
+      "latency": {
+        "count": 685,
+        "mean_ms": 1226.7,
+        "p50_ms": 1275.7,
+        "p90_ms": 1421.1,
+        "p95_ms": 1464.8,
+        "max_ms": 1562.6
+      },
+      "cost_avg": 0.0,
+      "cost_per_1k": 0.0,
+      "errors": 2,
+      "cached": 0,
+      "per_class": {
+        "query_order": {
+          "precision": 0.8373,
+          "recall": 0.7675,
+          "f1": 0.8009,
+          "support": 228
+        },
+        "urge_logistics": {
+          "precision": 0.6726,
+          "recall": 0.8172,
+          "f1": 0.7379,
+          "support": 93
+        },
+        "bad_fruit_claim": {
+          "precision": 0.9167,
+          "recall": 0.7097,
+          "f1": 0.8,
+          "support": 31
+        },
+        "short_weight": {
+          "precision": 0.8421,
+          "recall": 0.9412,
+          "f1": 0.8889,
+          "support": 17
+        },
+        "refund_consult": {
+          "precision": 0.757,
+          "recall": 0.8617,
+          "f1": 0.806,
+          "support": 94
+        },
+        "invoice": {
+          "precision": 1.0,
+          "recall": 0.931,
+          "f1": 0.9643,
+          "support": 29
+        },
+        "quality_qa": {
+          "precision": 0.5435,
+          "recall": 0.4902,
+          "f1": 0.5155,
+          "support": 51
+        },
+        "complaint": {
+          "precision": 0.5652,
+          "recall": 0.7222,
+          "f1": 0.6341,
+          "support": 18
+        },
+        "chitchat": {
+          "precision": 0.604,
+          "recall": 0.598,
+          "f1": 0.601,
+          "support": 102
+        },
+        "human_handoff": {
+          "precision": 0.7,
+          "recall": 0.5526,
+          "f1": 0.6176,
+          "support": 38
+        }
+      }
+    },
+    {
+      "backend": "local",
+      "display": "local LoRA（test）",
+      "split": "test",
+      "strategy": "local-lora",
+      "model": "deepseek-chat",
+      "local_dir": "/mnt/d/生鲜售后agent/agent/data/intent/models/v1",
+      "queries": 701,
+      "macro_f1": 0.7366,
+      "accuracy": 0.7375,
+      "exact_match": 0.7332,
+      "multilabel": {
+        "macro": 0.7409,
+        "micro": 0.7417
+      },
+      "latency": {
+        "count": 0,
+        "mean_ms": 0.0,
+        "p50_ms": 0.0,
+        "p90_ms": 0.0,
+        "p95_ms": 0.0,
+        "max_ms": 0.0
+      },
+      "cost_avg": 0.0,
+      "cost_per_1k": 0.0,
+      "errors": 2,
+      "cached": 701,
+      "per_class": {
+        "query_order": {
+          "precision": 0.8373,
+          "recall": 0.7675,
+          "f1": 0.8009,
+          "support": 228
+        },
+        "urge_logistics": {
+          "precision": 0.6726,
+          "recall": 0.8172,
+          "f1": 0.7379,
+          "support": 93
+        },
+        "bad_fruit_claim": {
+          "precision": 0.9167,
+          "recall": 0.7097,
+          "f1": 0.8,
+          "support": 31
+        },
+        "short_weight": {
+          "precision": 0.8421,
+          "recall": 0.9412,
+          "f1": 0.8889,
+          "support": 17
+        },
+        "refund_consult": {
+          "precision": 0.757,
+          "recall": 0.8617,
+          "f1": 0.806,
+          "support": 94
+        },
+        "invoice": {
+          "precision": 1.0,
+          "recall": 0.931,
+          "f1": 0.9643,
+          "support": 29
+        },
+        "quality_qa": {
+          "precision": 0.5435,
+          "recall": 0.4902,
+          "f1": 0.5155,
+          "support": 51
+        },
+        "complaint": {
+          "precision": 0.5652,
+          "recall": 0.7222,
+          "f1": 0.6341,
+          "support": 18
+        },
+        "chitchat": {
+          "precision": 0.604,
+          "recall": 0.598,
+          "f1": 0.601,
+          "support": 102
+        },
+        "human_handoff": {
+          "precision": 0.7,
+          "recall": 0.5526,
+          "f1": 0.6176,
+          "support": 38
+        }
+      }
+    },
+    {
+      "backend": "rule",
+      "display": "rule-based-v1（test）",
+      "split": "test",
+      "strategy": "rule-based-v1",
+      "model": "deepseek-chat",
+      "local_dir": null,
+      "queries": 701,
+      "macro_f1": 0.2013,
+      "accuracy": 0.3923,
+      "exact_match": 0.3894,
+      "multilabel": {
+        "macro": 0.2014,
+        "micro": 0.3912
+      },
+      "latency": {
+        "count": 0,
+        "mean_ms": 0.0,
+        "p50_ms": 0.0,
+        "p90_ms": 0.0,
+        "p95_ms": 0.0,
+        "max_ms": 0.0
+      },
+      "cost_avg": 0.0,
+      "cost_per_1k": 0.0,
+      "errors": 0,
+      "cached": 0,
+      "per_class": {
+        "query_order": {
+          "precision": 0.6278,
+          "recall": 0.614,
+          "f1": 0.6208,
+          "support": 228
+        },
+        "urge_logistics": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 93
+        },
+        "bad_fruit_claim": {
+          "precision": 0.6364,
+          "recall": 0.6774,
+          "f1": 0.6562,
+          "support": 31
+        },
+        "short_weight": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 17
+        },
+        "refund_consult": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 94
+        },
+        "invoice": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 29
+        },
+        "quality_qa": {
+          "precision": 0.1739,
+          "recall": 0.3137,
+          "f1": 0.2238,
+          "support": 51
+        },
+        "complaint": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 18
+        },
+        "chitchat": {
+          "precision": 0.284,
+          "recall": 0.9412,
+          "f1": 0.4364,
+          "support": 102
+        },
+        "human_handoff": {
+          "precision": 0.1333,
+          "recall": 0.0526,
+          "f1": 0.0755,
+          "support": 38
+        }
+      }
+    }
+  ]
+}

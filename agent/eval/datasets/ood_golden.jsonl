@@ -1,0 +1,50 @@
+{"id": "ood-01", "text": "今天天气怎么样", "expected": "out_of_domain", "category": "天气", "note": "taxonomy 里点名的域外信号"}
+{"id": "ood-02", "text": "明天会不会下雨，要带伞吗", "expected": "out_of_domain", "category": "天气", "note": ""}
+{"id": "ood-03", "text": "北京现在多少度", "expected": "out_of_domain", "category": "天气", "note": ""}
+{"id": "ood-04", "text": "台风要来了吗", "expected": "out_of_domain", "category": "天气", "note": ""}
+{"id": "ood-05", "text": "今天适合穿什么衣服", "expected": "out_of_domain", "category": "天气", "note": ""}
+{"id": "ood-06", "text": "讲个笑话吧", "expected": "out_of_domain", "category": "闲聊", "note": "taxonomy 里点名的域外信号"}
+{"id": "ood-07", "text": "你是谁", "expected": "out_of_domain", "category": "闲聊", "note": "taxonomy 里点名的域外信号"}
+{"id": "ood-08", "text": "你叫什么名字呀", "expected": "out_of_domain", "category": "闲聊", "note": ""}
+{"id": "ood-09", "text": "你能陪我聊聊天吗", "expected": "out_of_domain", "category": "闲聊", "note": ""}
+{"id": "ood-10", "text": "我最近心情不好", "expected": "out_of_domain", "category": "闲聊", "note": ""}
+{"id": "ood-11", "text": "你有男朋友吗", "expected": "out_of_domain", "category": "闲聊", "note": ""}
+{"id": "ood-12", "text": "周末去哪玩比较好", "expected": "out_of_domain", "category": "闲聊", "note": ""}
+{"id": "ood-13", "text": "推荐一部好看的电影", "expected": "out_of_domain", "category": "闲聊", "note": ""}
+{"id": "ood-14", "text": "我买的路由器连不上网怎么办", "expected": "out_of_domain", "category": "其他行业", "note": "JDDC 里这类噪音很多，是真实分布的一部分"}
+{"id": "ood-15", "text": "手机充不进电是哪里坏了", "expected": "out_of_domain", "category": "其他行业", "note": ""}
+{"id": "ood-16", "text": "衣服尺码买小了能换吗", "expected": "out_of_domain", "category": "其他行业", "note": "换了品类的售后；本业务只管生鲜"}
+{"id": "ood-17", "text": "电视怎么连接蓝牙音响", "expected": "out_of_domain", "category": "其他行业", "note": ""}
+{"id": "ood-18", "text": "笔记本电脑开不了机", "expected": "out_of_domain", "category": "其他行业", "note": ""}
+{"id": "ood-19", "text": "汽车保养多久做一次", "expected": "out_of_domain", "category": "其他行业", "note": ""}
+{"id": "ood-20", "text": "装修一般多少钱一平", "expected": "out_of_domain", "category": "其他行业", "note": ""}
+{"id": "ood-21", "text": "帮我写一段 python 代码", "expected": "out_of_domain", "category": "能力外请求", "note": "taxonomy 里点名的域外信号"}
+{"id": "ood-22", "text": "帮我写一篇 800 字的作文", "expected": "out_of_domain", "category": "能力外请求", "note": ""}
+{"id": "ood-23", "text": "把这句话翻译成英语", "expected": "out_of_domain", "category": "能力外请求", "note": ""}
+{"id": "ood-24", "text": "帮我算一下 235 乘以 47 等于多少", "expected": "out_of_domain", "category": "能力外请求", "note": ""}
+{"id": "ood-25", "text": "帮我做个考勤表格", "expected": "out_of_domain", "category": "能力外请求", "note": ""}
+{"id": "ood-26", "text": "帮我给老板写封邮件", "expected": "out_of_domain", "category": "能力外请求", "note": ""}
+{"id": "ood-27", "text": "帮我起个网名", "expected": "out_of_domain", "category": "能力外请求", "note": ""}
+{"id": "ood-28", "text": "帮我总结一下这篇论文", "expected": "out_of_domain", "category": "能力外请求", "note": ""}
+{"id": "ood-29", "text": "最近有什么好看的电视剧", "expected": "out_of_domain", "category": "娱乐时事", "note": ""}
+{"id": "ood-30", "text": "今天股市涨了吗", "expected": "out_of_domain", "category": "娱乐时事", "note": "taxonomy 里点名的域外信号"}
+{"id": "ood-31", "text": "我今天的运势怎么样", "expected": "out_of_domain", "category": "娱乐时事", "note": ""}
+{"id": "ood-32", "text": "双鱼座今天的爱情运势", "expected": "out_of_domain", "category": "娱乐时事", "note": ""}
+{"id": "ood-33", "text": "哪个明星最近上热搜了", "expected": "out_of_domain", "category": "娱乐时事", "note": ""}
+{"id": "ood-34", "text": "世界杯谁赢了", "expected": "out_of_domain", "category": "娱乐时事", "note": ""}
+{"id": "ood-35", "text": "历史上唐朝有多少年", "expected": "out_of_domain", "category": "通用知识", "note": ""}
+{"id": "ood-36", "text": "世界上最高的山是哪座", "expected": "out_of_domain", "category": "通用知识", "note": ""}
+{"id": "ood-37", "text": "感冒了吃什么药好得快", "expected": "out_of_domain", "category": "通用知识", "note": "医疗建议超出业务范围"}
+{"id": "ood-38", "text": "我这样算不算违法", "expected": "out_of_domain", "category": "通用知识", "note": ""}
+{"id": "ood-39", "text": "个人所得税怎么计算", "expected": "out_of_domain", "category": "通用知识", "note": ""}
+{"id": "ood-40", "text": "怎么才能提高英语听力", "expected": "out_of_domain", "category": "通用知识", "note": ""}
+{"id": "ood-41", "text": "你几岁了", "expected": "out_of_domain", "category": "测试机器人", "note": ""}
+{"id": "ood-42", "text": "你是机器人还是真人", "expected": "out_of_domain", "category": "测试机器人", "note": ""}
+{"id": "ood-43", "text": "你能听懂方言吗", "expected": "out_of_domain", "category": "测试机器人", "note": ""}
+{"id": "ood-44", "text": "测试一下，收到请回答", "expected": "out_of_domain", "category": "测试机器人", "note": ""}
+{"id": "ood-45", "text": "你会不会算错啊", "expected": "out_of_domain", "category": "测试机器人", "note": ""}
+{"id": "ood-46", "text": "12345", "expected": "out_of_domain", "category": "无意义输入", "note": "纯数字，无业务信息"}
+{"id": "ood-47", "text": "asdfghjkl", "expected": "out_of_domain", "category": "无意义输入", "note": "乱敲键盘"}
+{"id": "ood-48", "text": "……", "expected": "out_of_domain", "category": "无意义输入", "note": "只有符号"}
+{"id": "ood-49", "text": "哦", "expected": "out_of_domain", "category": "无意义输入", "note": "单字应答，没有诉求"}
+{"id": "ood-50", "text": "哈哈哈哈哈哈哈哈", "expected": "out_of_domain", "category": "无意义输入", "note": "只有笑声"}

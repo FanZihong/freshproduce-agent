@@ -1,0 +1,241 @@
+version: 1
+updated: "2026-10-09"
+description: 生鲜售后 Agent 的意图体系：10 个业务类别 + 域外兜底，包含定义、边界、正反例与易混提示。
+source: 依据 PRD 2.2 场景表 S1–S10 编写；标注与训练前必须先锁定本文件。
+
+# 图里的五个路由分支（意图类别不与其一一对应，映射关系见每个 label 的 route 字段）
+routing_branches:
+  order: 查单/物流分支（order_node）
+  claim: 理赔分支（claim_node）
+  faq: 知识问答分支（faq_node）
+  handoff: 转人工分支（handoff_node）
+  fallback: 域外兜底分支（fallback_node）
+
+# 多意图时的优先级：动作型（转人工/投诉/理赔）优先于咨询型
+routing_priority:
+  - human_handoff
+  - complaint
+  - bad_fruit_claim
+  - short_weight
+  - urge_logistics
+  - query_order
+  - refund_consult
+  - invoice
+  - quality_qa
+  - chitchat
+
+multi_intent_policy:
+  max_labels: 2
+  primary_rule: 取 routing_priority 中排位更靠前的作为主意图，另一个记为辅助意图
+  example: '车厘子坏了而且还没发货 -> 主意图 bad_fruit_claim（先理赔），辅助意图 urge_logistics'
+  conflict_rule: 若主意图是 bad_fruit_claim 且辅助意图是 human_handoff，先走理赔分支，遇到争议再转人工
+
+out_of_domain:
+  note: 不属于 10 类业务的问法，统一走 fallback 分支（不计入 10 类指标的分子）
+  signals:
+    max_top1_probability: 0.5
+    min_semantic_similarity: 0.35
+    rule_keywords: ["天气", "讲个笑话", "你是谁", "股票", "写代码"]
+  action: fallback
+
+labeling_guidelines:
+  - 先判断"用户想要什么动作"，再判断话题：想要赔付是理赔，想要进度是查询/催单，想要规则解释是咨询。
+  - 情绪词不单独决定类别：带情绪的赔付诉求仍算理赔，只有明确要求追责/曝光/道歉才算投诉。
+  - 涉及具体订单的金额争议优先归理赔；只问流程与时效归退款咨询。
+  - 模糊时选更具体的类别（坏果理赔 > 品质咨询），两个都成立时按 multi_intent_policy 记主辅。
+  - 完全不确定或超出业务范围时标 out_of_domain，不要"猜一个最像的"。
+
+labels:
+  - key: query_order
+    name: 订单查询
+    route: order
+    definition: 想了解某笔订单的当前状态、物流节点或签收情况，不带催促诉求。
+    includes: [查物流进度, 问是否已发货, 问是否签收, 问配送安排]
+    excludes: [催促发货（带时间压力或情绪）, 赔付诉求, 退款政策咨询]
+    positives:
+      - 我的订单到哪了
+      - 帮我查一下物流
+      - 这个订单签收了吗
+    negatives:
+      - 三天了怎么还不发货
+      - 退款一般几天到账
+    confusions:
+      - with: urge_logistics
+        tip: 问"到哪了"是查询；问"怎么还没到/帮我催"是催单。
+      - with: refund_consult
+        tip: 问商品在哪是查询；问钱什么时候回是退款咨询。
+
+  - key: urge_logistics
+    name: 催物流
+    route: order
+    definition: 催促发货或配送进度，通常带时间压力或不满情绪，但诉求仍是推进物流。
+    includes: [催发货, 催派送, 抱怨太慢, 要求优先配送]
+    excludes: [纯状态查询, 要求追责或曝光的投诉]
+    positives:
+      - 三天了还没发货
+      - 帮我催一下快递
+      - 怎么这么慢还没到
+    negatives:
+      - 我的订单到哪了
+      - 你们太差了我要投诉
+    confusions:
+      - with: query_order
+        tip: 有"催/快点/怎么还没"这类推进诉求的算催单。
+      - with: complaint
+        tip: 诉求落在"处罚/曝光/道歉"才算投诉，单纯催件仍算催单。
+
+  - key: bad_fruit_claim
+    name: 坏果理赔
+    route: claim
+    definition: 针对已签收商品的质量问题提出赔付诉求（坏果、腐烂、发霉、异味、异物等）。
+    includes: [坏果赔付, 变质赔付, 发霉异味, 异物理赔, 要求退款赔付]
+    excludes: [重量不足, 政策与时效咨询, 发票问题]
+    positives:
+      - 草莓坏了一半怎么赔
+      - 车厘子到货发霉了
+      - 里面有个异物怎么处理
+    negatives:
+      - 重量比标注少了好多
+      - 退款一般几天到账
+    confusions:
+      - with: short_weight
+        tip: 品质问题算理赔；重量/数量不符算缺斤少两。
+      - with: refund_consult
+        tip: 涉及具体订单赔付算理赔；只问流程时效算咨询。
+
+  - key: short_weight
+    name: 缺斤少两
+    route: claim
+    definition: 实际重量或数量与商品标注不符，需要按缺重规则处理。
+    includes: [少称, 重量不足, 数量不对, 缺斤少两]
+    excludes: [品质问题, 单纯询问称重凭证要求]
+    positives:
+      - 少了一两
+      - 说好两斤只有一斤半
+      - 数量不对少了一盒
+    negatives:
+      - 草莓烂了一半
+      - 称重照片需要拍成什么样
+    confusions:
+      - with: bad_fruit_claim
+        tip: 按"重量"抱怨走缺斤少两；按"品质"抱怨走坏果理赔。
+      - with: quality_qa
+        tip: 问凭证要求是咨询；直接申诉缺重是理赔。
+
+  - key: refund_consult
+    name: 退款咨询
+    route: faq
+    definition: 询问退款规则、到账时效或退款失败的处理方式，不涉及具体赔付认定。
+    includes: [退款时效, 退款失败, 退款进度查询, 退款流程]
+    excludes: [具体订单的赔付认定, 退货运费规则（政策咨询）]
+    positives:
+      - 退款多久到账
+      - 退款失败了怎么办
+      - 退款原路返回吗
+    negatives:
+      - 草莓坏了一半怎么赔
+      - 生鲜可以无理由退货吗
+    confusions:
+      - with: bad_fruit_claim
+        tip: 问"多久到账"是咨询；"这笔订单要赔多少"是理赔。
+      - with: quality_qa
+        tip: 退款时效属退款咨询；无理由退货属政策咨询，归品质咨询。
+
+  - key: invoice
+    name: 发票开具
+    route: faq
+    definition: 开票、改抬头、作废重开等与发票相关的问题。
+    includes: [开发票, 电子发票, 发票抬头与税号, 发票作废重开]
+    excludes: [退款与赔付]
+    positives:
+      - 怎么开发票
+      - 发票抬头写错了怎么办
+      - 可以开电子发票吗
+    negatives:
+      - 退款多久到账
+      - 我的订单到哪了
+    confusions:
+      - with: refund_consult
+        tip: 都涉及订单操作，但关键词是"票"就是发票类。
+
+  - key: quality_qa
+    name: 品质咨询
+    route: faq
+    definition: 商品储存、保鲜、食用安全、售后政策等知识型问题，需要查知识库回答。
+    includes: [储存与保鲜, 保质期, 能否食用, 售后政策, 运费与时效规则]
+    excludes: [具体质量问题的赔付诉求, 催单]
+    positives:
+      - 车厘子怎么保存
+      - 冷冻肉能放多久
+      - 生鲜可以无理由退货吗
+    negatives:
+      - 草莓坏了一半怎么赔
+      - 什么时候能发货
+    confusions:
+      - with: bad_fruit_claim
+        tip: 问"怎么保存"是咨询；"已经坏了要赔"是理赔。
+      - with: refund_consult
+        tip: 政策类（能不能退、运费谁承担）归品质咨询。
+
+  - key: complaint
+    name: 投诉
+    route: handoff
+    definition: 对平台、商家或服务表达不满并要求追责、升级处理、差评或曝光。
+    includes: [投诉, 差评, 曝光, 要求道歉, 要求处罚商家]
+    excludes: [普通催件, 仅为赔付的情绪表达]
+    positives:
+      - 我要投诉你们
+      - 再这样就给差评
+      - 我要曝光你们
+    negatives:
+      - 帮我催一下发货
+      - 这个能赔吗
+    confusions:
+      - with: urge_logistics
+        tip: 催件是推进物流；投诉是要求追责。
+      - with: human_handoff
+        tip: 投诉通常会转人工，但类别仍是投诉，便于统计升级原因。
+
+  - key: chitchat
+    name: 闲聊与域外
+    route: fallback
+    definition: 与售后无关的寒暄或话题，系统应礼貌拒答并说明能力边界。
+    includes: [天气, 闲聊, 无关知识问答, 测试机器人]
+    excludes: [售后相关但表述陌生的问法（应归入最近类别）]
+    positives:
+      - 今天天气怎么样
+      - 讲个笑话
+      - 你是谁
+    negatives:
+      - 我要投诉
+      - 车厘子怎么保存
+    confusions:
+      - with: quality_qa
+        tip: 若问的是商品相关但知识库没有，先归品质咨询再走"无据转人工"，不要直接判域外。
+
+  - key: human_handoff
+    name: 转人工
+    route: handoff
+    definition: 用户明确要求人工客服或拒绝与机器人继续沟通。
+    includes: [转人工, 找人工客服, 要真人, 别用机器人]
+    excludes: [仅表达不满但未要求人工（属投诉）]
+    positives:
+      - 我要转人工
+      - 找人工客服
+      - 别机器人了，叫真人
+    negatives:
+      - 我要投诉你们
+      - 帮我查下物流
+    confusions:
+      - with: complaint
+        tip: 投诉是事由，转人工是明确的通道要求；两者同时出现按 human_handoff 优先。
+
+# 写进评测集时用这些字段名：id / text / context / labels / source / labeler / confidence
+dataset_schema:
+  id: 唯一编号
+  text: 用户问句
+  context: 多轮上下文（上一轮问题与商品），单轮为 null
+  labels: 标签数组，最多 2 个，按 routing_priority 排序
+  source: 种子集 / 人工仿写 / 公开语料 / 线上 badcase
+  labeler: prelabel-llm / human-calibrated
+  confidence: 预标注置信度（人工校准后可置 1.0）

@@ -1,0 +1,2078 @@
+{
+  "created_at": "2026-10-16 15:09:43",
+  "dataset": "dialogues_golden.jsonl",
+  "backend": "local",
+  "strategy": "priority",
+  "classifier": "local-lora",
+  "metrics": {
+    "dialogues": 30,
+    "turns": 46,
+    "behavior_ok_rate": 1.0,
+    "behavior_ok_total": 30,
+    "resolution_rate": 1.0,
+    "resolution_total": 22,
+    "expected_unresolved_ok_rate": 1.0,
+    "expected_unresolved_total": 8,
+    "handoff_recall": 1.0,
+    "handoff_total": 6,
+    "handoff_false_rate": 0.0,
+    "handoff_false_total": 24,
+    "handoff_accuracy": 1.0,
+    "label_agreement": 0.7333
+  },
+  "records": [
+    {
+      "id": "dg-01",
+      "scenario": "查单-单轮命中订单号",
+      "chain": "order",
+      "category": "core",
+      "turns": 1,
+      "turn_log": [
+        {
+          "index": 1,
+          "user": "帮我查一下订单 2026093000123",
+          "reply": "订单 2026093000123：红颜草莓 500g，实付 25.80 元，当前状态：已签收。包裹已于 2026-09-30 09:40 签收，签收人为本人。",
+          "intent": "query_order",
+          "branches": [
+            "order"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        }
+      ],
+      "facts": {
+        "last_reply": "订单 2026093000123：红颜草莓 500g，实付 25.80 元，当前状态：已签收。包裹已于 2026-09-30 09:40 签收，签收人为本人。",
+        "tools": [
+          "query_order",
+          "query_logistics"
+        ],
+        "handoff": false,
+        "handoff_summary": "",
+        "branches": [
+          "order"
+        ]
+      },
+      "check_details": {
+        "missing_tools": [],
+        "missing_in_reply": [],
+        "missing_in_summary": null
+      },
+      "tools": {
+        "calls": 2,
+        "success": 2,
+        "retried_success": 0,
+        "degraded_ask_again": 0,
+        "degraded_handoff": 0,
+        "failed": 0,
+        "by_tool": {
+          "query_order": 1,
+          "query_logistics": 1
+        },
+        "success_rate": 1.0,
+        "degraded": 0,
+        "degrade_rate": 0.0
+      },
+      "resolution_criteria": "回复给出该订单的商品、金额与物流状态（已签收）",
+      "note": "最基础的一条：验证工具链 order→logistics 与回复拼装",
+      "checks": {
+        "tools": true,
+        "reply_contains": true
+      },
+      "resolved_predicted": true,
+      "resolved_expected": true,
+      "resolved_match": true,
+      "handoff_expected": false,
+      "handoff_actual": false,
+      "handoff_ok": true
+    },
+    {
+      "id": "dg-02",
+      "scenario": "查单-缺订单号",
+      "chain": "order",
+      "category": "core",
+      "turns": 1,
+      "turn_log": [
+        {
+          "index": 1,
+          "user": "帮我查下物流",
+          "reply": "请提供订单号，我来帮您查询物流状态。",
+          "intent": "query_order",
+          "branches": [
+            "order"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        }
+      ],
+      "facts": {
+        "last_reply": "请提供订单号，我来帮您查询物流状态。",
+        "tools": [],
+        "handoff": false,
+        "handoff_summary": "",
+        "branches": [
+          "order"
+        ]
+      },
+      "check_details": {
+        "missing_tools": null,
+        "missing_in_reply": [],
+        "missing_in_summary": null
+      },
+      "tools": {
+        "calls": 0,
+        "success": 0,
+        "retried_success": 0,
+        "degraded_ask_again": 0,
+        "degraded_handoff": 0,
+        "failed": 0,
+        "by_tool": {},
+        "success_rate": 0.0,
+        "degraded": 0,
+        "degrade_rate": 0.0
+      },
+      "resolution_criteria": "追问订单号，且不编造任何订单信息",
+      "note": "本轮未解决是正确行为：缺必填槽位应先追问",
+      "checks": {
+        "reply_contains": true
+      },
+      "resolved_predicted": true,
+      "resolved_expected": false,
+      "resolved_match": false,
+      "handoff_expected": false,
+      "handoff_actual": false,
+      "handoff_ok": true
+    },
+    {
+      "id": "dg-03",
+      "scenario": "查单-两轮补订单号",
+      "chain": "order",
+      "category": "core",
+      "turns": 2,
+      "turn_log": [
+        {
+          "index": 1,
+          "user": "我的包裹到哪了",
+          "reply": "请提供订单号，我来帮您查询物流状态。",
+          "intent": "query_order",
+          "branches": [
+            "order"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        },
+        {
+          "index": 2,
+          "user": "订单号 2026092800451",
+          "reply": "订单 2026092800451：智利车厘子 1kg，实付 88.00 元，当前状态：运输中。包裹运输中，预计明日 18:00 前送达。",
+          "intent": "query_order",
+          "branches": [
+            "order"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        }
+      ],
+      "facts": {
+        "last_reply": "订单 2026092800451：智利车厘子 1kg，实付 88.00 元，当前状态：运输中。包裹运输中，预计明日 18:00 前送达。",
+        "tools": [
+          "query_order",
+          "query_logistics"
+        ],
+        "handoff": false,
+        "handoff_summary": "",
+        "branches": [
+          "order"
+        ]
+      },
+      "check_details": {
+        "missing_tools": [],
+        "missing_in_reply": [],
+        "missing_in_summary": null
+      },
+      "tools": {
+        "calls": 2,
+        "success": 2,
+        "retried_success": 0,
+        "degraded_ask_again": 0,
+        "degraded_handoff": 0,
+        "failed": 0,
+        "by_tool": {
+          "query_order": 1,
+          "query_logistics": 1
+        },
+        "success_rate": 1.0,
+        "degraded": 0,
+        "degrade_rate": 0.0
+      },
+      "resolution_criteria": "补上订单号后给出运输中状态与预计送达时间",
+      "note": "第二句只有一个订单号：验证 active_flow 续接（不会被当成域外碎片）",
+      "checks": {
+        "tools": true,
+        "reply_contains": true
+      },
+      "resolved_predicted": true,
+      "resolved_expected": true,
+      "resolved_match": true,
+      "handoff_expected": false,
+      "handoff_actual": false,
+      "handoff_ok": true
+    },
+    {
+      "id": "dg-04",
+      "scenario": "查单-已发货状态",
+      "chain": "order",
+      "category": "core",
+      "turns": 1,
+      "turn_log": [
+        {
+          "index": 1,
+          "user": "订单 2026092500107 发货了吗",
+          "reply": "订单 2026092500107：锦绣黄桃 1kg，实付 32.00 元，当前状态：已发货。商家已发货，等待快递揽收。",
+          "intent": "query_order",
+          "branches": [
+            "order"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        }
+      ],
+      "facts": {
+        "last_reply": "订单 2026092500107：锦绣黄桃 1kg，实付 32.00 元，当前状态：已发货。商家已发货，等待快递揽收。",
+        "tools": [
+          "query_order",
+          "query_logistics"
+        ],
+        "handoff": false,
+        "handoff_summary": "",
+        "branches": [
+          "order"
+        ]
+      },
+      "check_details": {
+        "missing_tools": [],
+        "missing_in_reply": [],
+        "missing_in_summary": null
+      },
+      "tools": {
+        "calls": 2,
+        "success": 2,
+        "retried_success": 0,
+        "degraded_ask_again": 0,
+        "degraded_handoff": 0,
+        "failed": 0,
+        "by_tool": {
+          "query_order": 1,
+          "query_logistics": 1
+        },
+        "success_rate": 1.0,
+        "degraded": 0,
+        "degrade_rate": 0.0
+      },
+      "resolution_criteria": "给出「商家已发货，等待快递揽收」",
+      "note": "第三种物流状态分支",
+      "checks": {
+        "tools": true,
+        "reply_contains": true
+      },
+      "resolved_predicted": true,
+      "resolved_expected": true,
+      "resolved_match": true,
+      "handoff_expected": false,
+      "handoff_actual": false,
+      "handoff_ok": true
+    },
+    {
+      "id": "dg-05",
+      "scenario": "查单-催单口语变体",
+      "chain": "order",
+      "category": "noise",
+      "turns": 1,
+      "turn_log": [
+        {
+          "index": 1,
+          "user": "三天了怎么还不发货 2026092800451",
+          "reply": "订单 2026092800451：智利车厘子 1kg，实付 88.00 元，当前状态：运输中。包裹运输中，预计明日 18:00 前送达。",
+          "intent": "urge_logistics",
+          "branches": [
+            "order"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        }
+      ],
+      "facts": {
+        "last_reply": "订单 2026092800451：智利车厘子 1kg，实付 88.00 元，当前状态：运输中。包裹运输中，预计明日 18:00 前送达。",
+        "tools": [
+          "query_order",
+          "query_logistics"
+        ],
+        "handoff": false,
+        "handoff_summary": "",
+        "branches": [
+          "order"
+        ]
+      },
+      "check_details": {
+        "missing_tools": [],
+        "missing_in_reply": [],
+        "missing_in_summary": null
+      },
+      "tools": {
+        "calls": 2,
+        "success": 2,
+        "retried_success": 0,
+        "degraded_ask_again": 0,
+        "degraded_handoff": 0,
+        "failed": 0,
+        "by_tool": {
+          "query_order": 1,
+          "query_logistics": 1
+        },
+        "success_rate": 1.0,
+        "degraded": 0,
+        "degrade_rate": 0.0
+      },
+      "resolution_criteria": "识别为催单诉求并给出当前物流状态，不转人工",
+      "note": "JDDC 风格的抱怨式问法；考察催单不会误触发争议转人工",
+      "checks": {
+        "tools": true,
+        "reply_contains": true
+      },
+      "resolved_predicted": true,
+      "resolved_expected": true,
+      "resolved_match": true,
+      "handoff_expected": false,
+      "handoff_actual": false,
+      "handoff_ok": true
+    },
+    {
+      "id": "dg-06",
+      "scenario": "理赔-三轮填满槽位",
+      "chain": "claim",
+      "category": "core",
+      "turns": 3,
+      "turn_log": [
+        {
+          "index": 1,
+          "user": "订单 2026093000123 草莓坏了",
+          "reply": "请告诉我坏果的大致比例，比如“一半”或“30%”。",
+          "intent": "bad_fruit_claim",
+          "branches": [
+            "claim"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        },
+        {
+          "index": 2,
+          "user": "坏了一半",
+          "reply": "请提供坏果照片；如果不方便上传，用文字描述也可以。",
+          "intent": "bad_fruit_claim",
+          "branches": [
+            "claim"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        },
+        {
+          "index": 3,
+          "user": "照片已经上传了",
+          "reply": "已核对订单：红颜草莓 500g，实付 25.80 元。按赔付标准，坏果比例 50% 对应赔付比例 50%，应赔付 12.90 元。工单号 TK-20261016-0072，预计 2 小时内审核完成。",
+          "intent": "chitchat",
+          "branches": [
+            "fallback"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        }
+      ],
+      "facts": {
+        "last_reply": "已核对订单：红颜草莓 500g，实付 25.80 元。按赔付标准，坏果比例 50% 对应赔付比例 50%，应赔付 12.90 元。工单号 TK-20261016-0072，预计 2 小时内审核完成。",
+        "tools": [
+          "query_order",
+          "query_policy",
+          "create_ticket"
+        ],
+        "handoff": false,
+        "handoff_summary": "",
+        "branches": [
+          "claim",
+          "fallback"
+        ]
+      },
+      "check_details": {
+        "missing_tools": [],
+        "missing_in_reply": [],
+        "missing_in_summary": null
+      },
+      "tools": {
+        "calls": 3,
+        "success": 3,
+        "retried_success": 0,
+        "degraded_ask_again": 0,
+        "degraded_handoff": 0,
+        "failed": 0,
+        "by_tool": {
+          "query_order": 1,
+          "query_policy": 1,
+          "create_ticket": 1
+        },
+        "success_rate": 1.0,
+        "degraded": 0,
+        "degrade_rate": 0.0
+      },
+      "resolution_criteria": "按 50% 档位判定赔付 12.90 元并建工单",
+      "note": "理赔每轮只填一个槽位，所以齐槽必须多轮——这是设计约束，不是缺陷",
+      "checks": {
+        "tools": true,
+        "reply_contains": true
+      },
+      "resolved_predicted": true,
+      "resolved_expected": true,
+      "resolved_match": true,
+      "handoff_expected": false,
+      "handoff_actual": false,
+      "handoff_ok": true
+    },
+    {
+      "id": "dg-07",
+      "scenario": "理赔-四轮且无照片",
+      "chain": "claim",
+      "category": "core",
+      "turns": 4,
+      "turn_log": [
+        {
+          "index": 1,
+          "user": "东西烂了",
+          "reply": "请提供订单号，我来核对订单信息。",
+          "intent": "bad_fruit_claim",
+          "branches": [
+            "claim"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        },
+        {
+          "index": 2,
+          "user": "订单号 2026093000123",
+          "reply": "请告诉我坏果的大致比例，比如“一半”或“30%”。",
+          "intent": "query_order",
+          "branches": [
+            "order"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        },
+        {
+          "index": 3,
+          "user": "一半吧",
+          "reply": "请提供坏果照片；如果不方便上传，用文字描述也可以。",
+          "intent": "chitchat",
+          "branches": [
+            "fallback"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        },
+        {
+          "index": 4,
+          "user": "照片我传不上",
+          "reply": "已核对订单：红颜草莓 500g，实付 25.80 元。按赔付标准，坏果比例 50% 对应赔付比例 50%，应赔付 12.90 元。工单号 TK-20261016-0073，预计 2 小时内审核完成。",
+          "intent": "chitchat",
+          "branches": [
+            "fallback"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        }
+      ],
+      "facts": {
+        "last_reply": "已核对订单：红颜草莓 500g，实付 25.80 元。按赔付标准，坏果比例 50% 对应赔付比例 50%，应赔付 12.90 元。工单号 TK-20261016-0073，预计 2 小时内审核完成。",
+        "tools": [
+          "query_order",
+          "query_policy",
+          "create_ticket"
+        ],
+        "handoff": false,
+        "handoff_summary": "",
+        "branches": [
+          "claim",
+          "fallback",
+          "order"
+        ]
+      },
+      "check_details": {
+        "missing_tools": [],
+        "missing_in_reply": [],
+        "missing_in_summary": null
+      },
+      "tools": {
+        "calls": 3,
+        "success": 3,
+        "retried_success": 0,
+        "degraded_ask_again": 0,
+        "degraded_handoff": 0,
+        "failed": 0,
+        "by_tool": {
+          "query_order": 1,
+          "query_policy": 1,
+          "create_ticket": 1
+        },
+        "success_rate": 1.0,
+        "degraded": 0,
+        "degrade_rate": 0.0
+      },
+      "resolution_criteria": "没有照片也能完成赔付，凭证记为文字描述",
+      "note": "碎片式开场（无商品名）+ 无照片降级路径，二者都是真实分布里的常见情况",
+      "checks": {
+        "tools": true,
+        "reply_contains": true
+      },
+      "resolved_predicted": true,
+      "resolved_expected": true,
+      "resolved_match": true,
+      "handoff_expected": false,
+      "handoff_actual": false,
+      "handoff_ok": true
+    },
+    {
+      "id": "dg-08",
+      "scenario": "理赔-八成坏果",
+      "chain": "claim",
+      "category": "core",
+      "turns": 3,
+      "turn_log": [
+        {
+          "index": 1,
+          "user": "订单 2026092800451 车厘子有点坏了",
+          "reply": "请告诉我坏果的大致比例，比如“一半”或“30%”。",
+          "intent": "bad_fruit_claim",
+          "branches": [
+            "claim"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        },
+        {
+          "index": 2,
+          "user": "八成",
+          "reply": "请提供坏果照片；如果不方便上传，用文字描述也可以。",
+          "intent": "chitchat",
+          "branches": [
+            "fallback"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        },
+        {
+          "index": 3,
+          "user": "照片已上传",
+          "reply": "已核对订单：智利车厘子 1kg，实付 88.00 元。按赔付标准，坏果比例 80% 对应赔付比例 80%，应赔付 70.40 元。工单号 TK-20261016-0074，预计 2 小时内审核完成。",
+          "intent": "chitchat",
+          "branches": [
+            "fallback"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        }
+      ],
+      "facts": {
+        "last_reply": "已核对订单：智利车厘子 1kg，实付 88.00 元。按赔付标准，坏果比例 80% 对应赔付比例 80%，应赔付 70.40 元。工单号 TK-20261016-0074，预计 2 小时内审核完成。",
+        "tools": [
+          "query_order",
+          "query_policy",
+          "create_ticket"
+        ],
+        "handoff": false,
+        "handoff_summary": "",
+        "branches": [
+          "claim",
+          "fallback"
+        ]
+      },
+      "check_details": {
+        "missing_tools": [],
+        "missing_in_reply": [],
+        "missing_in_summary": null
+      },
+      "tools": {
+        "calls": 3,
+        "success": 3,
+        "retried_success": 0,
+        "degraded_ask_again": 0,
+        "degraded_handoff": 0,
+        "failed": 0,
+        "by_tool": {
+          "query_order": 1,
+          "query_policy": 1,
+          "create_ticket": 1
+        },
+        "success_rate": 1.0,
+        "degraded": 0,
+        "degrade_rate": 0.0
+      },
+      "resolution_criteria": "按 80% 档位赔付 70.40 元（88.00×0.8）",
+      "note": "档位边界：80% 落在 50%-80% 档，取 80% 赔付比例",
+      "checks": {
+        "tools": true,
+        "reply_contains": true
+      },
+      "resolved_predicted": true,
+      "resolved_expected": true,
+      "resolved_match": true,
+      "handoff_expected": false,
+      "handoff_actual": false,
+      "handoff_ok": true
+    },
+    {
+      "id": "dg-09",
+      "scenario": "理赔-缺斤少两",
+      "chain": "claim",
+      "category": "core",
+      "turns": 4,
+      "turn_log": [
+        {
+          "index": 1,
+          "user": "说好两斤只有一斤半",
+          "reply": "请提供订单号，我来核对订单信息。",
+          "intent": "short_weight",
+          "branches": [
+            "claim"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        },
+        {
+          "index": 2,
+          "user": "2026092700882",
+          "reply": "请告诉我坏果的大致比例，比如“一半”或“30%”。",
+          "intent": "query_order",
+          "branches": [
+            "order"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        },
+        {
+          "index": 3,
+          "user": "少了大概九成",
+          "reply": "请提供坏果照片；如果不方便上传，用文字描述也可以。",
+          "intent": "short_weight",
+          "branches": [
+            "claim"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        },
+        {
+          "index": 4,
+          "user": "没有照片",
+          "reply": "已核对订单：蓝莓 250g，实付 39.90 元。按赔付标准，坏果比例 90% 对应赔付比例 100%，应赔付 39.90 元。工单号 TK-20261016-0075，预计 2 小时内审核完成。",
+          "intent": "chitchat",
+          "branches": [
+            "fallback"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        }
+      ],
+      "facts": {
+        "last_reply": "已核对订单：蓝莓 250g，实付 39.90 元。按赔付标准，坏果比例 90% 对应赔付比例 100%，应赔付 39.90 元。工单号 TK-20261016-0075，预计 2 小时内审核完成。",
+        "tools": [
+          "query_order",
+          "query_policy",
+          "create_ticket"
+        ],
+        "handoff": false,
+        "handoff_summary": "",
+        "branches": [
+          "claim",
+          "fallback",
+          "order"
+        ]
+      },
+      "check_details": {
+        "missing_tools": [],
+        "missing_in_reply": [],
+        "missing_in_summary": null
+      },
+      "tools": {
+        "calls": 3,
+        "success": 3,
+        "retried_success": 0,
+        "degraded_ask_again": 0,
+        "degraded_handoff": 0,
+        "failed": 0,
+        "by_tool": {
+          "query_order": 1,
+          "query_policy": 1,
+          "create_ticket": 1
+        },
+        "success_rate": 1.0,
+        "degraded": 0,
+        "degrade_rate": 0.0
+      },
+      "resolution_criteria": "识别为缺斤少两并完成赔付（39.90 元）",
+      "note": "规则版关键词覆盖不到「只有一斤半」这类说法，会落兜底；这条只在本地模型后端有意义",
+      "checks": {
+        "tools": true,
+        "reply_contains": true
+      },
+      "resolved_predicted": true,
+      "resolved_expected": true,
+      "resolved_match": true,
+      "handoff_expected": false,
+      "handoff_actual": false,
+      "handoff_ok": true
+    },
+    {
+      "id": "dg-10",
+      "scenario": "理赔-全坏",
+      "chain": "claim",
+      "category": "core",
+      "turns": 3,
+      "turn_log": [
+        {
+          "index": 1,
+          "user": "订单 2026093000123 全烂了",
+          "reply": "请告诉我坏果的大致比例，比如“一半”或“30%”。",
+          "intent": "bad_fruit_claim",
+          "branches": [
+            "claim"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        },
+        {
+          "index": 2,
+          "user": "都坏了",
+          "reply": "请提供坏果照片；如果不方便上传，用文字描述也可以。",
+          "intent": "bad_fruit_claim",
+          "branches": [
+            "claim"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        },
+        {
+          "index": 3,
+          "user": "照片",
+          "reply": "已核对订单：红颜草莓 500g，实付 25.80 元。按赔付标准，坏果比例 100% 对应赔付比例 100%，应赔付 25.80 元。工单号 TK-20261016-0076，预计 2 小时内审核完成。",
+          "intent": "chitchat",
+          "branches": [
+            "fallback"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        }
+      ],
+      "facts": {
+        "last_reply": "已核对订单：红颜草莓 500g，实付 25.80 元。按赔付标准，坏果比例 100% 对应赔付比例 100%，应赔付 25.80 元。工单号 TK-20261016-0076，预计 2 小时内审核完成。",
+        "tools": [
+          "query_order",
+          "query_policy",
+          "create_ticket"
+        ],
+        "handoff": false,
+        "handoff_summary": "",
+        "branches": [
+          "claim",
+          "fallback"
+        ]
+      },
+      "check_details": {
+        "missing_tools": [],
+        "missing_in_reply": [],
+        "missing_in_summary": null
+      },
+      "tools": {
+        "calls": 3,
+        "success": 3,
+        "retried_success": 0,
+        "degraded_ask_again": 0,
+        "degraded_handoff": 0,
+        "failed": 0,
+        "by_tool": {
+          "query_order": 1,
+          "query_policy": 1,
+          "create_ticket": 1
+        },
+        "success_rate": 1.0,
+        "degraded": 0,
+        "degrade_rate": 0.0
+      },
+      "resolution_criteria": "全额赔付 25.80 元",
+      "note": "100% 档位的边界",
+      "checks": {
+        "tools": true,
+        "reply_contains": true
+      },
+      "resolved_predicted": true,
+      "resolved_expected": true,
+      "resolved_match": true,
+      "handoff_expected": false,
+      "handoff_actual": false,
+      "handoff_ok": true
+    },
+    {
+      "id": "dg-11",
+      "scenario": "理赔中途要求人工",
+      "chain": "claim",
+      "category": "core",
+      "turns": 3,
+      "turn_log": [
+        {
+          "index": 1,
+          "user": "东西坏了",
+          "reply": "请提供订单号，我来核对订单信息。",
+          "intent": "bad_fruit_claim",
+          "branches": [
+            "claim"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        },
+        {
+          "index": 2,
+          "user": "订单 2026093000123",
+          "reply": "请告诉我坏果的大致比例，比如“一半”或“30%”。",
+          "intent": "query_order",
+          "branches": [
+            "order"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        },
+        {
+          "index": 3,
+          "user": "别问了，我要转人工",
+          "reply": "请告诉我坏果的大致比例，比如“一半”或“30%”。",
+          "intent": "human_handoff",
+          "branches": [
+            "handoff"
+          ],
+          "handoff": true,
+          "out_of_domain": false,
+          "decision": "accept"
+        }
+      ],
+      "facts": {
+        "last_reply": "请告诉我坏果的大致比例，比如“一半”或“30%”。",
+        "tools": [],
+        "handoff": true,
+        "handoff_summary": "订单 2026093000123；诉求：用户请求人工；最后一句：别问了，我要转人工",
+        "branches": [
+          "claim",
+          "handoff",
+          "order"
+        ]
+      },
+      "check_details": {
+        "missing_tools": null,
+        "missing_in_reply": null,
+        "missing_in_summary": []
+      },
+      "tools": {
+        "calls": 0,
+        "success": 0,
+        "retried_success": 0,
+        "degraded_ask_again": 0,
+        "degraded_handoff": 0,
+        "failed": 0,
+        "by_tool": {},
+        "success_rate": 0.0,
+        "degraded": 0,
+        "degrade_rate": 0.0
+      },
+      "resolution_criteria": "尊重用户要求转人工，交接摘要带上已收集的订单号",
+      "note": "验证「已收集的槽位要带进交接」——这是转人工体验的关键",
+      "checks": {
+        "handoff_summary_contains": true
+      },
+      "resolved_predicted": true,
+      "resolved_expected": true,
+      "resolved_match": true,
+      "handoff_expected": true,
+      "handoff_actual": true,
+      "handoff_ok": true
+    },
+    {
+      "id": "dg-12",
+      "scenario": "知识问答-有据作答",
+      "chain": "faq",
+      "category": "core",
+      "turns": 1,
+      "turn_log": [
+        {
+          "index": 1,
+          "user": "车厘子怎么保存",
+          "reply": "根据《常见问题 FAQ》（4. 商品与储存）：\n问：车厘子怎么保存？答：冷藏 0 至 4 度，食用前再清洗，建议 3 天内吃完。\n\n参考来源：\n1. 《常见问题 FAQ》4. 商品与储存｜《生鲜售后常见问题（示例整理）》，仅用于本项目演示，不代表任何真实平台的正式答复。\n2. 《商品储存手册》1. 浆果类｜《生鲜商品储存与食用建议（示例整理）》，仅用于本项目演示，不代表权威食品安全结论。",
+          "intent": "quality_qa",
+          "branches": [
+            "faq"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        }
+      ],
+      "facts": {
+        "last_reply": "根据《常见问题 FAQ》（4. 商品与储存）：\n问：车厘子怎么保存？答：冷藏 0 至 4 度，食用前再清洗，建议 3 天内吃完。\n\n参考来源：\n1. 《常见问题 FAQ》4. 商品与储存｜《生鲜售后常见问题（示例整理）》，仅用于本项目演示，不代表任何真实平台的正式答复。\n2. 《商品储存手册》1. 浆果类｜《生鲜商品储存与食用建议（示例整理）》，仅用于本项目演示，不代表权威食品安全结论。",
+        "tools": [
+          "search_faq"
+        ],
+        "handoff": false,
+        "handoff_summary": "",
+        "branches": [
+          "faq"
+        ]
+      },
+      "check_details": {
+        "missing_tools": [],
+        "missing_in_reply": [],
+        "missing_in_summary": null
+      },
+      "tools": {
+        "calls": 1,
+        "success": 1,
+        "retried_success": 0,
+        "degraded_ask_again": 0,
+        "degraded_handoff": 0,
+        "failed": 0,
+        "by_tool": {
+          "search_faq": 1
+        },
+        "success_rate": 1.0,
+        "degraded": 0,
+        "degrade_rate": 0.0
+      },
+      "resolution_criteria": "带引用作答且不转人工",
+      "note": "已有单测覆盖（test_faq_tool），这里是端到端口径",
+      "checks": {
+        "tools": true,
+        "reply_contains": true
+      },
+      "resolved_predicted": true,
+      "resolved_expected": true,
+      "resolved_match": true,
+      "handoff_expected": false,
+      "handoff_actual": false,
+      "handoff_ok": true
+    },
+    {
+      "id": "dg-13",
+      "scenario": "知识问答-无据转人工",
+      "chain": "faq",
+      "category": "core",
+      "turns": 1,
+      "turn_log": [
+        {
+          "index": 1,
+          "user": "山竹怎么保存",
+          "reply": "我查了知识库，没有找到可靠的依据（知识库中没有「山竹」相关内容）。为避免给您错误信息，我帮您转接人工客服核实。",
+          "intent": "quality_qa",
+          "branches": [
+            "faq"
+          ],
+          "handoff": true,
+          "out_of_domain": false,
+          "decision": "accept"
+        }
+      ],
+      "facts": {
+        "last_reply": "我查了知识库，没有找到可靠的依据（知识库中没有「山竹」相关内容）。为避免给您错误信息，我帮您转接人工客服核实。",
+        "tools": [
+          "search_faq"
+        ],
+        "handoff": true,
+        "handoff_summary": "诉求：知识库无据：知识库中没有「山竹」相关内容；最后一句：山竹怎么保存",
+        "branches": [
+          "faq"
+        ]
+      },
+      "check_details": {
+        "missing_tools": null,
+        "missing_in_reply": [],
+        "missing_in_summary": null
+      },
+      "tools": {
+        "calls": 1,
+        "success": 1,
+        "retried_success": 0,
+        "degraded_ask_again": 0,
+        "degraded_handoff": 0,
+        "failed": 0,
+        "by_tool": {
+          "search_faq": 1
+        },
+        "success_rate": 1.0,
+        "degraded": 0,
+        "degrade_rate": 0.0
+      },
+      "resolution_criteria": "查不到就诚实说不知道并转人工，不硬编答案",
+      "note": "「有据率」的反面样本，和 dg-12 成对使用",
+      "checks": {
+        "reply_contains": true
+      },
+      "resolved_predicted": true,
+      "resolved_expected": true,
+      "resolved_match": true,
+      "handoff_expected": true,
+      "handoff_actual": true,
+      "handoff_ok": true
+    },
+    {
+      "id": "dg-14",
+      "scenario": "政策咨询-退款时效",
+      "chain": "faq",
+      "category": "core",
+      "turns": 1,
+      "turn_log": [
+        {
+          "index": 1,
+          "user": "退款一般几天到账",
+          "reply": "根据《常见问题 FAQ》（3. 退款与发票）：\n问：退款多久到账？答：审核通过后 1 至 3 个工作日原路退回。\n\n参考来源：\n1. 《常见问题 FAQ》3. 退款与发票｜《生鲜售后常见问题（示例整理）》，仅用于本项目演示，不代表任何真实平台的正式答复。\n2. 《常见问题 FAQ》2. 品质与赔付｜《生鲜售后常见问题（示例整理）》，仅用于本项目演示，不代表任何真实平台的正式答复。\n3. 《生鲜售后政策总则》2. 退款与退货｜《生鲜电商售后服务政策（示例整理）》，仅用于本项目演示，不代表任何真实平台规则。",
+          "intent": "refund_consult",
+          "branches": [
+            "faq"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        }
+      ],
+      "facts": {
+        "last_reply": "根据《常见问题 FAQ》（3. 退款与发票）：\n问：退款多久到账？答：审核通过后 1 至 3 个工作日原路退回。\n\n参考来源：\n1. 《常见问题 FAQ》3. 退款与发票｜《生鲜售后常见问题（示例整理）》，仅用于本项目演示，不代表任何真实平台的正式答复。\n2. 《常见问题 FAQ》2. 品质与赔付｜《生鲜售后常见问题（示例整理）》，仅用于本项目演示，不代表任何真实平台的正式答复。\n3. 《生鲜售后政策总则》2. 退款与退货｜《生鲜电商售后服务政策（示例整理）》，仅用于本项目演示，不代表任何真实平台规则。",
+        "tools": [
+          "search_faq"
+        ],
+        "handoff": false,
+        "handoff_summary": "",
+        "branches": [
+          "faq"
+        ]
+      },
+      "check_details": {
+        "missing_tools": null,
+        "missing_in_reply": null,
+        "missing_in_summary": null
+      },
+      "tools": {
+        "calls": 1,
+        "success": 1,
+        "retried_success": 0,
+        "degraded_ask_again": 0,
+        "degraded_handoff": 0,
+        "failed": 0,
+        "by_tool": {
+          "search_faq": 1
+        },
+        "success_rate": 1.0,
+        "degraded": 0,
+        "degrade_rate": 0.0
+      },
+      "resolution_criteria": "从知识库给出退款时效并附引用来源",
+      "note": "首跑校准点：若知识库里没有退款时效条目，本条应改判为无据转人工（以真实结果为准，不迁就预期）",
+      "checks": {
+        "reply_contains_any": true
+      },
+      "resolved_predicted": true,
+      "resolved_expected": true,
+      "resolved_match": true,
+      "handoff_expected": false,
+      "handoff_actual": false,
+      "handoff_ok": true
+    },
+    {
+      "id": "dg-15",
+      "scenario": "政策咨询-无理由退货",
+      "chain": "faq",
+      "category": "core",
+      "turns": 1,
+      "turn_log": [
+        {
+          "index": 1,
+          "user": "生鲜可以无理由退货吗",
+          "reply": "根据《生鲜售后政策总则》（2. 退款与退货）：\n生鲜商品因保质期短，原则上不支持无理由退货，质量问题按赔付处理而非退货。\n\n参考来源：\n1. 《生鲜售后政策总则》2. 退款与退货｜《生鲜电商售后服务政策（示例整理）》，仅用于本项目演示，不代表任何真实平台规则。\n2. 《生鲜售后政策总则》补充问答｜《生鲜电商售后服务政策（示例整理）》，仅用于本项目演示，不代表任何真实平台规则。",
+          "intent": "quality_qa",
+          "branches": [
+            "faq"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        }
+      ],
+      "facts": {
+        "last_reply": "根据《生鲜售后政策总则》（2. 退款与退货）：\n生鲜商品因保质期短，原则上不支持无理由退货，质量问题按赔付处理而非退货。\n\n参考来源：\n1. 《生鲜售后政策总则》2. 退款与退货｜《生鲜电商售后服务政策（示例整理）》，仅用于本项目演示，不代表任何真实平台规则。\n2. 《生鲜售后政策总则》补充问答｜《生鲜电商售后服务政策（示例整理）》，仅用于本项目演示，不代表任何真实平台规则。",
+        "tools": [
+          "search_faq"
+        ],
+        "handoff": false,
+        "handoff_summary": "",
+        "branches": [
+          "faq"
+        ]
+      },
+      "check_details": {
+        "missing_tools": null,
+        "missing_in_reply": null,
+        "missing_in_summary": null
+      },
+      "tools": {
+        "calls": 1,
+        "success": 1,
+        "retried_success": 0,
+        "degraded_ask_again": 0,
+        "degraded_handoff": 0,
+        "failed": 0,
+        "by_tool": {
+          "search_faq": 1
+        },
+        "success_rate": 1.0,
+        "degraded": 0,
+        "degrade_rate": 0.0
+      },
+      "resolution_criteria": "从知识库给出生鲜退货政策并附引用来源",
+      "note": "同上，首跑校准点",
+      "checks": {
+        "reply_contains_any": true
+      },
+      "resolved_predicted": true,
+      "resolved_expected": true,
+      "resolved_match": true,
+      "handoff_expected": false,
+      "handoff_actual": false,
+      "handoff_ok": true
+    },
+    {
+      "id": "dg-16",
+      "scenario": "转人工-明确投诉",
+      "chain": "handoff",
+      "category": "core",
+      "turns": 1,
+      "turn_log": [
+        {
+          "index": 1,
+          "user": "我要投诉你们客服",
+          "reply": "已为您转接人工客服，本次对话的订单信息与处理记录会一并交接，您无需重复描述。",
+          "intent": "complaint",
+          "branches": [
+            "handoff"
+          ],
+          "handoff": true,
+          "out_of_domain": false,
+          "decision": "accept"
+        }
+      ],
+      "facts": {
+        "last_reply": "已为您转接人工客服，本次对话的订单信息与处理记录会一并交接，您无需重复描述。",
+        "tools": [],
+        "handoff": true,
+        "handoff_summary": "诉求：用户表达投诉意愿；最后一句：我要投诉你们客服",
+        "branches": [
+          "handoff"
+        ]
+      },
+      "check_details": {
+        "missing_tools": null,
+        "missing_in_reply": null,
+        "missing_in_summary": []
+      },
+      "tools": {
+        "calls": 0,
+        "success": 0,
+        "retried_success": 0,
+        "degraded_ask_again": 0,
+        "degraded_handoff": 0,
+        "failed": 0,
+        "by_tool": {},
+        "success_rate": 0.0,
+        "degraded": 0,
+        "degrade_rate": 0.0
+      },
+      "resolution_criteria": "转人工并生成交接摘要",
+      "note": "投诉→human_handoff 分支",
+      "checks": {
+        "handoff_summary_contains": true
+      },
+      "resolved_predicted": true,
+      "resolved_expected": true,
+      "resolved_match": true,
+      "handoff_expected": true,
+      "handoff_actual": true,
+      "handoff_ok": true
+    },
+    {
+      "id": "dg-17",
+      "scenario": "转人工-争议并发",
+      "chain": "handoff",
+      "category": "core",
+      "turns": 1,
+      "turn_log": [
+        {
+          "index": 1,
+          "user": "2026093000123 草莓全烂了，我要求全赔",
+          "reply": "已为您转接人工客服，本次对话的订单信息与处理记录会一并交接，您无需重复描述。",
+          "intent": "bad_fruit_claim",
+          "branches": [
+            "claim"
+          ],
+          "handoff": true,
+          "out_of_domain": false,
+          "decision": "accept"
+        }
+      ],
+      "facts": {
+        "last_reply": "已为您转接人工客服，本次对话的订单信息与处理记录会一并交接，您无需重复描述。",
+        "tools": [],
+        "handoff": true,
+        "handoff_summary": "诉求：用户要求全额赔付；最后一句：2026093000123 草莓全烂了，我要求全赔",
+        "branches": [
+          "claim"
+        ]
+      },
+      "check_details": {
+        "missing_tools": null,
+        "missing_in_reply": null,
+        "missing_in_summary": []
+      },
+      "tools": {
+        "calls": 0,
+        "success": 0,
+        "retried_success": 0,
+        "degraded_ask_again": 0,
+        "degraded_handoff": 0,
+        "failed": 0,
+        "by_tool": {},
+        "success_rate": 0.0,
+        "degraded": 0,
+        "degrade_rate": 0.0
+      },
+      "resolution_criteria": "争议诉求直达人工，交接摘要里能看到这笔订单号",
+      "note": "已知机制：争议在意图节点就转人工、不经过理赔节点，所以槽位是空的，订单号只能靠摘要里的「最后一句」携带——这条同时是覆盖缺口的记录",
+      "checks": {
+        "handoff_summary_contains": true
+      },
+      "resolved_predicted": true,
+      "resolved_expected": true,
+      "resolved_match": true,
+      "handoff_expected": true,
+      "handoff_actual": true,
+      "handoff_ok": true
+    },
+    {
+      "id": "dg-18",
+      "scenario": "转人工-差评威胁",
+      "chain": "handoff",
+      "category": "core",
+      "turns": 1,
+      "turn_log": [
+        {
+          "index": 1,
+          "user": "太差了，再这样就给差评",
+          "reply": "已为您转接人工客服，本次对话的订单信息与处理记录会一并交接，您无需重复描述。",
+          "intent": "complaint",
+          "branches": [
+            "handoff"
+          ],
+          "handoff": true,
+          "out_of_domain": false,
+          "decision": "accept"
+        }
+      ],
+      "facts": {
+        "last_reply": "已为您转接人工客服，本次对话的订单信息与处理记录会一并交接，您无需重复描述。",
+        "tools": [],
+        "handoff": true,
+        "handoff_summary": "诉求：用户威胁给差评；最后一句：太差了，再这样就给差评",
+        "branches": [
+          "handoff"
+        ]
+      },
+      "check_details": {
+        "missing_tools": null,
+        "missing_in_reply": null,
+        "missing_in_summary": []
+      },
+      "tools": {
+        "calls": 0,
+        "success": 0,
+        "retried_success": 0,
+        "degraded_ask_again": 0,
+        "degraded_handoff": 0,
+        "failed": 0,
+        "by_tool": {},
+        "success_rate": 0.0,
+        "degraded": 0,
+        "degrade_rate": 0.0
+      },
+      "resolution_criteria": "识别不满情绪并转人工",
+      "note": "情绪词 + 追责意图的组合",
+      "checks": {
+        "handoff_summary_contains": true
+      },
+      "resolved_predicted": true,
+      "resolved_expected": true,
+      "resolved_match": true,
+      "handoff_expected": true,
+      "handoff_actual": true,
+      "handoff_ok": true
+    },
+    {
+      "id": "dg-19",
+      "scenario": "转人工-要求处罚商家",
+      "chain": "handoff",
+      "category": "core",
+      "turns": 1,
+      "turn_log": [
+        {
+          "index": 1,
+          "user": "你们必须处罚商家，我要曝光",
+          "reply": "已为您转接人工客服，本次对话的订单信息与处理记录会一并交接，您无需重复描述。",
+          "intent": "complaint",
+          "branches": [
+            "handoff"
+          ],
+          "handoff": true,
+          "out_of_domain": false,
+          "decision": "accept"
+        }
+      ],
+      "facts": {
+        "last_reply": "已为您转接人工客服，本次对话的订单信息与处理记录会一并交接，您无需重复描述。",
+        "tools": [],
+        "handoff": true,
+        "handoff_summary": "诉求：用户威胁曝光；最后一句：你们必须处罚商家，我要曝光",
+        "branches": [
+          "handoff"
+        ]
+      },
+      "check_details": {
+        "missing_tools": null,
+        "missing_in_reply": null,
+        "missing_in_summary": []
+      },
+      "tools": {
+        "calls": 0,
+        "success": 0,
+        "retried_success": 0,
+        "degraded_ask_again": 0,
+        "degraded_handoff": 0,
+        "failed": 0,
+        "by_tool": {},
+        "success_rate": 0.0,
+        "degraded": 0,
+        "degrade_rate": 0.0
+      },
+      "resolution_criteria": "识别升级追责意图并转人工",
+      "note": "曝光/处罚属于投诉类，不该被当成普通催单",
+      "checks": {
+        "handoff_summary_contains": true
+      },
+      "resolved_predicted": true,
+      "resolved_expected": true,
+      "resolved_match": true,
+      "handoff_expected": true,
+      "handoff_actual": true,
+      "handoff_ok": true
+    },
+    {
+      "id": "dg-20",
+      "scenario": "兜底-闲聊",
+      "chain": "fallback",
+      "category": "core",
+      "turns": 1,
+      "turn_log": [
+        {
+          "index": 1,
+          "user": "讲个笑话吧",
+          "reply": "这个问题超出了售后服务的范围。我可以帮您查询订单物流、处理坏果理赔，或者在需要时转接人工客服。",
+          "intent": "chitchat",
+          "branches": [
+            "fallback"
+          ],
+          "handoff": false,
+          "out_of_domain": true,
+          "decision": "accept"
+        }
+      ],
+      "facts": {
+        "last_reply": "这个问题超出了售后服务的范围。我可以帮您查询订单物流、处理坏果理赔，或者在需要时转接人工客服。",
+        "tools": [],
+        "handoff": false,
+        "handoff_summary": "",
+        "branches": [
+          "fallback"
+        ]
+      },
+      "check_details": {
+        "missing_tools": null,
+        "missing_in_reply": [],
+        "missing_in_summary": null
+      },
+      "tools": {
+        "calls": 0,
+        "success": 0,
+        "retried_success": 0,
+        "degraded_ask_again": 0,
+        "degraded_handoff": 0,
+        "failed": 0,
+        "by_tool": {},
+        "success_rate": 0.0,
+        "degraded": 0,
+        "degrade_rate": 0.0
+      },
+      "resolution_criteria": "礼貌拒答并说明能力边界",
+      "note": "域外兜底话术",
+      "checks": {
+        "reply_contains": true
+      },
+      "resolved_predicted": true,
+      "resolved_expected": true,
+      "resolved_match": true,
+      "handoff_expected": false,
+      "handoff_actual": false,
+      "handoff_ok": true
+    },
+    {
+      "id": "dg-21",
+      "scenario": "兜底-无关话题",
+      "chain": "fallback",
+      "category": "core",
+      "turns": 1,
+      "turn_log": [
+        {
+          "index": 1,
+          "user": "明天天气怎么样",
+          "reply": "这个问题超出了售后服务的范围。我可以帮您查询订单物流、处理坏果理赔，或者在需要时转接人工客服。",
+          "intent": "chitchat",
+          "branches": [
+            "fallback"
+          ],
+          "handoff": false,
+          "out_of_domain": true,
+          "decision": "accept"
+        }
+      ],
+      "facts": {
+        "last_reply": "这个问题超出了售后服务的范围。我可以帮您查询订单物流、处理坏果理赔，或者在需要时转接人工客服。",
+        "tools": [],
+        "handoff": false,
+        "handoff_summary": "",
+        "branches": [
+          "fallback"
+        ]
+      },
+      "check_details": {
+        "missing_tools": null,
+        "missing_in_reply": [],
+        "missing_in_summary": null
+      },
+      "tools": {
+        "calls": 0,
+        "success": 0,
+        "retried_success": 0,
+        "degraded_ask_again": 0,
+        "degraded_handoff": 0,
+        "failed": 0,
+        "by_tool": {},
+        "success_rate": 0.0,
+        "degraded": 0,
+        "degrade_rate": 0.0
+      },
+      "resolution_criteria": "判定为域外并走兜底分支",
+      "note": "无任何领域词，靠「模型判 chitchat + 无领域词护栏」这条路径",
+      "checks": {
+        "reply_contains": true
+      },
+      "resolved_predicted": true,
+      "resolved_expected": true,
+      "resolved_match": true,
+      "handoff_expected": false,
+      "handoff_actual": false,
+      "handoff_ok": true
+    },
+    {
+      "id": "dg-22",
+      "scenario": "兜底-能力外请求",
+      "chain": "fallback",
+      "category": "core",
+      "turns": 1,
+      "turn_log": [
+        {
+          "index": 1,
+          "user": "帮我写一段 python 代码",
+          "reply": "这个问题超出了售后服务的范围。我可以帮您查询订单物流、处理坏果理赔，或者在需要时转接人工客服。",
+          "intent": "chitchat",
+          "branches": [
+            "fallback"
+          ],
+          "handoff": false,
+          "out_of_domain": true,
+          "decision": "accept"
+        }
+      ],
+      "facts": {
+        "last_reply": "这个问题超出了售后服务的范围。我可以帮您查询订单物流、处理坏果理赔，或者在需要时转接人工客服。",
+        "tools": [],
+        "handoff": false,
+        "handoff_summary": "",
+        "branches": [
+          "fallback"
+        ]
+      },
+      "check_details": {
+        "missing_tools": null,
+        "missing_in_reply": [],
+        "missing_in_summary": null
+      },
+      "tools": {
+        "calls": 0,
+        "success": 0,
+        "retried_success": 0,
+        "degraded_ask_again": 0,
+        "degraded_handoff": 0,
+        "failed": 0,
+        "by_tool": {},
+        "success_rate": 0.0,
+        "degraded": 0,
+        "degrade_rate": 0.0
+      },
+      "resolution_criteria": "拒绝能力外请求并说明能做什么",
+      "note": "taxonomy 的 out_of_domain 信号之一",
+      "checks": {
+        "reply_contains": true
+      },
+      "resolved_predicted": true,
+      "resolved_expected": true,
+      "resolved_match": true,
+      "handoff_expected": false,
+      "handoff_actual": false,
+      "handoff_ok": true
+    },
+    {
+      "id": "dg-23",
+      "scenario": "多意图-priority 只走主诉求",
+      "chain": "multi",
+      "category": "core",
+      "turns": 1,
+      "turn_log": [
+        {
+          "index": 1,
+          "user": "车厘子坏了一半，而且三天了还没发货",
+          "reply": "请提供订单号，我来核对订单信息。",
+          "intent": "bad_fruit_claim",
+          "branches": [
+            "claim"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        }
+      ],
+      "facts": {
+        "last_reply": "请提供订单号，我来核对订单信息。",
+        "tools": [],
+        "handoff": false,
+        "handoff_summary": "",
+        "branches": [
+          "claim"
+        ]
+      },
+      "check_details": {
+        "missing_tools": null,
+        "missing_in_reply": [],
+        "missing_in_summary": null
+      },
+      "tools": {
+        "calls": 0,
+        "success": 0,
+        "retried_success": 0,
+        "degraded_ask_again": 0,
+        "degraded_handoff": 0,
+        "failed": 0,
+        "by_tool": {},
+        "success_rate": 0.0,
+        "degraded": 0,
+        "degrade_rate": 0.0
+      },
+      "resolution_criteria": "只处理优先级高的理赔诉求（追问订单号），不声称物流状态",
+      "note": "priority 策略的预期代价：次诉求只拿到一句入口。未解决是策略选择，不是失败；这条只在 priority 下成立",
+      "checks": {
+        "reply_contains": true,
+        "branches": true
+      },
+      "resolved_predicted": true,
+      "resolved_expected": false,
+      "resolved_match": false,
+      "handoff_expected": false,
+      "handoff_actual": false,
+      "handoff_ok": true
+    },
+    {
+      "id": "dg-24",
+      "scenario": "多意图-priority 不越权作答",
+      "chain": "multi",
+      "category": "core",
+      "turns": 1,
+      "turn_log": [
+        {
+          "index": 1,
+          "user": "草莓坏了一半怎么办，另外车厘子怎么保存",
+          "reply": "请提供订单号，我来核对订单信息。",
+          "intent": "bad_fruit_claim",
+          "branches": [
+            "claim"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        }
+      ],
+      "facts": {
+        "last_reply": "请提供订单号，我来核对订单信息。",
+        "tools": [],
+        "handoff": false,
+        "handoff_summary": "",
+        "branches": [
+          "claim"
+        ]
+      },
+      "check_details": {
+        "missing_tools": null,
+        "missing_in_reply": null,
+        "missing_in_summary": null
+      },
+      "tools": {
+        "calls": 0,
+        "success": 0,
+        "retried_success": 0,
+        "degraded_ask_again": 0,
+        "degraded_handoff": 0,
+        "failed": 0,
+        "by_tool": {},
+        "success_rate": 0.0,
+        "degraded": 0,
+        "degrade_rate": 0.0
+      },
+      "resolution_criteria": "只走理赔分支追问订单号，不给出知识库答案",
+      "note": "需要能吐两个标签的后端才有意义；规则版只输出单标签，两条多意图用例会退化成同一条",
+      "checks": {
+        "reply_contains_any": true,
+        "branches": true
+      },
+      "resolved_predicted": true,
+      "resolved_expected": false,
+      "resolved_match": false,
+      "handoff_expected": false,
+      "handoff_actual": false,
+      "handoff_ok": true
+    },
+    {
+      "id": "dg-26",
+      "scenario": "JDDC 变体-口语化查单",
+      "chain": "order",
+      "category": "noise",
+      "turns": 1,
+      "turn_log": [
+        {
+          "index": 1,
+          "user": "订单号2026093000123帮我看看到哪了",
+          "reply": "订单 2026093000123：红颜草莓 500g，实付 25.80 元，当前状态：已签收。包裹已于 2026-09-30 09:40 签收，签收人为本人。",
+          "intent": "query_order",
+          "branches": [
+            "order"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        }
+      ],
+      "facts": {
+        "last_reply": "订单 2026093000123：红颜草莓 500g，实付 25.80 元，当前状态：已签收。包裹已于 2026-09-30 09:40 签收，签收人为本人。",
+        "tools": [
+          "query_order",
+          "query_logistics"
+        ],
+        "handoff": false,
+        "handoff_summary": "",
+        "branches": [
+          "order"
+        ]
+      },
+      "check_details": {
+        "missing_tools": [],
+        "missing_in_reply": [],
+        "missing_in_summary": null
+      },
+      "tools": {
+        "calls": 2,
+        "success": 2,
+        "retried_success": 0,
+        "degraded_ask_again": 0,
+        "degraded_handoff": 0,
+        "failed": 0,
+        "by_tool": {
+          "query_order": 1,
+          "query_logistics": 1
+        },
+        "success_rate": 1.0,
+        "degraded": 0,
+        "degrade_rate": 0.0
+      },
+      "resolution_criteria": "无空格口语句里也能抽出订单号并给出状态",
+      "note": "JDDC 的真实问法（没有空格、没有标点）",
+      "checks": {
+        "tools": true,
+        "reply_contains": true
+      },
+      "resolved_predicted": true,
+      "resolved_expected": true,
+      "resolved_match": true,
+      "handoff_expected": false,
+      "handoff_actual": false,
+      "handoff_ok": true
+    },
+    {
+      "id": "dg-27",
+      "scenario": "JDDC 变体-碎片式开场",
+      "chain": "claim",
+      "category": "noise",
+      "turns": 1,
+      "turn_log": [
+        {
+          "index": 1,
+          "user": "东西烂了",
+          "reply": "请提供订单号，我来核对订单信息。",
+          "intent": "bad_fruit_claim",
+          "branches": [
+            "claim"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        }
+      ],
+      "facts": {
+        "last_reply": "请提供订单号，我来核对订单信息。",
+        "tools": [],
+        "handoff": false,
+        "handoff_summary": "",
+        "branches": [
+          "claim"
+        ]
+      },
+      "check_details": {
+        "missing_tools": null,
+        "missing_in_reply": [],
+        "missing_in_summary": null
+      },
+      "tools": {
+        "calls": 0,
+        "success": 0,
+        "retried_success": 0,
+        "degraded_ask_again": 0,
+        "degraded_handoff": 0,
+        "failed": 0,
+        "by_tool": {},
+        "success_rate": 0.0,
+        "degraded": 0,
+        "degrade_rate": 0.0
+      },
+      "resolution_criteria": "识别为理赔诉求并追问订单号，不转人工",
+      "note": "缺主语的碎片开场：这里必须靠关键词/模型补上下文，是我们踩过两次坑的同类样本",
+      "checks": {
+        "reply_contains": true
+      },
+      "resolved_predicted": true,
+      "resolved_expected": false,
+      "resolved_match": false,
+      "handoff_expected": false,
+      "handoff_actual": false,
+      "handoff_ok": true
+    },
+    {
+      "id": "dg-28",
+      "scenario": "JDDC 变体-纯碎片",
+      "chain": "fallback",
+      "category": "noise",
+      "turns": 1,
+      "turn_log": [
+        {
+          "index": 1,
+          "user": "没有了",
+          "reply": "这个问题超出了售后服务的范围。我可以帮您查询订单物流、处理坏果理赔，或者在需要时转接人工客服。",
+          "intent": "chitchat",
+          "branches": [
+            "fallback"
+          ],
+          "handoff": false,
+          "out_of_domain": true,
+          "decision": "accept"
+        }
+      ],
+      "facts": {
+        "last_reply": "这个问题超出了售后服务的范围。我可以帮您查询订单物流、处理坏果理赔，或者在需要时转接人工客服。",
+        "tools": [],
+        "handoff": false,
+        "handoff_summary": "",
+        "branches": [
+          "fallback"
+        ]
+      },
+      "check_details": {
+        "missing_tools": null,
+        "missing_in_reply": [],
+        "missing_in_summary": null
+      },
+      "tools": {
+        "calls": 0,
+        "success": 0,
+        "retried_success": 0,
+        "degraded_ask_again": 0,
+        "degraded_handoff": 0,
+        "failed": 0,
+        "by_tool": {},
+        "success_rate": 0.0,
+        "degraded": 0,
+        "degrade_rate": 0.0
+      },
+      "resolution_criteria": "当前判为域外走兜底（保守但安全）",
+      "note": "记录用：缺上下文的碎片句无法判断意图，判域外是现状。这类样本应与可判样本分开统计，别混进解决率",
+      "checks": {
+        "reply_contains": true
+      },
+      "resolved_predicted": true,
+      "resolved_expected": false,
+      "resolved_match": false,
+      "handoff_expected": false,
+      "handoff_actual": false,
+      "handoff_ok": true
+    },
+    {
+      "id": "dg-29",
+      "scenario": "边界-用户放弃",
+      "chain": "boundary",
+      "category": "boundary",
+      "turns": 1,
+      "turn_log": [
+        {
+          "index": 1,
+          "user": "算了",
+          "reply": "这个问题超出了售后服务的范围。我可以帮您查询订单物流、处理坏果理赔，或者在需要时转接人工客服。",
+          "intent": "chitchat",
+          "branches": [
+            "fallback"
+          ],
+          "handoff": false,
+          "out_of_domain": true,
+          "decision": "accept"
+        }
+      ],
+      "facts": {
+        "last_reply": "这个问题超出了售后服务的范围。我可以帮您查询订单物流、处理坏果理赔，或者在需要时转接人工客服。",
+        "tools": [],
+        "handoff": false,
+        "handoff_summary": "",
+        "branches": [
+          "fallback"
+        ]
+      },
+      "check_details": {
+        "missing_tools": null,
+        "missing_in_reply": null,
+        "missing_in_summary": null
+      },
+      "tools": {
+        "calls": 0,
+        "success": 0,
+        "retried_success": 0,
+        "degraded_ask_again": 0,
+        "degraded_handoff": 0,
+        "failed": 0,
+        "by_tool": {},
+        "success_rate": 0.0,
+        "degraded": 0,
+        "degrade_rate": 0.0
+      },
+      "resolution_criteria": "不硬答、不误建工单；理想是确认是否还要办理",
+      "note": "已知体验缺口：用户主动放弃被当成域外。记录它，别把它算成模型能力问题",
+      "checks": {
+        "reply_contains_any": true
+      },
+      "resolved_predicted": true,
+      "resolved_expected": false,
+      "resolved_match": false,
+      "handoff_expected": false,
+      "handoff_actual": false,
+      "handoff_ok": true
+    },
+    {
+      "id": "dg-30",
+      "scenario": "边界-答非所问",
+      "chain": "boundary",
+      "category": "boundary",
+      "turns": 2,
+      "turn_log": [
+        {
+          "index": 1,
+          "user": "我的订单到哪了",
+          "reply": "请提供订单号，我来帮您查询物流状态。",
+          "intent": "query_order",
+          "branches": [
+            "order"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        },
+        {
+          "index": 2,
+          "user": "我在开会，等会儿说",
+          "reply": "请提供订单号，我来帮您查询物流状态。",
+          "intent": "chitchat",
+          "branches": [
+            "fallback"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        }
+      ],
+      "facts": {
+        "last_reply": "请提供订单号，我来帮您查询物流状态。",
+        "tools": [],
+        "handoff": false,
+        "handoff_summary": "",
+        "branches": [
+          "fallback",
+          "order"
+        ]
+      },
+      "check_details": {
+        "missing_tools": null,
+        "missing_in_reply": null,
+        "missing_in_summary": null
+      },
+      "tools": {
+        "calls": 0,
+        "success": 0,
+        "retried_success": 0,
+        "degraded_ask_again": 0,
+        "degraded_handoff": 0,
+        "failed": 0,
+        "by_tool": {},
+        "success_rate": 0.0,
+        "degraded": 0,
+        "degrade_rate": 0.0
+      },
+      "resolution_criteria": "不编造订单状态、不建工单，保持等待或走兜底",
+      "note": "验证「追问中的用户跑题」不会导致乱执行工具",
+      "checks": {
+        "reply_contains_any": true
+      },
+      "resolved_predicted": true,
+      "resolved_expected": false,
+      "resolved_match": false,
+      "handoff_expected": false,
+      "handoff_actual": false,
+      "handoff_ok": true
+    },
+    {
+      "id": "dg-31",
+      "scenario": "边界-无效订单号",
+      "chain": "order",
+      "category": "boundary",
+      "turns": 1,
+      "turn_log": [
+        {
+          "index": 1,
+          "user": "帮我查订单 1234567890123",
+          "reply": "没有查到这笔订单，请核对订单号后重新发给我；如果确认无误，我可以帮您转人工核实。",
+          "intent": "query_order",
+          "branches": [
+            "order"
+          ],
+          "handoff": false,
+          "out_of_domain": false,
+          "decision": "accept"
+        }
+      ],
+      "facts": {
+        "last_reply": "没有查到这笔订单，请核对订单号后重新发给我；如果确认无误，我可以帮您转人工核实。",
+        "tools": [
+          "query_order"
+        ],
+        "handoff": false,
+        "handoff_summary": "",
+        "branches": [
+          "order"
+        ]
+      },
+      "check_details": {
+        "missing_tools": [],
+        "missing_in_reply": null,
+        "missing_in_summary": null
+      },
+      "tools": {
+        "calls": 1,
+        "success": 0,
+        "retried_success": 0,
+        "degraded_ask_again": 1,
+        "degraded_handoff": 0,
+        "failed": 0,
+        "by_tool": {
+          "query_order": 1
+        },
+        "success_rate": 0.0,
+        "degraded": 1,
+        "degrade_rate": 1.0
+      },
+      "resolution_criteria": "工具查不到时不编造信息，走重填订单号或转人工的降级路径",
+      "note": "降级策略的真实触发场景：查无此单",
+      "checks": {
+        "tools": true,
+        "reply_contains_any": true
+      },
+      "resolved_predicted": true,
+      "resolved_expected": false,
+      "resolved_match": false,
+      "handoff_expected": false,
+      "handoff_actual": false,
+      "handoff_ok": true
+    }
+  ],
+  "skipped": [
+    {
+      "id": "dg-25",
+      "scenario": "多意图-parallel 两条都办",
+      "reason": "需要 INTENT_MULTI_STRATEGY=parallel（本次 priority）"
+    }
+  ]
+}

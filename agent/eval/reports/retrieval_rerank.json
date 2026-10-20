@@ -1,0 +1,288 @@
+{
+  "created_at": "2026-10-16 12:25:24",
+  "dataset": "qa_golden.jsonl",
+  "dataset_size": 30,
+  "strategy": "rule",
+  "embedder": "BAAI/bge-small-zh-v1.5",
+  "tokenizer": "bigram",
+  "ks": [
+    1,
+    3,
+    5
+  ],
+  "best_config": "向量+改写+分数重排",
+  "configs": [
+    {
+      "config": "hybrid+rw+score",
+      "label": "RRF 混合（+改写+分数重排）",
+      "metrics": {
+        "hit@1": 0.5,
+        "recall@1": 0.45,
+        "precision@1": 0.5,
+        "hit@3": 0.8,
+        "recall@3": 0.8,
+        "precision@3": 0.3111,
+        "hit@5": 0.8667,
+        "recall@5": 0.8667,
+        "precision@5": 0.2,
+        "mrr": 0.6578,
+        "queries": 30
+      },
+      "misses": [
+        {
+          "id": "q001",
+          "question": "坏了一点点可以赔吗",
+          "relevant": [
+            "赔付标准表#rule#006"
+          ],
+          "retrieved": [
+            "常见问题FAQ#rule#007",
+            "赔付标准表#rule#027",
+            "常见问题FAQ#rule#006",
+            "赔付标准表#rule#018",
+            "赔付标准表#rule#021"
+          ]
+        },
+        {
+          "id": "q009",
+          "question": "水果基本都坏了怎么赔",
+          "relevant": [
+            "赔付标准表#rule#010"
+          ],
+          "retrieved": [
+            "常见问题FAQ#rule#006",
+            "常见问题FAQ#rule#007",
+            "售后政策总则#rule#024",
+            "赔付标准表#rule#028",
+            "赔付标准表#rule#027"
+          ]
+        },
+        {
+          "id": "q014",
+          "question": "分量少了 10% 能赔多少",
+          "relevant": [
+            "赔付标准表#rule#014"
+          ],
+          "retrieved": [
+            "赔付标准表#rule#007",
+            "赔付标准表#rule#006",
+            "常见问题FAQ#rule#007",
+            "物流时效说明#rule#014",
+            "常见问题FAQ#rule#010"
+          ]
+        },
+        {
+          "id": "q018",
+          "question": "买的水果不想要了能退吗",
+          "relevant": [
+            "售后政策总则#rule#005"
+          ],
+          "retrieved": [
+            "售后政策总则#rule#024",
+            "售后政策总则#rule#021",
+            "常见问题FAQ#rule#011",
+            "赔付标准表#rule#028",
+            "赔付标准表#rule#027"
+          ]
+        }
+      ]
+    },
+    {
+      "config": "hybrid+rw",
+      "label": "RRF 混合（+规则改写）",
+      "metrics": {
+        "hit@1": 0.5,
+        "recall@1": 0.45,
+        "precision@1": 0.5,
+        "hit@3": 0.8,
+        "recall@3": 0.8,
+        "precision@3": 0.3111,
+        "hit@5": 0.8667,
+        "recall@5": 0.8667,
+        "precision@5": 0.2,
+        "mrr": 0.6578,
+        "queries": 30
+      },
+      "misses": [
+        {
+          "id": "q001",
+          "question": "坏了一点点可以赔吗",
+          "relevant": [
+            "赔付标准表#rule#006"
+          ],
+          "retrieved": [
+            "常见问题FAQ#rule#007",
+            "赔付标准表#rule#027",
+            "常见问题FAQ#rule#006",
+            "赔付标准表#rule#018",
+            "赔付标准表#rule#021"
+          ]
+        },
+        {
+          "id": "q009",
+          "question": "水果基本都坏了怎么赔",
+          "relevant": [
+            "赔付标准表#rule#010"
+          ],
+          "retrieved": [
+            "常见问题FAQ#rule#006",
+            "常见问题FAQ#rule#007",
+            "售后政策总则#rule#024",
+            "赔付标准表#rule#028",
+            "赔付标准表#rule#027"
+          ]
+        },
+        {
+          "id": "q014",
+          "question": "分量少了 10% 能赔多少",
+          "relevant": [
+            "赔付标准表#rule#014"
+          ],
+          "retrieved": [
+            "赔付标准表#rule#007",
+            "赔付标准表#rule#006",
+            "常见问题FAQ#rule#007",
+            "物流时效说明#rule#014",
+            "常见问题FAQ#rule#010"
+          ]
+        },
+        {
+          "id": "q018",
+          "question": "买的水果不想要了能退吗",
+          "relevant": [
+            "售后政策总则#rule#005"
+          ],
+          "retrieved": [
+            "售后政策总则#rule#024",
+            "售后政策总则#rule#021",
+            "常见问题FAQ#rule#011",
+            "赔付标准表#rule#028",
+            "赔付标准表#rule#027"
+          ]
+        }
+      ]
+    },
+    {
+      "config": "vector+rw+score",
+      "label": "向量+改写+分数重排",
+      "metrics": {
+        "hit@1": 0.5667,
+        "recall@1": 0.5,
+        "precision@1": 0.5667,
+        "hit@3": 0.8667,
+        "recall@3": 0.8667,
+        "precision@3": 0.3333,
+        "hit@5": 0.9,
+        "recall@5": 0.9,
+        "precision@5": 0.2067,
+        "mrr": 0.7028,
+        "queries": 30
+      },
+      "misses": [
+        {
+          "id": "q007",
+          "question": "坏果六成怎么算赔付",
+          "relevant": [
+            "赔付标准表#rule#009"
+          ],
+          "retrieved": [
+            "常见问题FAQ#rule#007",
+            "赔付标准表#rule#006",
+            "常见问题FAQ#rule#006",
+            "赔付标准表#rule#008",
+            "赔付标准表#rule#007"
+          ]
+        },
+        {
+          "id": "q009",
+          "question": "水果基本都坏了怎么赔",
+          "relevant": [
+            "赔付标准表#rule#010"
+          ],
+          "retrieved": [
+            "常见问题FAQ#rule#006",
+            "常见问题FAQ#rule#007",
+            "赔付标准表#rule#006",
+            "赔付标准表#rule#028",
+            "赔付标准表#rule#008"
+          ]
+        },
+        {
+          "id": "q018",
+          "question": "买的水果不想要了能退吗",
+          "relevant": [
+            "售后政策总则#rule#005"
+          ],
+          "retrieved": [
+            "售后政策总则#rule#024",
+            "售后政策总则#rule#003",
+            "售后政策总则#rule#021",
+            "常见问题FAQ#rule#007",
+            "常见问题FAQ#rule#011"
+          ]
+        }
+      ]
+    },
+    {
+      "config": "vector+rw",
+      "label": "向量（+规则改写）",
+      "metrics": {
+        "hit@1": 0.5667,
+        "recall@1": 0.5,
+        "precision@1": 0.5667,
+        "hit@3": 0.8667,
+        "recall@3": 0.8667,
+        "precision@3": 0.3333,
+        "hit@5": 0.9,
+        "recall@5": 0.9,
+        "precision@5": 0.2067,
+        "mrr": 0.7028,
+        "queries": 30
+      },
+      "misses": [
+        {
+          "id": "q007",
+          "question": "坏果六成怎么算赔付",
+          "relevant": [
+            "赔付标准表#rule#009"
+          ],
+          "retrieved": [
+            "常见问题FAQ#rule#007",
+            "赔付标准表#rule#006",
+            "常见问题FAQ#rule#006",
+            "赔付标准表#rule#008",
+            "赔付标准表#rule#007"
+          ]
+        },
+        {
+          "id": "q009",
+          "question": "水果基本都坏了怎么赔",
+          "relevant": [
+            "赔付标准表#rule#010"
+          ],
+          "retrieved": [
+            "常见问题FAQ#rule#006",
+            "常见问题FAQ#rule#007",
+            "赔付标准表#rule#006",
+            "赔付标准表#rule#028",
+            "赔付标准表#rule#008"
+          ]
+        },
+        {
+          "id": "q018",
+          "question": "买的水果不想要了能退吗",
+          "relevant": [
+            "售后政策总则#rule#005"
+          ],
+          "retrieved": [
+            "售后政策总则#rule#024",
+            "售后政策总则#rule#003",
+            "售后政策总则#rule#021",
+            "常见问题FAQ#rule#007",
+            "常见问题FAQ#rule#011"
+          ]
+        }
+      ]
+    }
+  ]
+}

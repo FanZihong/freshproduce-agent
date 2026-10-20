@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-10-15 22:04:31",
+  "backend": "local-lora",
+  "dataset": "multi_intent.jsonl",
+  "samples": 50,
+  "strategies": {
+    "priority": {
+      "strategy": "priority",
+      "samples": 50,
+      "primary_hit_rate": 0.84,
+      "secondary_coverage": 0.38,
+      "both_covered_rate": 0.24,
+      "macro_f1": 0.3929,
+      "exact_match": 0.62,
+      "multilabel": {
+        "macro": 0.7784,
+        "micro": 0.8804
+      }
+    },
+    "parallel": {
+      "strategy": "parallel",
+      "samples": 50,
+      "primary_hit_rate": 0.84,
+      "secondary_coverage": 0.9,
+      "both_covered_rate": 0.76,
+      "macro_f1": 0.3929,
+      "exact_match": 0.62,
+      "multilabel": {
+        "macro": 0.7784,
+        "micro": 0.8804
+      }
+    }
+  },
+  "verdict": [
+    "识别层：多标签完全一致率 0.6200、多标签 macro-F1 0.7784（这部分与策略无关，是模型能力上限）",
+    "priority 双诉求覆盖率 0.2400，parallel 0.7600（提升 +0.5200）",
+    "parallel 把双诉求覆盖率从 0.2400 提到 0.7600（+0.5200）：代价是回复更长、要跑两个分支。",
+    "策略建议：priority 适合「动作型 + 咨询型」组合（先给赔付结论，次诉求补一句入口）；parallel 适合「两个动作型」组合（都要真做事）。上线前以本报告的数字为准。"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "created_at": "2026-10-14 11:25:40",
+  "base_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "train_file": "/mnt/d/生鲜售后agent/agent/data/intent/dataset_v1_balanced/train_sft.jsonl",
+  "eval_file": "/mnt/d/生鲜售后agent/agent/data/intent/dataset_v1_balanced/dev_sft.jsonl",
+  "prompt_detail": "catalog",
+  "label_format": "key",
+  "max_len": 640,
+  "on_too_long": "trim-system",
+  "lora": {
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "target_modules": "q_proj,k_proj,v_proj,o_proj,gate_proj,up_proj,down_proj"
+  },
+  "lr": 0.0002,
+  "epochs": 1.0,
+  "batch_size": 2,
+  "grad_accum": 4,
+  "class_weights_mode": "sample",
+  "device": "cpu",
+  "dtype": "fp32",
+  "seed": 42
+}

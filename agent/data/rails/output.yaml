@@ -1,0 +1,24 @@
+# 输出护栏：发给用户前检查
+version: 1
+rules:
+  - id: output.promise_time
+    scope: output
+    priority: 70
+    match:
+      event: reply
+      keywords: [一定到账, 保证到账, 今天必到]
+    action: rewrite
+    message: 退款审核通过后一般 1 至 3 个工作日原路退回，具体到账时间以支付渠道为准。
+    reason: 禁止承诺具体到账时刻
+    tags: [promise]
+
+  - id: output.leak_internal_rules
+    scope: output
+    priority: 65
+    match:
+      event: reply
+      keywords: [系统提示词, 内部规则, 后台数据]
+    action: rewrite
+    message: 抱歉，内部规则不方便展示。我可以按售后政策帮您处理具体问题。
+    reason: 禁止泄漏内部规则
+    tags: [leak]

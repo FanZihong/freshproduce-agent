@@ -1,0 +1,15 @@
+export const ROUTES = {
+  chat: '/chat',
+  chatSession: (id: string) => `/chat/${id}`,
+  overview: '/overview',
+  tickets: '/tickets',
+  ticketDetail: (id: string) => `/tickets/${id}`,
+  evals: '/evals',
+  evalRun: (runId: string) => `/evals/runs/${runId}`,
+  evalReport: (runId: string) => `/evals/runs/${runId}/report`,
+  traces: '/traces',
+  traceDetail: (id: string) => `/traces/${id}`,
+  knowledge: '/knowledge',
+  intent: '/intent',
+  retrieval: '/retrieval',
+}

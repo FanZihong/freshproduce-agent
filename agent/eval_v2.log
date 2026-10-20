@@ -1,0 +1,65 @@
+nohup: ignoring input
+数据集：/mnt/d/生鲜售后agent/agent/data/intent/dataset_v1_balanced
+集合：test 701 条
+意图体系：10 类；scikit-learn：可用
+计价假设：输入 ¥2.0/百万、输出 ¥8.0/百万（可用 INTENT_PRICE_* 覆盖）
+
+缓存：/mnt/d/生鲜售后agent/agent/eval/reports/intent_cache.json（已有 701 条）
+few-shot 模型：deepseek-chat，每类 1 条例句，并发 4
+
+[rule-based-v1（test）] macro-F1 0.2013，准确率 0.3923，P95 0ms，千次成本 ¥0.0000
+    已评测 100/701 条
+    已评测 200/701 条
+    已评测 300/701 条
+    已评测 400/701 条
+    已评测 500/701 条
+    已评测 600/701 条
+    已评测 700/701 条
+[few-shot deepseek-chat（1-shot，test）] macro-F1 0.8490，准确率 0.8459，P95 0ms，千次成本 ¥4.2121
+  本地模型：data/intent/models/v2
+    缓存命中 0 条，待推理 701 条（缓存：local_eval_cache.json）
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   0%|          | 1/290 [00:00<02:05,  2.30it/s]Loading weights:  54%|█████▍    | 157/290 [00:00<00:00, 380.76it/s]Loading weights:  84%|████████▍ | 243/290 [00:00<00:00, 420.82it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 368.41it/s]
+    已推理 40/701 条
+    已推理 80/701 条
+    已推理 120/701 条
+    已推理 160/701 条
+    已推理 200/701 条
+    已推理 240/701 条
+    已推理 280/701 条
+    已推理 320/701 条
+    已推理 360/701 条
+    已推理 400/701 条
+    已推理 440/701 条
+    已推理 480/701 条
+    已推理 520/701 条
+    已推理 560/701 条
+    已推理 600/701 条
+    已推理 640/701 条
+    已推理 680/701 条
+[local LoRA（test）] macro-F1 0.7085，准确率 0.7347，P95 1955ms，千次成本 ¥0.0000
+
+后端                              macro-F1    acc       多标签一致    P95(ms)    单次成本(¥)   千次成本(¥)   失败    缓存命中  
+-------------------------------------------------------------------------------------------------------------------------------
+rule-based-v1（test）             0.2013      0.3923    0.3894        0.0        0.000000      0.0000        0       0         
+few-shot deepseek-chat（1-shot，test）0.8490      0.8459    0.8402        0.0        0.004212      4.2121        0       701       
+local LoRA（test）                0.7085      0.7347    0.7332        1955.3     0.000000      0.0000        2       0         
+
+缓存已更新：/mnt/d/生鲜售后agent/agent/eval/reports/intent_cache.json（701 条）
+
+最佳后端：few-shot deepseek-chat（1-shot，test）（macro-F1 0.8490）
+
+逐类指标：
+  query_order       P 0.807   R 0.939   F1 0.868   真值 228
+  urge_logistics    P 1.000   R 0.656   F1 0.792   真值 93
+  bad_fruit_claim   P 0.960   R 0.774   F1 0.857   真值 31
+  short_weight      P 1.000   R 1.000   F1 1.000   真值 17
+  refund_consult    P 0.894   R 0.894   F1 0.894   真值 94
+  invoice           P 1.000   R 0.966   F1 0.983   真值 29
+  quality_qa        P 0.812   R 0.765   F1 0.788   真值 51
+  complaint         P 0.824   R 0.778   F1 0.800   真值 18
+  chitchat          P 0.789   R 0.843   F1 0.815   真值 102
+  human_handoff     P 0.703   R 0.684   F1 0.693   真值 38
+
+报告已写入：/mnt/d/生鲜售后agent/agent/eval/reports/intent_baseline.md
+指标 JSON：/mnt/d/生鲜售后agent/agent/eval/reports/intent_baseline.json
+本地推理元信息：/mnt/d/生鲜售后agent/agent/eval/reports/local_eval_meta.json

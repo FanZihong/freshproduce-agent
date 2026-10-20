@@ -1,0 +1,200 @@
+{"text": "什么时候发货", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "70eab73d08b874096294a76ad37ac3fa", "labels": ["urge_logistics"]}
+{"text": "我昨天没有找到这个电话", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "0aef51d625711d13237b6b297fadff29", "labels": ["chitchat"]}
+{"text": "东西没收到", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "7fa54fd30d3e01ee55b519beabc9ced4", "labels": ["query_order"]}
+{"text": "没有了，谢谢", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "66351b50042edb509e5acf127a7f8113", "labels": ["chitchat"]}
+{"text": "我看到商品显示是有现货的", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "31427b65d657f9e3266ebbf5fe0afd94", "labels": ["query_order"]}
+{"text": "1859006 我买的路由器，今天连接不上，打华为售后，确认说是应该是坏了", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "3ebb2586ca9fe4bd793bd769eb9d5a54", "labels": ["chitchat"]}
+{"text": "麻烦告诉我虹口分拣站的电话", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "0da9eadd6e984e582da7ffc120105626", "labels": ["human_handoff"]}
+{"text": "你这样说没有用", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "265dd36e1a5519f8ccf81692bc48331a", "labels": ["human_handoff"]}
+{"text": "请问下这个单如果没拆封的话可以退吗", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "0cf942c389779e770a88eba650e96e15", "labels": ["refund_consult"]}
+{"text": "好了吗", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "296fd1f011ee837a10ac6a5eefb045b2", "labels": ["query_order"]}
+{"text": "麻烦操作一下", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "2d9ecff6168f97c1931cd50c058eb351", "labels": ["human_handoff"]}
+{"text": "没有其他问题了", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "c55e9a6934d42e261eb9aac5e5e546fa", "labels": ["chitchat"]}
+{"text": "503193 嗯，联系他尽快送到", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "63e941a9a224f590287c51c229311f74", "labels": ["urge_logistics"]}
+{"text": "能不能帮我打电话去问问", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "6ad016754a4a4136c648ce64d18cc033", "labels": ["human_handoff"]}
+{"text": "没有了", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "0b75fcb7b65283bc520e33e78e0983bb", "labels": ["chitchat"]}
+{"text": "修改配送时间", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "59d6e390a4e64c7807f7f01453ce5565", "labels": ["query_order"]}
+{"text": "没有了，谢谢", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "c490d1f41de2fbcd7eb2fcef063483af", "labels": ["chitchat"]}
+{"text": "库房在哪", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "ee533292d40b02d07f94f02a55eeae4a", "labels": ["chitchat"]}
+{"text": "咨询订单号:[ORDERID_10005278] 订单金额:[金额x] 下单时间:[日期x]", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "64c15b3feb26dd4b27ae7257db0c5067", "labels": ["query_order"]}
+{"text": "我在惠州结果你们给发到[姓名x]去了", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "d28616722f35480d0141e897d73b4f9a", "labels": ["query_order"]}
+{"text": "没事，不超过三号就行", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "81172309a3840bbfee1e9354bb5ad474", "labels": ["chitchat"]}
+{"text": "用友网络的那个", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "c5a90fe6556462fc3c6cac5eb1512da5", "labels": ["chitchat"]}
+{"text": "那就是没办法[数字x]元券用在现在我已经付款的那两个订单号了", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "481ab376e2731b0aff725b0bdbff1e78", "labels": ["refund_consult"]}
+{"text": "你好，请问我推迟收货时间该怎么处理", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "028c9a9c2602edcadb69b71c9e83236c", "labels": ["query_order"]}
+{"text": "好的，谢谢你", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "9e0140d5dc0d41202da4287fb1dd906c", "labels": ["chitchat"]}
+{"text": "洗发水的那个", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "80f6003ee53b25da12baba95f406d186", "labels": ["chitchat"]}
+{"text": "箱子小了，想换[数字x]寸的", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "2d842ca7e1fc4a50fa7b1f9c1268a56e", "labels": ["chitchat"]}
+{"text": "我想问一下这个东西现在到耒阳站了吗", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "4619abee3c6cbd1823024c0cc29dbd24", "labels": ["query_order"]}
+{"text": "我有一个取消订单的，正在派送了，直接拒收就行了是吧", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "623d043301277901faddf571ced73b9d", "labels": ["query_order"]}
+{"text": "3369436 好吧。谢谢了", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "9c41aecaaf9bdd6d87084e4339ae49ce", "labels": ["chitchat"]}
+{"text": "昨天有个电话，打回去就没接", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "291d2967604d3e31c181385f582075f6", "labels": ["chitchat"]}
+{"text": "没有了", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "b00ad027be7fdda653b71cdd83efe126", "labels": ["chitchat"]}
+{"text": "我的索尼电视有问题之前沟通过", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "a670eb9690d7a550a087b45039908477", "labels": ["human_handoff"]}
+{"text": "这个是正确", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "2ae4cf13a27a6234c4518d20691b083e", "labels": ["chitchat"]}
+{"text": "有没有人工客服", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "7a5d699ae6b1eeea8481b7edaf304fca", "labels": ["human_handoff"]}
+{"text": "嗯嗯，帮我跟进退款", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "9f860a70b38339a63b04d430445c103c", "labels": ["refund_consult"]}
+{"text": "看不明白啊", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "1396c742da9dd4791d64c62a9e348d5a", "labels": ["chitchat"]}
+{"text": "5603502 你好", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "d7dffbc1b0aab6c2df2b860e5fbce61b", "labels": ["chitchat"]}
+{"text": "没货吗", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "fe86c9f13597a0a1c0dc168a27a47c76", "labels": ["query_order"]}
+{"text": "你好是这样的今天上午呢我收到了买的那双熟悉的鞋子啊因为不合适所以我下午退货了但退货的时候快递员说是那个信息里面显示的是除了鞋和鞋子之外还有干燥剂和售后卡但是我收到的鞋子里面没有干燥剂和售后款麻烦把这个事情给处理一下谢谢", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "37cf700648e508203ec17896df5be562", "labels": ["refund_consult"]}
+{"text": "[订单编号:[ORDERID_10000633]，订单金额:[金额x]，下单时间:[日期x] [时间x]]", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "af475e1d7aec21f7367920406df06992", "labels": ["query_order"]}
+{"text": "16643315024 走的什么快递", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "a7cf4096b44ddfe365dbe5c91e88d351", "labels": ["query_order"]}
+{"text": "都没库存了", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "56d908d55938a86af3e796f9e7b5cbab", "labels": ["query_order"]}
+{"text": "[订单编号:[ORDERID_10004486]，订单金额:[金额x]，下单时间:[日期x] [时间x]]", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "8844e8def49703120ef40bec09c472ea", "labels": ["query_order"]}
+{"text": "咨询订单号:[ORDERID_10004798] 订单金额:[金额x] 下单时间:[日期x]", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "2334d47900288d7f7e02e2f75ebe6924", "labels": ["query_order"]}
+{"text": "我需要修改订单", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "1eadf91700517910307ed37407d25421", "labels": ["query_order"]}
+{"text": "4325123 我[数字x]月份买的这个红米手机", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "148b1b26268975a8b4b23f7aae748bf5", "labels": ["query_order"]}
+{"text": "什么时候才能到", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "23b1520c218d6c07f1af043bcd34a668", "labels": ["query_order"]}
+{"text": "3763727 我的东西 发票和包装都没了 那我送到自提点 还能维修吗", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "68ad9b9ce25db8096e6a980477d16626", "labels": ["quality_qa"]}
+{"text": "我在那里可以确定成功了没", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "6ae750d12150ab7e57634f5dd6d86ede", "labels": ["query_order"]}
+{"text": "取消退货申请", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "8681678c125d6537f3219e3797002d87", "labels": ["refund_consult"]}
+{"text": "太慢了", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "2cb9ebe6d7b2aa3f832111a7c5411e63", "labels": ["urge_logistics"]}
+{"text": "2829284 自己处理不了", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "810fc64efded22282a8b6179af374321", "labels": ["human_handoff"]}
+{"text": "有人没", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "b0435020531082713b55028a944b685d", "labels": ["chitchat"]}
+{"text": "我试试吧", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "a8ed35304380b4b55e280065f28d27c8", "labels": ["chitchat"]}
+{"text": "好吧谢谢", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "d4e06591859378d2fc8e16cea2e76c88", "labels": ["chitchat"]}
+{"text": "785649 没有了，现在已注明了吗", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "ab3d67d6027cf8b3a02ddd11ce380eb8", "labels": ["query_order"]}
+{"text": "1990979 售前咨询", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "7b9a23bd566cb529c5e68642f87daf5f", "labels": ["quality_qa"]}
+{"text": "5226834 到现在还是退款申请中", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "a49579495679a064f4205f440dd8cd3d", "labels": ["refund_consult"]}
+{"text": "好的 谢谢", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "49f3b2b860d45af813899df4f0825600", "labels": ["chitchat"]}
+{"text": "退了多少", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "5eb34d16336a494f5bfbaf3d1a8f853d", "labels": ["refund_consult"]}
+{"text": "请问一下如果要选择拒收的话是点哪里呢", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "1f9ebbeebdcd484a06a7cbca55a24c8d", "labels": ["quality_qa"]}
+{"text": "我想要申请售后服务", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "4d6f99409b0a39fbbcfcd9bf89173397", "labels": ["human_handoff"]}
+{"text": "咨询订单号:[ORDERID_10000171] 订单金额:[金额x] 下单时间:[日期x]", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "afc849dc8548e73152db7a8536615b19", "labels": ["query_order"]}
+{"text": "送货我就签收", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "d951c58ba074f509ef9cc236d660c1bc", "labels": ["query_order"]}
+{"text": "谢谢了", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "fd8e890f39a8c0f2c9081601e4b69a6f", "labels": ["chitchat"]}
+{"text": "你好，我的订单显示缺货，请问这个货什么时候能到", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "70e6241fac9f34662f2da3ebce29d31f", "labels": ["query_order"]}
+{"text": "咨询订单号:[ORDERID_10006620] 订单金额:[金额x] 下单时间:[日期x]", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "4a8ece38eecb4e7941f5f3829c029bed", "labels": ["query_order"]}
+{"text": "嗯好的", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "96d40d4f48384f21ef56c834fd768d4e", "labels": ["chitchat"]}
+{"text": "不用拦截了", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "1920e86ae238463b80cbbd82b273fddd", "labels": ["chitchat"]}
+{"text": "我要退货", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "692af0c5ac89112c8d91c2a5f5ec0780", "labels": ["refund_consult"]}
+{"text": "这个订单上门取货时间能不能改成[数字x]月[数字x]日", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "7cc76b2f7f3e8a31da3abae47abc874f", "labels": ["query_order"]}
+{"text": "取消订单", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "6465cdb8d3a117a4bc03661add0f3a9a", "labels": ["query_order"]}
+{"text": "[订单编号:[ORDERID_10000901]，订单金额:[金额x]，下单时间:[日期x] [时间x]]", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "0e07846fd4d5fbdad596608d1e1db066", "labels": ["query_order"]}
+{"text": "782023 显示有货，就是明天可以到了", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "9346794889dcf6d460cd0727fed9e500", "labels": ["query_order"]}
+{"text": "2929240 主要的原因，我是要换货", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "baf6aca1f8e8f5ef46387c0a2076b03f", "labels": ["bad_fruit_claim"]}
+{"text": "竟然漏电了", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "7bd1c1a5ebff1614b779234000b5043d", "labels": ["bad_fruit_claim"]}
+{"text": "是不是这个就不用", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "1d8493a8e53539a0e1fb93aaca39b1c4", "labels": ["chitchat"]}
+{"text": "个人变成公司的", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "5f94867be4bf9756b83fd601807ec633", "labels": ["invoice"]}
+{"text": "1064176 我以为你们过年不发货。没想到今天就可以送到", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "92df5f2c8cc670bc5e6091b5674046e3", "labels": ["query_order"]}
+{"text": "对呀，是预计今天，可是来送货没有", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "6090b1a1947456b23f0478558088f6ec", "labels": ["urge_logistics"]}
+{"text": "我有一单取消订单，可看物流以到这边怎么办", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "eb78f162302605c8b1c338f84f53b609", "labels": ["query_order"]}
+{"text": "22297186248 这三件大衣是过年前买的", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "3fd95ca347d0e7e1f7b831b82bdd89c3", "labels": ["query_order"]}
+{"text": "维修还是退换货", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "b850b8cbf1ea14b9f415f50adce9fbf4", "labels": ["quality_qa"]}
+{"text": "好的，谢谢", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "d78b00a8a6f686dacf976e9ef07e7a77", "labels": ["chitchat"]}
+{"text": "[订单编号:[ORDERID_10004765]，订单金额:[金额x]，下单时间:[日期x] [时间x]]", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "7a9f568e1613b520db898d97d060c4c2", "labels": ["query_order"]}
+{"text": "我会在站点等着", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "71cb905ca63ad57c3550827dcc0993b2", "labels": ["urge_logistics"]}
+{"text": "其他没有", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "ff839147da143bd5d65c63e51b7c4a86", "labels": ["chitchat"]}
+{"text": "哦。好的。谢谢", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "794b6cc64d3ba0504dc9c528094fb83d", "labels": ["chitchat"]}
+{"text": "1859006 没有了", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "3ebb2586ca9fe4bd793bd769eb9d5a54", "labels": ["query_order"]}
+{"text": "系统已经审核了 亲这边查到吗", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "c853488e1f255da98e24b60f3e946242", "labels": ["query_order"]}
+{"text": "今天能不能发货啊", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "643e408b7f4ff60f6ec74c92323b67b7", "labels": ["urge_logistics"]}
+{"text": "你好，我下订单用了一张优惠券，并未支付，如果我取消订单的话，这优惠券还在吗", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "ba28816c6da5dabe76cd1bfa04558174", "labels": ["refund_consult"]}
+{"text": "我懂了", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "3e247075c90d7cf520283a4e82921082", "labels": ["chitchat"]}
+{"text": "配送点的地址对不对", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "e825ea7dd835b1ffcf2203b0fe2572dc", "labels": ["query_order"]}
+{"text": "我没有收到", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "a7dec287462e37478775928bb661e503", "labels": ["query_order"]}
+{"text": "好的，谢谢您", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "28096d415598ea9236b462616f9d00d9", "labels": ["chitchat"]}
+{"text": "咨询订单号:[ORDERID_10000144] 订单金额:[金额x] 下单时间:[日期x]", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "309c539ba6e8e580f5d0faa86b15a81c", "labels": ["query_order"]}
+{"text": "没发的取消了吗", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "44653a461cac143e3ff4ca3246681566", "labels": ["query_order"]}
+{"text": "我需要配送师傅的电话", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "150e3bf30e2dccac2ae8a81cdae96268", "labels": ["query_order"]}
+{"text": "有，快递员非常的敬业", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "4847d37497e991324ea7018c978180f7", "labels": ["chitchat"]}
+{"text": "坏了，我想维修或者是换", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "f05d340a32529a2e31cb22a581a83d99", "labels": ["bad_fruit_claim"]}
+{"text": "问题是超了呀，有[数字x]公里", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "c578bf5bfba3d8f15bc3b8cc583fc318", "labels": ["chitchat"]}
+{"text": "也完全没任何提示说爆仓什么的，不然我就去店里买了", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "b2a36599e038b571acedddfe9f292a74", "labels": ["complaint"]}
+{"text": "5637919 对的", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "1c8b075188b10dfc5400d221739697f2", "labels": ["query_order"]}
+{"text": "谢谢 新年快乐", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "dbf66ac0531d33f0057b0f2c2916296a", "labels": ["chitchat"]}
+{"text": "今天上班了", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "b11a3d78b44bae129f5515e07b84670d", "labels": ["chitchat"]}
+{"text": "都不知道到哪了呢", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "fafc040427092fe1ade89dfe9da2b216", "labels": ["query_order"]}
+{"text": "有客服吗", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "048c75ff127fc17c5d2d29719271344e", "labels": ["human_handoff"]}
+{"text": "东西收到了，但是衣服尺码小了，我想换", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "feb1844df25ebe872add605fd41823d1", "labels": ["chitchat"]}
+{"text": "我就说订单上能不能给备注一下或者你们系统里", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "3323752730d6151393bb63f3284b52fc", "labels": ["query_order"]}
+{"text": "我的快递物流显示已签收.我去门卫拿没有我的快递", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "7b7aa5a1034f996ca0c60bac82ef7501", "labels": ["query_order"]}
+{"text": "[ORDERID_10004754]，这个订单拆分成两个了，我要取消下面一个还没有发货的，结果上面的也取消了，但是上面的已经收到货了", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "74396adcd3ab88881e41a94f44a6d257", "labels": ["refund_consult"]}
+{"text": "取消订单的流程是什么", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "9dfd52cfd765297df0650376ee1e487c", "labels": ["refund_consult"]}
+{"text": "5671098 因为想今天收货，谢谢", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "31544395ae49018649e1cad231f53519", "labels": ["urge_logistics"]}
+{"text": "2297112 充电不畅，一会能充。一会又不匹配", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "8852ae9fc755d70750c2a342e75837a7", "labels": ["quality_qa"]}
+{"text": "你好，请问我这个鞋柜明天能到我这里么", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "cb5c1ba529c33c8f6351f102871e8e30", "labels": ["query_order"]}
+{"text": "怎么算 利息还要么", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "d508ffcb4cf662dbbf0939b96db127f9", "labels": ["chitchat"]}
+{"text": "没有了，钱能退回来就好了", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "475ee651e803e4f94c05b36217056d9d", "labels": ["refund_consult"]}
+{"text": "4279279 [数字x]", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "79b119c7359ca78ae6bfe3b5a48d1c3d", "labels": ["chitchat"]}
+{"text": "好吧，我看看", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "0131e721806a1a83715bb38bc793c05b", "labels": ["chitchat"]}
+{"text": "没有了", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "ef9562db10e09ce7948a45093ed16ea2", "labels": ["chitchat"]}
+{"text": "好把我打电话拒收吧", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "5111a088cf4272e665ac8a67dc2fdef4", "labels": ["human_handoff"]}
+{"text": "运费呢", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "ebef2440b444bb11b41b8152613bb8d8", "labels": ["quality_qa"]}
+{"text": "我申请退货了，可是它显示是换货，没问题吧", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "2f27c794b061c474087a37f0adcdf3e3", "labels": ["refund_consult"]}
+{"text": "5364377 这样可以吗", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "8aa9a4d2c5ba136b2f179ec0330f0b45", "labels": ["chitchat"]}
+{"text": "还有哪个发货了", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "44653a461cac143e3ff4ca3246681566", "labels": ["query_order"]}
+{"text": "请催促一下", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "59d7a7a967094e32bdd4b18e8cf6b7ae", "labels": ["urge_logistics"]}
+{"text": "都要放假回去了", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "ef9562db10e09ce7948a45093ed16ea2", "labels": ["chitchat"]}
+{"text": "放假呢，收不到了", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "ffaf9cdacb127403d1df34f1041aa1b9", "labels": ["urge_logistics"]}
+{"text": "你好，我想问下，这个耳机是手机用的吗", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "ad601f402b864cbb203e686a79cbabaf", "labels": ["chitchat"]}
+{"text": "[订单编号:[ORDERID_10004457]，订单金额:[金额x]，下单时间:[日期x] [时间x]]", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "4929216402420ed0ca32fcf258f228f6", "labels": ["query_order"]}
+{"text": "可以留多个吗", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "fba9fbdb014c6bbefc83ac068edb919a", "labels": ["chitchat"]}
+{"text": "我的订单要取消", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "96d3aeea1198a4bf757f909a783bd1d9", "labels": ["query_order"]}
+{"text": "因为我昨天一共下单了三个产品", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "003d1ec8cdcf8e1fdc4fdce1c9dd492c", "labels": ["query_order"]}
+{"text": "行 谢谢", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "317bef59542b2ec044205827e09e8dd7", "labels": ["chitchat"]}
+{"text": "怎么查询状态", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "e5fdd06c25e2ba89c4b539882f50bd4b", "labels": ["query_order"]}
+{"text": "因为是白条是未分期 应该下个月还", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "a847088c45fa8aa71fa75e5e01f36ee3", "labels": ["chitchat"]}
+{"text": "我刚才续费了一年会员，可以给我退款吗", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "6e59f88327a615039a2c75cc85bfbaa3", "labels": ["refund_consult"]}
+{"text": "我找一下", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "8fb31d9dd81a3a0da187091e10bf7f6b", "labels": ["chitchat"]}
+{"text": "包装里面有其他的东西...那些配套的耳塞", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "0823a43bb97a521710d5d936747a0444", "labels": ["quality_qa"]}
+{"text": "请问第三代大概什么时候有", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "6eced4655173b8e434c8a9df191f7810", "labels": ["chitchat"]}
+{"text": "取消订单之后显示没货了", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "232f470d7ef19d45534dacc32a06f84c", "labels": ["query_order"]}
+{"text": "没办法你早点说，多好", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "19e526942681bf2ec3d9cc91d631b2aa", "labels": ["chitchat"]}
+{"text": "咨询订单号:[ORDERID_10003459] 订单金额:[金额x] 下单时间:[日期x]", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "25f4ea2bf0718ea8279fbedb076f98f3", "labels": ["query_order"]}
+{"text": "尽快哦", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "1e733c7208570e5b1239786a48f3cdec", "labels": ["urge_logistics"]}
+{"text": "这个安装服务太麻烦了，没有电话，怎么预约。跟驰远轮胎客服联系了，说要等短信，才能联系，短信到现在还没收到。所以我申请退款了", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "e4da3f7dd2c6769f77b13e82a0d4392d", "labels": ["refund_consult"]}
+{"text": "没有，没发给我", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "39c5ed54fc269391696d8acfecb3b1ab", "labels": ["query_order"]}
+{"text": "回答我想知道的问题", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "fce6a399f3290fe11d6d1aa47f9915b4", "labels": ["chitchat"]}
+{"text": "返修的", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "384a3c2fd548c727d5af93ffcf4e2a6b", "labels": ["chitchat"]}
+{"text": "1198177 好的，谢谢", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "4b3940a8da8314715a06b5fb73d96f8f", "labels": ["chitchat"]}
+{"text": "0 <a rel=\"gallery\" title=\"\" href=\"http://img[金额x][链接x]\"><img class=\"message-img\" src=\"http://img[金额x][链接x]\"/></a>", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "dfe2cbf85f26e8191be2dab04a2829d6", "labels": ["chitchat"]}
+{"text": "确认下是否都有货，货现在在哪里", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "c5f53bbc39e384e02fb8834084a888fc", "labels": ["query_order"]}
+{"text": "我买了[姓名x]之家的衣服，码不合适，需要换", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "fa4433e1db02c7e14dc9a47261f90e18", "labels": ["chitchat"]}
+{"text": "中国农业银行", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "7abd0ac2318bf872afb0484d1ad2feda", "labels": ["chitchat"]}
+{"text": "刚刚才过了几分钟", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "ffacdf6ca927a8805c84753bb1d4cfca", "labels": ["chitchat"]}
+{"text": "我是光大银行用积分换购的京东E卡三张各[数字x]元", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "60422c28b1533cae15c694aa1c566b60", "labels": ["chitchat"]}
+{"text": "我今天拍的货什么时候能发货", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "5b19c756439a3e2c40fb5538df38f144", "labels": ["urge_logistics"]}
+{"text": "5724411 我想查询订单的配送信息", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "b9f133f98e28161ea7967d06e577bef2", "labels": ["query_order"]}
+{"text": "我今天刚刚下单购买三种年货。因为明天我们出去办事情。能不能您这边标注后天送货", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "9192bc075dec7211ceba71d1c6f30e16", "labels": ["urge_logistics"]}
+{"text": "明天就耽误事了", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "ad00519d842a8e3c1e2f8a9f34c452b9", "labels": ["urge_logistics"]}
+{"text": "没了，谢谢", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "f4f6a25aa2ab2bd89fdb50e72295e8f9", "labels": ["chitchat"]}
+{"text": "那我自己取呢", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "cd0f25e3ccfa10a4efae0c2e32935118", "labels": ["query_order"]}
+{"text": "订单号:&nbsp;[数字x]", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "d3de43cfda17317cd066739058781abe", "labels": ["query_order"]}
+{"text": "这个订单 我要把衣服退货 能退多少钱", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "72a2d022ae3b7fe0e7ff8e5d015736e8", "labels": ["refund_consult"]}
+{"text": "这么麻烦啊", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "67261c5f710f740fd021e85c56bf5a92", "labels": ["chitchat"]}
+{"text": "这两个订单", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "361f730504e8b9a93760e6a3a506f90f", "labels": ["query_order"]}
+{"text": "好的，谢谢", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "1cb5c0d4b40ef3da781bfcbc4bee679b", "labels": ["chitchat"]}
+{"text": "4501162 对", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "0953cae27165d9d5a1d9f11bc41aff39", "labels": ["query_order"]}
+{"text": "这东西没收到货", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "9cff9992b24003090f213ff98364e4b4", "labels": ["query_order"]}
+{"text": "好的，谢谢", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "69900275aaf340d2f2e2ffc461de69cd", "labels": ["chitchat"]}
+{"text": "好吧，希望明天可以和对方及时的沟通，不然没有联系上客户，会影响配送员的心情", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "64b2832b4098d4f25317e41cc426c3a4", "labels": ["chitchat"]}
+{"text": "您好。京东配送现在上班吗", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "02f0ebed9f7a07283521da5a668ba8a7", "labels": ["query_order"]}
+{"text": "5608384 谢谢您", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "1f824c5cfb6de1615fee8d679955335a", "labels": ["query_order"]}
+{"text": "才在京东买的", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "1a27e2627917a4bae0fc0c76704359e7", "labels": ["chitchat"]}
+{"text": "4656633 没有客服在线", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "6906990ece2a8b785e0136dbbaa87067", "labels": ["human_handoff"]}
+{"text": "咨询订单号:[ORDERID_10004241] 订单金额:[金额x] 下单时间:[日期x]", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "0d979af29e8a61682741317947477369", "labels": ["query_order"]}
+{"text": "是从确认收货开始算还是什么时候", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "1de1173f59a86775663a14238662de57", "labels": ["refund_consult"]}
+{"text": "我申请了退款，商品出库了，也可以退的了吧", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "1f58d04479c358edbf23e689312c7fec", "labels": ["refund_consult"]}
+{"text": "请问什么时候可以配送", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "f311509581459a87502b4acbff431683", "labels": ["urge_logistics"]}
+{"text": "我这套内衣大了一码", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "995aa0decb2b497f50d5149ef17e0966", "labels": ["quality_qa"]}
+{"text": "5422139 服务站电话能不能提供以下", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "816ceb51c2cdf8d903e0aab8a9e43b5a", "labels": ["query_order"]}
+{"text": "对啊 不拼怎么会知道少……", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "6db5dc36e86388ea3323584b43267976", "labels": ["short_weight"]}
+{"text": "能看一下吗", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "e48991c3087408198391687d13dc9a95", "labels": ["chitchat"]}
+{"text": "2544820 额", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "6163777a907720d85f2055d47deff582", "labels": ["query_order"]}
+{"text": "我想查询订单的配送信息", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "ffa7c37e920e77b2f5ca9ac4bbd6e76a", "labels": ["query_order"]}
+{"text": "我下了两个手表订单没看到吗", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "3b318d9361bb278dc90f17f467107d7b", "labels": ["query_order"]}
+{"text": "那能不能帮我取消，因为那时候我不在广州了", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "6fe584cb972c3e893a452a3df6538c1c", "labels": ["refund_consult"]}
+{"text": "快递里边不要给我塞发票#E-s[数字x]", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "de6b8c82b98cea824f9ddd9e34d4ad80", "labels": ["invoice"]}
+{"text": "啥时候能给我", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "de91def8d0e1c2b7d0f20e2f32e57b49", "labels": ["query_order"]}
+{"text": "还是这个算了", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "562227251c544deef5c99b0bc7f7706e", "labels": ["chitchat"]}
+{"text": "现在北京也没有货吗", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "bd6f2fb3419b2d0ff6a7954915d86a15", "labels": ["query_order"]}
+{"text": "481584 没有。给我改了就行了", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "29afd6fda56ec07d9802daad8cbd28fc", "labels": ["human_handoff"]}
+{"text": "快递师傅说没时间", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "2b0318adb56c40c2e102708cdd89f405", "labels": ["urge_logistics"]}
+{"text": "一年够吗", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "c94230f962d98dbc749289500c232d6c", "labels": ["chitchat"]}
+{"text": "好的，谢谢", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "bfbb7cf62f7ee40203e6fcb53995c888", "labels": ["chitchat"]}
+{"text": "好的.我知道了，谢谢", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "c614c307665c2a9007d44eb2319d8db3", "labels": ["chitchat"]}
+{"text": "我的包装盒数据线都不见了，申批了就能换货吗", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "db7b5bdbbc98439ad9f20f02ec9384f7", "labels": ["bad_fruit_claim"]}
+{"text": "现在该怎么处理", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "185419ac393a2aeb73119ae21d9dddd3", "labels": ["human_handoff"]}
+{"text": "2179400 申请售后", "context": null, "hint_labels": [], "source": "external:chat.txt", "session_id": "a4312af4ba74ca0d9e6a6ade4fd163d2", "labels": ["bad_fruit_claim"]}

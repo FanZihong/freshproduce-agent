@@ -1,0 +1,57 @@
+{
+  "total": 4701,
+  "splits": {
+    "train": {
+      "total": 3296,
+      "perLabel": {
+        "query_order": 1066,
+        "urge_logistics": 437,
+        "bad_fruit_claim": 148,
+        "short_weight": 82,
+        "refund_consult": 440,
+        "invoice": 138,
+        "quality_qa": 241,
+        "complaint": 84,
+        "chitchat": 479,
+        "human_handoff": 181
+      },
+      "multiLabel": 14,
+      "chitchat": 479
+    },
+    "dev": {
+      "total": 704,
+      "perLabel": {
+        "query_order": 228,
+        "urge_logistics": 93,
+        "bad_fruit_claim": 32,
+        "short_weight": 17,
+        "refund_consult": 94,
+        "invoice": 30,
+        "quality_qa": 51,
+        "complaint": 18,
+        "chitchat": 102,
+        "human_handoff": 39
+      },
+      "multiLabel": 5,
+      "chitchat": 102
+    },
+    "test": {
+      "total": 701,
+      "perLabel": {
+        "query_order": 228,
+        "urge_logistics": 93,
+        "bad_fruit_claim": 31,
+        "short_weight": 17,
+        "refund_consult": 94,
+        "invoice": 29,
+        "quality_qa": 51,
+        "complaint": 18,
+        "chitchat": 102,
+        "human_handoff": 38
+      },
+      "multiLabel": 9,
+      "chitchat": 102
+    }
+  },
+  "warnings": []
+}

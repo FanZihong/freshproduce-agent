@@ -1,0 +1,30 @@
+# 对话护栏：看路由状态，不看文本
+version: 1
+rules:
+  - id: dialog.loop_guard
+    scope: dialog
+    priority: 85
+    match:
+      event: intent
+      conditions:
+        - field: loop_count
+          op: ">="
+          value: 3
+    action: handoff
+    message: 这个问题我已经协助多次仍未解决，为您转接人工客服继续处理。
+    reason: 连续多轮未能获取有效信息
+    tags: [loop]
+
+  - id: dialog.clarify_cap
+    scope: dialog
+    priority: 84
+    match:
+      event: intent
+      conditions:
+        - field: clarify_rounds
+          op: ">="
+          value_field: max_clarify_rounds
+    action: handoff
+    message: 已经多次澄清仍未明确需求，为您转接人工客服。
+    reason: 澄清次数已达上限
+    tags: [clarify]

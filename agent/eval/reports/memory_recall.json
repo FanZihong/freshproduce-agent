@@ -1,0 +1,712 @@
+{
+  "created_at": "2026-10-20 09:46:26",
+  "padding": 5,
+  "seed_mode": "replay",
+  "backend": "rule",
+  "seeded": {
+    "dg-01": 1,
+    "dg-02": 1,
+    "dg-03": 3,
+    "dg-04": 1,
+    "dg-05": 1,
+    "dg-06": 3
+  },
+  "variants": {
+    "off": {
+      "variant": "off",
+      "dialogues": 6,
+      "turns": 39,
+      "pass_rate": 1.0,
+      "tool_calls": 13,
+      "tool_success_rate": 1.0,
+      "tool_hit_rate": 1.0,
+      "tool_expect": 5,
+      "handoff_rate": 0.0,
+      "avg_recall": 0.0,
+      "recall_turns": 0,
+      "injected_dialogues": 0,
+      "asks_total": 14,
+      "avg_elapsed_ms": 205.9
+    },
+    "on": {
+      "variant": "on",
+      "dialogues": 6,
+      "turns": 39,
+      "pass_rate": 1.0,
+      "tool_calls": 13,
+      "tool_success_rate": 1.0,
+      "tool_hit_rate": 1.0,
+      "tool_expect": 5,
+      "handoff_rate": 0.0,
+      "avg_recall": 0.31,
+      "recall_turns": 7,
+      "injected_dialogues": 6,
+      "asks_total": 14,
+      "avg_elapsed_ms": 2363.3
+    }
+  },
+  "details": {
+    "off": [
+      {
+        "id": "dg-01",
+        "passed": true,
+        "tools": 2,
+        "tool_success": 2,
+        "handoff": false,
+        "recalls": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "turn_log": [
+          {
+            "user": "你好",
+            "recall": []
+          },
+          {
+            "user": "在吗",
+            "recall": []
+          },
+          {
+            "user": "我想问下售后",
+            "recall": []
+          },
+          {
+            "user": "稍等我看看订单",
+            "recall": []
+          },
+          {
+            "user": "还在吗",
+            "recall": []
+          },
+          {
+            "user": "帮我查一下订单 2026093000123",
+            "recall": []
+          }
+        ],
+        "tool_hits": [
+          true
+        ],
+        "asks": 2,
+        "elapsed_ms": 149.77336400011154
+      },
+      {
+        "id": "dg-02",
+        "passed": true,
+        "tools": 0,
+        "tool_success": 0,
+        "handoff": false,
+        "recalls": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "turn_log": [
+          {
+            "user": "你好",
+            "recall": []
+          },
+          {
+            "user": "在吗",
+            "recall": []
+          },
+          {
+            "user": "我想问下售后",
+            "recall": []
+          },
+          {
+            "user": "稍等我看看订单",
+            "recall": []
+          },
+          {
+            "user": "还在吗",
+            "recall": []
+          },
+          {
+            "user": "帮我查下物流",
+            "recall": []
+          }
+        ],
+        "tool_hits": [],
+        "asks": 3,
+        "elapsed_ms": 147.63033600002018
+      },
+      {
+        "id": "dg-03",
+        "passed": true,
+        "tools": 2,
+        "tool_success": 2,
+        "handoff": false,
+        "recalls": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "turn_log": [
+          {
+            "user": "你好",
+            "recall": []
+          },
+          {
+            "user": "在吗",
+            "recall": []
+          },
+          {
+            "user": "我想问下售后",
+            "recall": []
+          },
+          {
+            "user": "稍等我看看订单",
+            "recall": []
+          },
+          {
+            "user": "还在吗",
+            "recall": []
+          },
+          {
+            "user": "我的包裹到哪了",
+            "recall": []
+          },
+          {
+            "user": "订单号 2026092800451",
+            "recall": []
+          }
+        ],
+        "tool_hits": [
+          true
+        ],
+        "asks": 3,
+        "elapsed_ms": 140.16595900011453
+      },
+      {
+        "id": "dg-04",
+        "passed": true,
+        "tools": 2,
+        "tool_success": 2,
+        "handoff": false,
+        "recalls": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "turn_log": [
+          {
+            "user": "你好",
+            "recall": []
+          },
+          {
+            "user": "在吗",
+            "recall": []
+          },
+          {
+            "user": "我想问下售后",
+            "recall": []
+          },
+          {
+            "user": "稍等我看看订单",
+            "recall": []
+          },
+          {
+            "user": "还在吗",
+            "recall": []
+          },
+          {
+            "user": "订单 2026092500107 发货了吗",
+            "recall": []
+          }
+        ],
+        "tool_hits": [
+          true
+        ],
+        "asks": 2,
+        "elapsed_ms": 389.97363799990126
+      },
+      {
+        "id": "dg-05",
+        "passed": true,
+        "tools": 2,
+        "tool_success": 2,
+        "handoff": false,
+        "recalls": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "turn_log": [
+          {
+            "user": "你好",
+            "recall": []
+          },
+          {
+            "user": "在吗",
+            "recall": []
+          },
+          {
+            "user": "我想问下售后",
+            "recall": []
+          },
+          {
+            "user": "稍等我看看订单",
+            "recall": []
+          },
+          {
+            "user": "还在吗",
+            "recall": []
+          },
+          {
+            "user": "三天了怎么还不发货 2026092800451",
+            "recall": []
+          }
+        ],
+        "tool_hits": [
+          true
+        ],
+        "asks": 2,
+        "elapsed_ms": 188.82406200009427
+      },
+      {
+        "id": "dg-06",
+        "passed": true,
+        "tools": 5,
+        "tool_success": 5,
+        "handoff": false,
+        "recalls": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "turn_log": [
+          {
+            "user": "你好",
+            "recall": []
+          },
+          {
+            "user": "在吗",
+            "recall": []
+          },
+          {
+            "user": "我想问下售后",
+            "recall": []
+          },
+          {
+            "user": "稍等我看看订单",
+            "recall": []
+          },
+          {
+            "user": "还在吗",
+            "recall": []
+          },
+          {
+            "user": "订单 2026093000123 草莓坏了",
+            "recall": []
+          },
+          {
+            "user": "坏了一半",
+            "recall": []
+          },
+          {
+            "user": "照片已经上传了",
+            "recall": []
+          }
+        ],
+        "tool_hits": [
+          true
+        ],
+        "asks": 2,
+        "elapsed_ms": 219.05016899995644
+      }
+    ],
+    "on": [
+      {
+        "id": "dg-01",
+        "passed": true,
+        "tools": 2,
+        "tool_success": 2,
+        "handoff": false,
+        "recalls": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "turn_log": [
+          {
+            "user": "你好",
+            "recall": []
+          },
+          {
+            "user": "在吗",
+            "recall": []
+          },
+          {
+            "user": "我想问下售后",
+            "recall": [
+              {
+                "id": "bdbd8586fad145dba37e81a0f30a88bb",
+                "fact": "用户: 你好 | Agent: 这个问题超出了售后服务的范围。我可以帮您查询订单",
+                "vector_score": 0.6465,
+                "entity_hits": 0
+              }
+            ]
+          },
+          {
+            "user": "稍等我看看订单",
+            "recall": []
+          },
+          {
+            "user": "还在吗",
+            "recall": []
+          },
+          {
+            "user": "帮我查一下订单 2026093000123",
+            "recall": []
+          }
+        ],
+        "tool_hits": [
+          true
+        ],
+        "asks": 2,
+        "elapsed_ms": 2358.5181399998874
+      },
+      {
+        "id": "dg-02",
+        "passed": true,
+        "tools": 0,
+        "tool_success": 0,
+        "handoff": false,
+        "recalls": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "turn_log": [
+          {
+            "user": "你好",
+            "recall": []
+          },
+          {
+            "user": "在吗",
+            "recall": []
+          },
+          {
+            "user": "我想问下售后",
+            "recall": [
+              {
+                "id": "e8fd5f765b314473bab568ef98d7b404",
+                "fact": "用户: 你好 | Agent: 这个问题超出了售后服务的范围。我可以帮您查询订单",
+                "vector_score": 0.6465,
+                "entity_hits": 0
+              }
+            ]
+          },
+          {
+            "user": "稍等我看看订单",
+            "recall": []
+          },
+          {
+            "user": "还在吗",
+            "recall": []
+          },
+          {
+            "user": "帮我查下物流",
+            "recall": []
+          }
+        ],
+        "tool_hits": [],
+        "asks": 3,
+        "elapsed_ms": 2233.6889030000293
+      },
+      {
+        "id": "dg-03",
+        "passed": true,
+        "tools": 2,
+        "tool_success": 2,
+        "handoff": false,
+        "recalls": [
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "turn_log": [
+          {
+            "user": "你好",
+            "recall": []
+          },
+          {
+            "user": "在吗",
+            "recall": []
+          },
+          {
+            "user": "我想问下售后",
+            "recall": [
+              {
+                "id": "ddd3e1c641dc4e8782c01772469b2e27",
+                "fact": "2026-10-20 09:32 转人工：诉求：用户请求人工；最后一句：我想问下",
+                "vector_score": 0.7236,
+                "entity_hits": 0
+              },
+              {
+                "id": "06980a9dae834a618c0599703afd2a74",
+                "fact": "2026-10-20 09:32 转人工：诉求：用户请求人工；最后一句：我想问下",
+                "vector_score": 0.6774,
+                "entity_hits": 0
+              },
+              {
+                "id": "10ddba04debe4120acc44b7e45c52a48",
+                "fact": "用户此前反馈：我的包裹到哪了",
+                "vector_score": 0.5767,
+                "entity_hits": 0
+              }
+            ]
+          },
+          {
+            "user": "稍等我看看订单",
+            "recall": []
+          },
+          {
+            "user": "还在吗",
+            "recall": []
+          },
+          {
+            "user": "我的包裹到哪了",
+            "recall": []
+          },
+          {
+            "user": "订单号 2026092800451",
+            "recall": []
+          }
+        ],
+        "tool_hits": [
+          true
+        ],
+        "asks": 3,
+        "elapsed_ms": 2838.047268000082
+      },
+      {
+        "id": "dg-04",
+        "passed": true,
+        "tools": 2,
+        "tool_success": 2,
+        "handoff": false,
+        "recalls": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "turn_log": [
+          {
+            "user": "你好",
+            "recall": []
+          },
+          {
+            "user": "在吗",
+            "recall": []
+          },
+          {
+            "user": "我想问下售后",
+            "recall": [
+              {
+                "id": "f2d42de552a54e3396174d85718ff0cb",
+                "fact": "用户: 你好 | Agent: 这个问题超出了售后服务的范围。我可以帮您查询订单",
+                "vector_score": 0.6465,
+                "entity_hits": 0
+              }
+            ]
+          },
+          {
+            "user": "稍等我看看订单",
+            "recall": []
+          },
+          {
+            "user": "还在吗",
+            "recall": []
+          },
+          {
+            "user": "订单 2026092500107 发货了吗",
+            "recall": []
+          }
+        ],
+        "tool_hits": [
+          true
+        ],
+        "asks": 2,
+        "elapsed_ms": 2609.1079140001057
+      },
+      {
+        "id": "dg-05",
+        "passed": true,
+        "tools": 2,
+        "tool_success": 2,
+        "handoff": false,
+        "recalls": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "turn_log": [
+          {
+            "user": "你好",
+            "recall": []
+          },
+          {
+            "user": "在吗",
+            "recall": []
+          },
+          {
+            "user": "我想问下售后",
+            "recall": [
+              {
+                "id": "2d07b033bbc14804899b79a53982df7f",
+                "fact": "用户: 你好 | Agent: 这个问题超出了售后服务的范围。我可以帮您查询订单",
+                "vector_score": 0.6465,
+                "entity_hits": 0
+              }
+            ]
+          },
+          {
+            "user": "稍等我看看订单",
+            "recall": []
+          },
+          {
+            "user": "还在吗",
+            "recall": []
+          },
+          {
+            "user": "三天了怎么还不发货 2026092800451",
+            "recall": []
+          }
+        ],
+        "tool_hits": [
+          true
+        ],
+        "asks": 2,
+        "elapsed_ms": 1797.7111039999727
+      },
+      {
+        "id": "dg-06",
+        "passed": true,
+        "tools": 5,
+        "tool_success": 5,
+        "handoff": false,
+        "recalls": [
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        "turn_log": [
+          {
+            "user": "你好",
+            "recall": []
+          },
+          {
+            "user": "在吗",
+            "recall": []
+          },
+          {
+            "user": "我想问下售后",
+            "recall": [
+              {
+                "id": "af3289c6194d40a2a1990aedd260445c",
+                "fact": "2026-10-20 09:33 转人工：诉求：用户请求人工；最后一句：我想问下",
+                "vector_score": 0.7232,
+                "entity_hits": 0
+              },
+              {
+                "id": "b585a2bed7db4fc19ca89d625e23de39",
+                "fact": "2026-10-20 09:33 转人工：诉求：用户请求人工；最后一句：我想问下",
+                "vector_score": 0.6782,
+                "entity_hits": 0
+              },
+              {
+                "id": "5574f71c32e54b34b94b52eb1529e238",
+                "fact": "用户此前反馈：订单 2026093000123 草莓坏了；坏了一半",
+                "vector_score": 0.555,
+                "entity_hits": 0
+              }
+            ]
+          },
+          {
+            "user": "稍等我看看订单",
+            "recall": []
+          },
+          {
+            "user": "还在吗",
+            "recall": []
+          },
+          {
+            "user": "订单 2026093000123 草莓坏了",
+            "recall": []
+          },
+          {
+            "user": "坏了一半",
+            "recall": [
+              {
+                "id": "5574f71c32e54b34b94b52eb1529e238",
+                "fact": "用户此前反馈：订单 2026093000123 草莓坏了；坏了一半",
+                "vector_score": 0.6573,
+                "entity_hits": 0
+              },
+              {
+                "id": "b585a2bed7db4fc19ca89d625e23de39",
+                "fact": "2026-10-20 09:33 转人工：诉求：用户请求人工；最后一句：我想问下",
+                "vector_score": 0.5531,
+                "entity_hits": 0
+              }
+            ]
+          },
+          {
+            "user": "照片已经上传了",
+            "recall": []
+          }
+        ],
+        "tool_hits": [
+          true
+        ],
+        "asks": 2,
+        "elapsed_ms": 2342.970228000013
+      }
+    ]
+  },
+  "recommendation": "两者打平：机制跑通了，但 rule 意图后端不读上下文，注入本来就不会改变判定；保持 off，想验证收益用 --backend local"
+}

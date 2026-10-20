@@ -1,0 +1,5 @@
+[10-14 09:39:06] 守护启动：每 120s 检查一次；完成标志是 data/intent/models/v2/adapter_config.json
+[10-14 09:39:06] 训练参数：--prompt-detail catalog --max-len 0 --epochs 1 --save-steps 100 --eval-limit 0
+[10-14 09:39:06] 训练中断（第 1 次续跑）：从最新 checkpoint 继续
+[10-14 09:40:11] 续跑成功，训练已在运行
+[10-14 11:26:19] 看到 adapter_config.json，训练已完成，守护退出

@@ -1,0 +1,15 @@
+{"id": "c-8af0afbd03", "text": "就是要洗的尺寸错了", "gold": "bad_fruit_claim", "reason": "其他品类（洗衣机尺寸），与生鲜售后无关；真值存疑", "suggested": "exclude"}
+{"id": "c-b54179a505", "text": "我现在炒菜还有，感觉没去干净", "gold": "quality_qa", "reason": "其他品类噪音；真值存疑", "suggested": "exclude"}
+{"id": "c-49aa5f7f86", "text": "所有都在，就是找不到说明书了", "gold": "quality_qa", "reason": "其他品类（家电说明书）；真值存疑", "suggested": "exclude"}
+{"id": "c-8a743c50f1", "text": "现在基本上配件都换了", "gold": "quality_qa", "reason": "其他品类（配件更换）；真值存疑", "suggested": "exclude"}
+{"id": "c-5e5008e85e", "text": "我记得P会员好像次数会多一点", "gold": "quality_qa", "reason": "平台会员权益，不属于 10 类业务；真值存疑", "suggested": "exclude"}
+{"id": "c-1925ae9020", "text": "我下单看到的是赠一个滤芯", "gold": "quality_qa", "reason": "其他品类（净水器滤芯）；真值存疑", "suggested": "exclude"}
+{"id": "c-f3ce7c6d50", "text": "希望不要再有短信了", "gold": "complaint", "reason": "偏好设置类表达，非投诉；真值存疑", "suggested": "exclude"}
+{"id": "c-e828dd64ff", "text": "你们自己看看吧", "gold": "human_handoff", "reason": "缺上下文的碎片，单独无法判定意图", "suggested": "exclude"}
+{"id": "c-bcb2f2309d", "text": "你这又了解不到", "gold": "human_handoff", "reason": "缺上下文的碎片", "suggested": "exclude"}
+{"id": "c-b912259df5", "text": "什么意思?我现在要怎么做呢", "gold": "human_handoff", "reason": "缺上下文的碎片，指代不明", "suggested": "exclude"}
+{"id": "c-00e3ca040a", "text": "问题是为什么电话也打不通", "gold": "human_handoff", "reason": "缺上文的追问（依赖前面说过的联系方式）", "suggested": "exclude"}
+{"id": "c-b69a142db6", "text": "一年这个周期是什么时候开始计算", "gold": "quality_qa", "reason": "缺上文的碎片（指的是哪个周期不明确）", "suggested": "exclude"}
+{"id": "c-52f8bf419e", "text": "改成 怀远县淝南镇双沟", "gold": "invoice", "reason": "改地址的操作碎片，且真值应为订单类而非发票", "suggested": "exclude"}
+{"id": "c-a1155fa2d9", "text": "电话一直没人接", "gold": "human_handoff", "reason": "待复核：缺上下文，但可能确实是想转人工（保留/排除由人工决定）", "suggested": "keep"}
+{"id": "c-0622d1fa10", "text": "我原来的手机号不用了 收不到验证码了", "gold": "human_handoff", "reason": "待复核：账号/验证码问题不属于 10 类业务", "suggested": "keep"}

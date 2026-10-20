@@ -1,0 +1,16 @@
+{
+  "train_samples": 2614,
+  "eval_samples": 0,
+  "steps": 326,
+  "duration_seconds": 6019.9,
+  "duration_minutes": 100.33,
+  "trainable_params": 8798208,
+  "total_params": 502830976,
+  "trainable_ratio": 0.017497,
+  "max_len": 640,
+  "final_train_loss": 0.4959,
+  "first_train_loss": 1.5708,
+  "eval_loss": null,
+  "eval_loss_history": [],
+  "eval_answer_token_accuracy_history": []
+}

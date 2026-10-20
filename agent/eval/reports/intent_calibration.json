@@ -1,0 +1,112 @@
+{
+  "created_at": "2026-10-14 15:06:37",
+  "adapter_dir": "data/intent/models/v1",
+  "fit_split": "dev",
+  "eval_split": "test",
+  "samples": 701,
+  "accuracy": 0.7375,
+  "temperature": 2.3499,
+  "ece_before": 0.1816,
+  "ece_after": 0.1008,
+  "thresholds": {
+    "accept_threshold": 0.5888,
+    "refusal_rate": 0.0057,
+    "refused_error_rate": 1.0,
+    "accepted_error_rate": 0.2582,
+    "ratio": 3.872,
+    "max_refusal_rate": 0.1
+  },
+  "config": {
+    "temperature": 2.3499,
+    "accept_threshold": 0.5888,
+    "handoff_threshold": 0.3533,
+    "max_clarify_rounds": 2
+  },
+  "reliability_before": [
+    {
+      "bin": "0.0-0.1",
+      "count": 2,
+      "avg_confidence": 0.0,
+      "accuracy": 0.0,
+      "gap": 0.0
+    },
+    {
+      "bin": "0.6-0.7",
+      "count": 3,
+      "avg_confidence": 0.6966,
+      "accuracy": 0.3333,
+      "gap": 0.3633
+    },
+    {
+      "bin": "0.7-0.8",
+      "count": 56,
+      "avg_confidence": 0.7672,
+      "accuracy": 0.375,
+      "gap": 0.3922
+    },
+    {
+      "bin": "0.8-0.9",
+      "count": 180,
+      "avg_confidence": 0.8557,
+      "accuracy": 0.5167,
+      "gap": 0.3391
+    },
+    {
+      "bin": "0.9-1.0",
+      "count": 460,
+      "avg_confidence": 0.9678,
+      "accuracy": 0.8739,
+      "gap": 0.0939
+    }
+  ],
+  "reliability_after": [
+    {
+      "bin": "0.0-0.1",
+      "count": 2,
+      "avg_confidence": 0.0028,
+      "accuracy": 0.0,
+      "gap": 0.0028
+    },
+    {
+      "bin": "0.5-0.6",
+      "count": 6,
+      "avg_confidence": 0.5911,
+      "accuracy": 0.3333,
+      "gap": 0.2578
+    },
+    {
+      "bin": "0.6-0.7",
+      "count": 194,
+      "avg_confidence": 0.6614,
+      "accuracy": 0.4536,
+      "gap": 0.2078
+    },
+    {
+      "bin": "0.7-0.8",
+      "count": 215,
+      "avg_confidence": 0.7502,
+      "accuracy": 0.7209,
+      "gap": 0.0293
+    },
+    {
+      "bin": "0.8-0.9",
+      "count": 186,
+      "avg_confidence": 0.8542,
+      "accuracy": 0.9355,
+      "gap": -0.0812
+    },
+    {
+      "bin": "0.9-1.0",
+      "count": 98,
+      "avg_confidence": 0.9244,
+      "accuracy": 1.0,
+      "gap": -0.0756
+    }
+  ],
+  "verdict": [
+    "整体准确率 0.7375；平均原始置信度 0.9191（过度自信 是）",
+    "校准：T=2.3499，ECE 0.1816 → 0.1008，校准有效",
+    "拒答率 0.0057 ≤ 0.1？✓；被拒样本错误率是被接受样本的 3.872 倍（≥2 才算阈值有效）：✓"
+  ],
+  "note": "fit_split=test 时属于数据泄漏，正式口径为 --fit-split dev --eval-split test"
+}

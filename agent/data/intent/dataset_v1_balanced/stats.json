@@ -1,0 +1,45 @@
+{
+  "source": "/mnt/d/生鲜售后agent/agent/data/intent/dataset_v1",
+  "train_before": 3296,
+  "train_after": 2614,
+  "synthetic_multi_label": 240,
+  "dev": 704,
+  "test": 701,
+  "per_label_before": {
+    "query_order": 1066,
+    "urge_logistics": 437,
+    "bad_fruit_claim": 148,
+    "short_weight": 82,
+    "refund_consult": 440,
+    "invoice": 138,
+    "quality_qa": 241,
+    "complaint": 84,
+    "chitchat": 479,
+    "human_handoff": 181
+  },
+  "per_label_after": {
+    "query_order": 436,
+    "urge_logistics": 415,
+    "bad_fruit_claim": 216,
+    "short_weight": 122,
+    "refund_consult": 428,
+    "invoice": 138,
+    "quality_qa": 265,
+    "complaint": 113,
+    "chitchat": 300,
+    "human_handoff": 181
+  },
+  "class_weights": {
+    "query_order": 0.6,
+    "urge_logistics": 0.63,
+    "bad_fruit_claim": 1.21,
+    "short_weight": 2.143,
+    "refund_consult": 0.611,
+    "invoice": 1.894,
+    "quality_qa": 0.986,
+    "complaint": 2.313,
+    "chitchat": 0.871,
+    "human_handoff": 1.444
+  },
+  "multi_label_ratio": 0.0968
+}

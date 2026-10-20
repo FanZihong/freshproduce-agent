@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-10-13 12:26:33",
+  "recovered_from": "data/intent/models/v1/checkpoints/checkpoint-327",
+  "base_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "train_file": "/mnt/d/生鲜售后agent/agent/data/intent/dataset_v1_balanced/train_sft.jsonl",
+  "eval_file": null,
+  "prompt_detail": "minimal",
+  "label_format": "key",
+  "max_len": 384,
+  "lora": {
+    "note": "超参见 checkpoint 里的 training_args.bin"
+  },
+  "lr": null,
+  "epochs": 1.0,
+  "batch_size": null,
+  "grad_accum": null,
+  "class_weights_mode": "sample",
+  "device": "cpu",
+  "dtype": "fp32",
+  "seed": null
+}

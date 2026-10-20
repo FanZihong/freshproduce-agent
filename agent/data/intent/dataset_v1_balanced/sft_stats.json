@@ -1,0 +1,140 @@
+{
+  "dataset_dir": "/mnt/d/生鲜售后agent/agent/data/intent/dataset_v1_balanced",
+  "out_dir": "/mnt/d/生鲜售后agent/agent/data/intent/dataset_v1_balanced",
+  "label_format": "key",
+  "prompt_detail": "catalog",
+  "system_prompt_chars": 942,
+  "splits": {
+    "train": 2614,
+    "dev": 704,
+    "test": 701
+  },
+  "sft_sizes": {
+    "train": 2614,
+    "dev": 704,
+    "test": 701,
+    "train_split": 2867
+  },
+  "two_part": {
+    "samples": 2614,
+    "multi_label_rows": 253,
+    "target_conflicts": 0,
+    "avg_target_chars": 15.2,
+    "min_class": 113,
+    "max_class": 436,
+    "per_class_primary": {
+      "query_order": 436,
+      "urge_logistics": 415,
+      "bad_fruit_claim": 216,
+      "short_weight": 122,
+      "refund_consult": 428,
+      "invoice": 138,
+      "quality_qa": 265,
+      "complaint": 113,
+      "chitchat": 300,
+      "human_handoff": 181
+    },
+    "per_class_positive": {
+      "query_order": 438,
+      "urge_logistics": 451,
+      "bad_fruit_claim": 216,
+      "short_weight": 123,
+      "refund_consult": 490,
+      "invoice": 210,
+      "quality_qa": 266,
+      "complaint": 114,
+      "chitchat": 300,
+      "human_handoff": 259
+    }
+  },
+  "two_part_before_resample": {
+    "samples": 2614,
+    "multi_label_rows": 253,
+    "target_conflicts": 0,
+    "avg_target_chars": 15.2,
+    "min_class": 113,
+    "max_class": 436,
+    "per_class_primary": {
+      "query_order": 436,
+      "urge_logistics": 415,
+      "bad_fruit_claim": 216,
+      "short_weight": 122,
+      "refund_consult": 428,
+      "invoice": 138,
+      "quality_qa": 265,
+      "complaint": 113,
+      "chitchat": 300,
+      "human_handoff": 181
+    },
+    "per_class_positive": {
+      "query_order": 438,
+      "urge_logistics": 451,
+      "bad_fruit_claim": 216,
+      "short_weight": 123,
+      "refund_consult": 490,
+      "invoice": 210,
+      "quality_qa": 266,
+      "complaint": 114,
+      "chitchat": 300,
+      "human_handoff": 259
+    }
+  },
+  "split": {
+    "samples": 2867,
+    "multi_label_rows": 0,
+    "target_conflicts": 253,
+    "avg_target_chars": 13.7,
+    "min_class": 114,
+    "max_class": 490,
+    "per_class_primary": {
+      "query_order": 438,
+      "urge_logistics": 451,
+      "bad_fruit_claim": 216,
+      "short_weight": 123,
+      "refund_consult": 490,
+      "invoice": 210,
+      "quality_qa": 266,
+      "complaint": 114,
+      "chitchat": 300,
+      "human_handoff": 259
+    },
+    "per_class_positive": {
+      "query_order": 438,
+      "urge_logistics": 451,
+      "bad_fruit_claim": 216,
+      "short_weight": 123,
+      "refund_consult": 490,
+      "invoice": 210,
+      "quality_qa": 266,
+      "complaint": 114,
+      "chitchat": 300,
+      "human_handoff": 259
+    }
+  },
+  "class_weights": {
+    "query_order": 0.6,
+    "urge_logistics": 0.63,
+    "bad_fruit_claim": 1.21,
+    "short_weight": 2.143,
+    "refund_consult": 0.611,
+    "invoice": 1.894,
+    "quality_qa": 0.986,
+    "complaint": 2.313,
+    "chitchat": 0.871,
+    "human_handoff": 1.444
+  },
+  "oversample": {
+    "enabled": false,
+    "added": 0
+  },
+  "ood": {
+    "label": "chitchat",
+    "before": 0.1148,
+    "min_ratio": 0.05,
+    "max_ratio": 0.0,
+    "added": 0,
+    "dropped": 0,
+    "after": 0.1148,
+    "count_after": 300
+  }
+}

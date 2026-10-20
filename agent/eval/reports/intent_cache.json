@@ -1,0 +1,3507 @@
+{
+  "intent:deepseek-chat:1shot:0f34be8e34203a98cee243600645076aa8d5d547": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"表述模糊，无法判断是商品尺寸不符还是其他售后问题，暂归域外\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:557c1c191d15f9ba65f36d85b12db5fd4ef0a527": {
+    "response": "{\"labels\": [\"bad_fruit_claim\"], \"confidence\": 0.95, \"reason\": \"已签收商品品质问题，提出赔付诉求\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 33
+  },
+  "intent:deepseek-chat:1shot:2b3159f509ae2791d2949d1f39b4743593085dd0": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"询问配送与售后能否同时处理，属订单配送安排查询，但表述模糊\"}",
+    "prompt_tokens": 1985,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:9d963a1a91d0483f78c50e0d966d839cf36bbce5": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"问句含乱码且语义不完整，无法判断具体售后诉求，暂归域外\"}",
+    "prompt_tokens": 1949,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:11afab812d821c5e2928d3ffd40a1fd2bbdb1177": {
+    "response": "{\"labels\": [\"bad_fruit_claim\"], \"confidence\": 0.9, \"reason\": \"已签收商品破损，属于质量问题赔付诉求\"}",
+    "prompt_tokens": 1950,
+    "completion_tokens": 33
+  },
+  "intent:deepseek-chat:1shot:3128c32059c910ecef27dae45bf0e55536836297": {
+    "response": "{\"labels\": [\"bad_fruit_claim\"], \"confidence\": 0.9, \"reason\": \"已签收商品出现坏果，询问处理方式，属坏果理赔诉求\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:a1fad98c3d6b6d9d4390005202d5d7effaa644d4": {
+    "response": "{\"labels\": [\"bad_fruit_claim\"], \"confidence\": 0.95, \"reason\": \"已签收商品发霉，提出赔付诉求，属坏果理赔\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:38d59daca4d4df0c72faa91561e8966b708a5dec": {
+    "response": "{\"labels\": [\"bad_fruit_claim\"], \"confidence\": 0.55, \"reason\": \"收到商品后认为品质不符（带子比车上薄）并要求退货，属品质理赔诉求，但表述较模糊\"}",
+    "prompt_tokens": 1959,
+    "completion_tokens": 48
+  },
+  "intent:deepseek-chat:1shot:150bbc65ab45f40995622fd7c92b72cbdbcbd6b8": {
+    "response": "{\"labels\": [\"bad_fruit_claim\"], \"confidence\": 0.9, \"reason\": \"针对已签收商品品质问题询问赔付，属坏果理赔\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:479fd6463342e30a0a0a703a4845c773323f5e26": {
+    "response": "{\"labels\": [\"bad_fruit_claim\"], \"confidence\": 0.9, \"reason\": \"榴莲内部有坏果，属于已签收商品品质问题，诉求为处理赔付\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:b88bf85eca0e22c07176f3309250bb8afb6c06ec": {
+    "response": "{\"labels\": [\"bad_fruit_claim\"], \"confidence\": 0.95, \"reason\": \"已签收商品发霉，提出赔付诉求，属坏果理赔\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:4a996a33a6c291a1cdf851879ee9e5862b378aba": {
+    "response": "{\"labels\": [\"bad_fruit_claim\"], \"confidence\": 0.95, \"reason\": \"已签收商品发霉，提出赔付诉求，属坏果理赔\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:599f0548b6993b6199f26b3b27fa84db6463dabb": {
+    "response": "{\"labels\": [\"bad_fruit_claim\"], \"confidence\": 0.95, \"reason\": \"已签收商品品质问题，提出坏果赔付诉求\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 35
+  },
+  "intent:deepseek-chat:1shot:2469772ab29ac73d40544bd31ced95a437e2f86e": {
+    "response": "{\"labels\": [\"bad_fruit_claim\"], \"confidence\": 0.95, \"reason\": \"已签收商品品质问题，提出坏了一半的赔付诉求\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:834c6be4ae52049d048957baabff8c27f2691f1e": {
+    "response": "{\"labels\": [\"bad_fruit_claim\"], \"confidence\": 0.95, \"reason\": \"已签收商品品质问题，提出坏果赔付诉求\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 35
+  },
+  "intent:deepseek-chat:1shot:d1e632ad3b2f5b4b997b80dd2a18af00be041e7b": {
+    "response": "{\"labels\": [\"bad_fruit_claim\"], \"confidence\": 0.95, \"reason\": \"已签收商品出现腐烂，属于坏果理赔诉求\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 35
+  },
+  "intent:deepseek-chat:1shot:54959b99ec9cddd232b221b41e8c6e276f13994f": {
+    "response": "{\"labels\": [\"bad_fruit_claim\"], \"confidence\": 0.95, \"reason\": \"已签收商品品质问题提出赔付诉求，属坏果理赔\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:87b26fc06c24a5bded4f30c5b5e2d19b19fb6d50": {
+    "response": "{\"labels\": [\"bad_fruit_claim\", \"urge_logistics\"], \"confidence\": 0.9, \"reason\": \"坏果赔付为主诉求，同时催促发货\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:9b0654d5cbe4f7ad763234c17c0bfb1ad2997dfa": {
+    "response": "{\"labels\": [\"bad_fruit_claim\"], \"confidence\": 0.9, \"reason\": \"已签收商品内部变质，提出处理诉求，属坏果理赔\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:533be86a0195e8e7f192635d595672396e733ea5": {
+    "response": "{\"labels\": [\"bad_fruit_claim\"], \"confidence\": 0.6, \"reason\": \"商品瑕疵要求补发，属质量赔付诉求，但非生鲜品类，置信度中等\"}",
+    "prompt_tokens": 1953,
+    "completion_tokens": 43
+  },
+  "intent:deepseek-chat:1shot:c9b06d3b7e027e5c95890a5c8b3f8abcb91216a9": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.4, \"reason\": \"提到提交后被关闭，疑似退款申请被关闭，但表述模糊，暂归退款咨询\"}",
+    "prompt_tokens": 1949,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:111390912f9109d0a57d174ff3a4502722b33ac2": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"门框磨损与生鲜售后无关，疑似域外话题，但表述陌生，置信度低\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:69e258a1bb8f061e2220f688c9c78948c556340d": {
+    "response": "{\"labels\": [\"bad_fruit_claim\"], \"confidence\": 0.95, \"reason\": \"已签收商品品质问题，提出坏果赔付诉求\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 35
+  },
+  "intent:deepseek-chat:1shot:901126ce71b61ee8e875d91b9faaf46766bab912": {
+    "response": "{\"labels\": [\"bad_fruit_claim\"], \"confidence\": 0.95, \"reason\": \"发霉属于品质问题，用户询问赔付方式，典型坏果理赔\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:00bb77ea8fd6b5803401aa62bf0c6c81c0ff480b": {
+    "response": "{\"labels\": [\"bad_fruit_claim\"], \"confidence\": 0.95, \"reason\": \"已签收商品异味，提出赔付诉求，属坏果理赔\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:6f91510792e0643caa205841ff719fcefd9e8450": {
+    "response": "{\"labels\": [\"bad_fruit_claim\"], \"confidence\": 0.95, \"reason\": \"已签收商品发霉，提出赔付诉求，属坏果理赔\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:478fd98b2d461e76ef6ea238ed9e134cf37ed25a": {
+    "response": "{\"labels\": [\"bad_fruit_claim\"], \"confidence\": 0.95, \"reason\": \"已签收商品异味并询问赔付，属坏果理赔\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:a79edc909db1a40a841b784d8a0668d3fd435316": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.75, \"reason\": \"询问退货/寄回运费补偿规则，属售后政策咨询，未涉及具体赔付认定\"}",
+    "prompt_tokens": 1949,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:6329e4eda71abf7cbc47e9353a1f2f8bd39ccd34": {
+    "response": "{\"labels\": [\"bad_fruit_claim\"], \"confidence\": 0.95, \"reason\": \"已签收商品品质问题，提出坏果赔付诉求\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 35
+  },
+  "intent:deepseek-chat:1shot:d5b25b28f316cb9e1d72f86d1bff761c0aaaa13f": {
+    "response": "{\"labels\": [\"bad_fruit_claim\"], \"confidence\": 0.95, \"reason\": \"草莓发霉属于已签收商品品质问题，诉求为赔付，典型坏果理赔\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:6aa12ee57f125e46f39cd9fdd3d110bc52a9c455": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户问需要等多久，结合上文疑似询问处理或物流等待时长，倾向订单/处理进度查询，但指代不明确\"}",
+    "prompt_tokens": 1975,
+    "completion_tokens": 48
+  },
+  "intent:deepseek-chat:1shot:ad4a5dc299ce1fed4a7182666f3764bed99422cd": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.4, \"reason\": \"涉及优惠券使用问题，不属于生鲜售后10类业务，倾向域外兜底\"}",
+    "prompt_tokens": 1964,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:0faebae98987566fb1c12d80d854c0482522af8d": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"换货换尺码属于服饰售后，不在生鲜电商售后意图类别内，无法归入现有分支\"}",
+    "prompt_tokens": 1951,
+    "completion_tokens": 44
+  },
+  "intent:deepseek-chat:1shot:dcaf8da12ee1d7e2ac8ea202cefe0c977fb7cc88": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.4, \"reason\": \"内容为无意义占位符与情绪表达，无法识别售后意图，倾向域外闲聊\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:dd4e65a464bb48fc00ab13e0dbf661408dcf931d": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"表述模糊，缺少订单或售后上下文，无法判断具体意图，暂归域外\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:dc4cf1d15b83ef4d9be3d6b7ea730c15eb5da78e": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.7, \"reason\": \"用户放弃售后并提及自行购买木铲，属与售后无关的闲聊表达\"}",
+    "prompt_tokens": 1951,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:90310b47f8a1ce99a17d674fdd95197bc33db70e": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.4, \"reason\": \"表述与生鲜售后无关，疑似金融还款话题，无法归入任一售后意图\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:8c9a3366da4cc508d0f009900aaab1b127560a19": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.6, \"reason\": \"用户表示自行查看，无明确售后诉求，属域外或低置信，走兜底\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:352d61709cb87ab16bb4702479ce73f8a075e75d": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.4, \"reason\": \"用户提及与客服电话沟通的细节，疑似需要人工跟进，但表述模糊、缺乏明确诉求，置信度较低\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 47
+  },
+  "intent:deepseek-chat:1shot:047a5cc974a703f57b90be73059f35e0e82f7aed": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"询问取件流程，属配送安排类订单查询，但表述模糊把握一般\"}",
+    "prompt_tokens": 1963,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:78f7a1b4aa632fe98da8204d8b855ab261791f78": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"表述与生鲜售后无关，疑似域外或上下文缺失，无法判断具体意图\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:37379e487b726a42f7de6ec881b2a2bbd09d4c6f": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.4, \"reason\": \"用户仅陈述已重新购买，未表达任何售后诉求，无法判断具体意图，倾向域外闲聊\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 43
+  },
+  "intent:deepseek-chat:1shot:440b7d70fd199ce37084bcb8990038e3bea53073": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.6, \"reason\": \"问句与生鲜售后无关，疑似域外话题，但表述模糊无法确定具体意图\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:450a448ba3357e5b87e8668eaf4b66df32e6ebd0": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.9, \"reason\": \"购买E卡与生鲜售后无关，属域外话题\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 34
+  },
+  "intent:deepseek-chat:1shot:123ff2bc94cb576bdfb456d63d293320a8921263": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.6, \"reason\": \"用户问续费问题，与生鲜售后无关，属域外话题\"}",
+    "prompt_tokens": 1966,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:d3e0b10ddb43e146111bcbbb9d68ca17f781a04c": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"询问是否由京东配送，属配送安排类订单查询，但表述模糊\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:929e595cf11828371458dd1caa42f558c407bb44": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.95, \"reason\": \"纯礼貌寒暄，与售后业务无关\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 30
+  },
+  "intent:deepseek-chat:1shot:fa25b92cf74ffb2bb06adb69c9a2a5c649ab747d": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"问句表述模糊，无法判断与生鲜售后哪类业务相关，倾向域外兜底\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:f599cb09805179e8848e32630f4090d803b20d33": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"问句片段指向支付分期信息，与生鲜售后十类业务均不匹配，疑似域外或上下文缺失，暂归闲聊域外\"}",
+    "prompt_tokens": 1952,
+    "completion_tokens": 52
+  },
+  "intent:deepseek-chat:1shot:6367f4dc8f4e945698b776da7886f97c6d1dea37": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"仅提及价格变动，未说明具体诉求，无法判断属于订单查询、理赔还是退款咨询等售后意图\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 44
+  },
+  "intent:deepseek-chat:1shot:0a9556e158dbe790150303a6a74912fd504f0bcf": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.6, \"reason\": \"用户反馈电话打不通，疑似想联系人工客服，但表述模糊，倾向转人工\"}",
+    "prompt_tokens": 1959,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:400c2ce7eaeaca69538a0f4c32aece3c11c4b607": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.5, \"reason\": \"仅提供订单号，未说明具体诉求，按最可能的订单查询处理\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:6d87d4f0c45a038c93c9365b22cae928bb206771": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"询问退款申请入口与流程，属退款咨询；表述较模糊，把握中等\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:83fdf40513e2de39149912da37b9419bfca36756": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.55, \"reason\": \"价保属于价格保护退款诉求，接近退款咨询，但不在明确列举的十类中，把握较低\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:a5cb96f1002e567c3943d0b0ecb27c9aee65dcf9": {
+    "response": "{\"labels\": [\"complaint\"], \"confidence\": 0.9, \"reason\": \"用户明确表示要投诉商家，属于投诉意图\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 30
+  },
+  "intent:deepseek-chat:1shot:433ac0347a01789e67eea460e43577bbcf6c410d": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.6, \"reason\": \"用户要求联系站点核实，隐含需要人工介入处理，但表述较模糊\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:09a67653c2f4f38830026f8eb6ea8d697ae62bdf": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.85, \"reason\": \"用户询问是否有人，结合上一轮提到电话咨询，倾向要求真人客服\"}",
+    "prompt_tokens": 1964,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:39dbc1b113e95b158240a0f1334e0ba57b7f9648": {
+    "response": "{\"labels\": [\"short_weight\"], \"confidence\": 0.95, \"reason\": \"用户反映树莓重量不足，属于缺斤少两诉求\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 33
+  },
+  "intent:deepseek-chat:1shot:33e33241bb0e7b83b1cae248e8d6f9041b17ae83": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.85, \"reason\": \"询问发货时间，带推进物流诉求，属催发货\"}",
+    "prompt_tokens": 1971,
+    "completion_tokens": 34
+  },
+  "intent:deepseek-chat:1shot:2c5da8229c00fd91fd62573367053c19d96c7142": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"表述与售后无关且信息不足，无法判断具体意图，暂归域外\"}",
+    "prompt_tokens": 1951,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:44f7e9d326c0f499f30f4d59f1fcbecc44c613f7": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.85, \"reason\": \"用户催促退货上门取件进度，带时间压力，属催物流\"}",
+    "prompt_tokens": 1999,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:3753c48e92d06bce53d82dd96dc2b967dc3d5a01": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.55, \"reason\": \"询问重新下单时优惠券是否有效，属售后政策类知识咨询，但表述较模糊，倾向品质咨询\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:b5e62856456cb53b41304d9f39637f3cef0dfe1b": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.4, \"reason\": \"涉及会员权益次数，疑似售后政策咨询，但表述模糊，倾向品质咨询\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:de76f98cfdaa2c661eb71dc7237b1867f29e9320": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"表述模糊，可能指配送地址/配送安排，倾向订单查询，但信息不足\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:edaae6c234315c99b8ea6523139cae03cbfc67d5": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.9, \"reason\": \"用户要求催促配送进度，属催物流\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 31
+  },
+  "intent:deepseek-chat:1shot:8e2c2ba5c1591dd1992da8e2a1121d0a8fd77b8a": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.7, \"reason\": \"询问订单收货地址信息，属于订单查询范畴，但表述较模糊\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 35
+  },
+  "intent:deepseek-chat:1shot:b497ae59ee720a9aa5f06acf0699b482c1fcb71e": {
+    "response": "{\"labels\": [\"invoice\"], \"confidence\": 0.85, \"reason\": \"询问维修寄回时无发票的处理，核心涉及发票问题\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 32
+  },
+  "intent:deepseek-chat:1shot:7cd4291944ef9f8cb8817f6e1bdc42676dc2b74a": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.95, \"reason\": \"带时间压力的催发货问法\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 29
+  },
+  "intent:deepseek-chat:1shot:23efae083bbebb227bf72d5e2458a845a89c8cf4": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.95, \"reason\": \"用户提供订单号并要求查询订单状态，属典型订单查询\"}",
+    "prompt_tokens": 1950,
+    "completion_tokens": 33
+  },
+  "intent:deepseek-chat:1shot:7d17a7e5bc465bcb390cda1b295f92af2eb96213": {
+    "response": "{\"labels\": [\"short_weight\"], \"confidence\": 0.95, \"reason\": \"用户反映蓝莓重量不足，属于缺斤少两诉求\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 33
+  },
+  "intent:deepseek-chat:1shot:537f449aff9c2414b42ce438d25988f832d57a8f": {
+    "response": "{\"labels\": [\"short_weight\"], \"confidence\": 0.95, \"reason\": \"重量不足按缺斤少两规则处理\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 29
+  },
+  "intent:deepseek-chat:1shot:99b55c97b0f7d42ada74dbbe7b86d7fb90eb76db": {
+    "response": "{\"labels\": [\"short_weight\"], \"confidence\": 0.9, \"reason\": \"数量与标注不符，属缺斤少两\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 30
+  },
+  "intent:deepseek-chat:1shot:f1230aff65d77739dddbc1faf1a7201e79802c00": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.6, \"reason\": \"内容为系统服务单通知文本，非用户售后诉求，无法归入业务意图\"}",
+    "prompt_tokens": 2058,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:24bae5b482689db6c49b006f4dc25cb4dcb38a0e": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.4, \"reason\": \"仅说'售后服务'过于笼统，倾向售后政策咨询，但信息不足置信度低\"}",
+    "prompt_tokens": 1938,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:ad9d5e53b0b09abec913f86eddca587f09d9fb55": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"询问未收货时退货重订的流程规则，属退款/退货政策咨询，未涉及具体赔付认定\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:b64dfaf5b6d3afc6880641b3c07ccb51e49a05bb": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"询问退款到账方式，属退款流程咨询，但表述较模糊\"}",
+    "prompt_tokens": 1940,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:60a95a45169509c2a1f7f5dc4bba41f9c42b8fa1": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.95, \"reason\": \"询问商品储存方式，属品质咨询\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 29
+  },
+  "intent:deepseek-chat:1shot:b5d2c16f30477c246d1f4182a76444a98fc69a65": {
+    "response": "{\"labels\": [\"complaint\"], \"confidence\": 0.75, \"reason\": \"用户表达对店家不负责任的不满，属于对商家服务的抱怨追责，倾向投诉；未明确要求人工或赔付\"}",
+    "prompt_tokens": 1951,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:fe7800f67719a77659150eb9281aa1e4a9089d37": {
+    "response": "{\"labels\": [\"urge_logistics\", \"refund_consult\"], \"confidence\": 0.6, \"reason\": \"用户带时间压力要求一两天内收到，属催物流；同时询问能否退单，涉及退款规则咨询，主意图为催单\"}",
+    "prompt_tokens": 1956,
+    "completion_tokens": 58
+  },
+  "intent:deepseek-chat:1shot:484562cf8ece7df96478495c7b24a760f213d6b8": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.95, \"reason\": \"询问冷冻肉储存时长，属商品储存保鲜知识咨询\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 33
+  },
+  "intent:deepseek-chat:1shot:7522093be4608ada8839fb84da8c0b0be0600aba": {
+    "response": "{\"labels\": [\"complaint\"], \"confidence\": 0.6, \"reason\": \"用户对订单被取消表达强烈不满，但未明确要求赔付、查询或转人工，倾向投诉；信息不足，置信度中等\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 49
+  },
+  "intent:deepseek-chat:1shot:a8d09cebc03a250450eb325329689895b5263a64": {
+    "response": "{\"labels\": [\"complaint\"], \"confidence\": 0.6, \"reason\": \"用户指责平台诚信问题，属于对平台服务表达不满并要求追责，但未明确要求人工或赔付，故归投诉\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 47
+  },
+  "intent:deepseek-chat:1shot:c905a766e74d88c0c71d4d661cec044049265f07": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.4, \"reason\": \"问句残缺，无法判断具体售后诉求，暂归域外\"}",
+    "prompt_tokens": 1975,
+    "completion_tokens": 35
+  },
+  "intent:deepseek-chat:1shot:62c007d4267e2238418d3d39e56f93661a8e6c85": {
+    "response": "{\"labels\": [\"invoice\"], \"confidence\": 0.9, \"reason\": \"询问订单能否开增值税专用发票，属发票开具咨询\"}",
+    "prompt_tokens": 1954,
+    "completion_tokens": 31
+  },
+  "intent:deepseek-chat:1shot:042f8903e1d85f348526cb3433ad4a7140e451de": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.4, \"reason\": \"涉及第三方卖家退货运费承担规则咨询，属售后政策知识型问题，但非生鲜品类，把握较低\"}",
+    "prompt_tokens": 1973,
+    "completion_tokens": 46
+  },
+  "intent:deepseek-chat:1shot:2caa2ad35bc6555387a02c53215093cdcaf027a9": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"表述模糊，疑似询问派送员联系方式或配送安排，倾向订单查询但把握较低\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:a0551dc17d74ea75d59674e53f241c43d31c2169": {
+    "response": "{\"labels\": [\"invoice\"], \"confidence\": 0.9, \"reason\": \"用户围绕订单发票抬头修改，要求发票名从个人改为姓名，属发票开具类\"}",
+    "prompt_tokens": 2064,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:ce9f6b9244d3cb8dc871036e28e450e8a4697ffb": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.95, \"reason\": \"询问黄桃储存时长，属商品保鲜知识咨询\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 32
+  },
+  "intent:deepseek-chat:1shot:dac6d1d7c2f629a134f1a56f7c887d20c00a7c7c": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.5, \"reason\": \"用户仅提供订单编号、金额与下单时间，未说明具体诉求，按最接近的订单查询处理，但意图不明确故置信度较低\"}",
+    "prompt_tokens": 1962,
+    "completion_tokens": 52
+  },
+  "intent:deepseek-chat:1shot:154116fd2970391ec0e7cfb14870c82d6594acb4": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"提及退货申请，未明确是查询进度还是赔付，按退款流程咨询处理\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:5b6d6f730159bb7a7b3e7213f1db4fb501e3ea9d": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"描述已付款后申请退款，属退款流程/进度咨询，未涉及具体赔付认定\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:dd083d74691339cfe7ff2f727aaecf54541fe54a": {
+    "response": "{\"labels\": [\"short_weight\"], \"confidence\": 0.95, \"reason\": \"用户反映玉米重量不足，属于缺斤少两问题\"}",
+    "prompt_tokens": 1940,
+    "completion_tokens": 32
+  },
+  "intent:deepseek-chat:1shot:42ab7ccf72cb6ee48a6a1780d67ae047611c0cca": {
+    "response": "{\"labels\": [\"invoice\"], \"confidence\": 0.95, \"reason\": \"询问发票信息修改，属发票开具类\"}",
+    "prompt_tokens": 1952,
+    "completion_tokens": 28
+  },
+  "intent:deepseek-chat:1shot:0da6deab602b4a3050c9c1c06c9c456259527c51": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.9, \"reason\": \"打印机安装与生鲜售后无关，属域外话题\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 33
+  },
+  "intent:deepseek-chat:1shot:de43d585e742c0d6ca82880b25fd4cde147206a9": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.85, \"reason\": \"询问电子产品如电脑机箱电源，与生鲜售后无关，属域外话题\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:0ee4fe96f77bde62328ef51e9f9407c740f855e9": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"仅说收到短信，未表达任何售后诉求，无法判断具体意图，暂归域外\"}",
+    "prompt_tokens": 1940,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:86b45cf9109d6621e2854706a19f3acbb50155c5": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"表述与生鲜售后无关，疑似手机信号问题，无法归入任一业务类别，暂判域外\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 44
+  },
+  "intent:deepseek-chat:1shot:5fd07aed3dd140b34268e8e9822066c1675fa75c": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"无具体售后诉求，仅表达情感诉求，无法判断业务类别，倾向兜底/闲聊\"}",
+    "prompt_tokens": 1949,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:1664738e631cde32f7957c6bfd1143ab65b39f55": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.9, \"reason\": \"与生鲜售后无关的营销传闻，属域外闲聊\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 34
+  },
+  "intent:deepseek-chat:1shot:5f09083f6c7b0a0d79e0513171fb151bb94223e6": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.4, \"reason\": \"仅给出地名，无明确售后诉求，无法判断具体意图，暂归域外闲聊\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:42435244be21b96ee467a7b499e4fa25c6f3cb50": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.4, \"reason\": \"表述模糊，未涉及任何售后业务要素，暂归闲聊域外\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:c617dcf9f59607fb8e4ed62c7dbf72dd298f01a4": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.95, \"reason\": \"订机票与生鲜售后无关，属域外话题\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 33
+  },
+  "intent:deepseek-chat:1shot:224939aad05b03dc307dceb4c59fccbfe5b63595": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.9, \"reason\": \"与生鲜电商售后无关的电脑触控板话题，属域外闲聊\"}",
+    "prompt_tokens": 1950,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:b659d488698ee33c16e3f9811210908ee4dfdd40": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.4, \"reason\": \"白条还款属于金融支付问题，与生鲜售后10类业务无关，倾向域外；但表述模糊，把握较低\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 48
+  },
+  "intent:deepseek-chat:1shot:68ab4e2680a4350b7f0c44fbfd94cca6d73a06e5": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"问句含乱码且语义不明，无法判断售后意图，暂归域外\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:ce2d1762c117ebf557577ce08b8c34f243b53067": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"问句不完整且与售后无关，无法判断具体意图，暂归闲聊域外\"}",
+    "prompt_tokens": 1940,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:16d73565f904ba92f465bef61b1fd89badcd622e": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.6, \"reason\": \"询问运费规则是否长期固定，属售后政策咨询，但表述含平台名与占位符，把握一般\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:38a10562ad6d262f4bab76bd95b8408806742d12": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.9, \"reason\": \"与生鲜售后无关的域外话题，属闲聊与域外\"}",
+    "prompt_tokens": 1939,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:0fc27cd7b5421c4f846a11d13c769970e82c949e": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.9, \"reason\": \"与生鲜售后无关的域外问题，属闲聊与域外\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:99e547ad46abb72661c00ffdbc90d9846d521cc5": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.6, \"reason\": \"延续上轮换货/维修售后政策咨询，属售后政策知识型问题，但表述模糊，把握一般\"}",
+    "prompt_tokens": 1966,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:4a4f4e292528b15ffeb16360834a48c33bd88040": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.85, \"reason\": \"用券购买纸尿裤属于购物咨询，与生鲜售后10类业务无关，归为域外闲聊\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:ba20f975108e978cd0036a9efaa2a4e0e9b22d1c": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.55, \"reason\": \"用户提及白条支付与退款返还，属退款流程与到账方式咨询，但表述模糊，把握一般\"}",
+    "prompt_tokens": 1980,
+    "completion_tokens": 46
+  },
+  "intent:deepseek-chat:1shot:bb24a92760a825058614e3165ce0367d052d980e": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.4, \"reason\": \"表述模糊，未明确诉求，疑似放弃处理，暂归闲聊域外\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:dee9bf9d877e75f66efbac0c9c193b4c56144d64": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"问句缺少上下文，无法判断与售后业务的具体关联，暂归域外闲聊\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:e553f6e987fbcf65de690c6128744edca7aa4739": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"问句残缺，无法判断具体售后意图，暂归闲聊与域外\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:0f3596ae114c1f002596a55706e4cfb3d8129f71": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.4, \"reason\": \"仅一个地址片段，无明确售后诉求，无法判断具体意图\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 35
+  },
+  "intent:deepseek-chat:1shot:ddae530b751333a40fcd341adde36afe7b3c383b": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.85, \"reason\": \"手表链子调整与生鲜售后无关，属域外话题\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 35
+  },
+  "intent:deepseek-chat:1shot:64504dac58bb94d8d13d1a2faade478801378482": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"表述模糊，无法判断具体售后诉求，疑似对前文商品信息的纠正，暂归域外\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:b545bf4da4efdb95abf7ec362e60660dc1478b76": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"问句缺少上下文，无法判断具体售后意图，暂归域外\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:cee18907aad4bee22cbfa0380f011e1041c60e02": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"表述不完整，无法判断具体售后诉求，暂归闲聊与域外\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:41ccbe3aebf2aa4db8ade01e1930f0c0c89f7592": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"问句缺少上下文，无法判断具体售后意图，暂归闲聊与域外\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:888be92f0e86228da8d7f03ddcd887a84115bd89": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.85, \"reason\": \"用户呼叫客服，属于明确的人工服务通道请求\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 32
+  },
+  "intent:deepseek-chat:1shot:a24a5e55e80f492bb49362918040b2b0c2638d8e": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.85, \"reason\": \"与售后无关的寒暄式问句，无具体业务诉求\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 35
+  },
+  "intent:deepseek-chat:1shot:cb7abf396fcd6d4d91a7e175dcf4f477f9a9e056": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.4, \"reason\": \"表述过于简短模糊，无法判断是咨询优惠券规则还是抱怨，暂归域外闲聊\"}",
+    "prompt_tokens": 1940,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:9689f1f9a13616558e4a7a3496872158249e7945": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.6, \"reason\": \"用户表示将重新下单，属于与售后无关的陈述性话语，无明确售后诉求\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:c6935abbcaab1523bfbab54f2462da60767c98ab": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.85, \"reason\": \"与售后无关的闲聊内容，无明确业务诉求\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 32
+  },
+  "intent:deepseek-chat:1shot:0638dc60abcb9fe97a533ec2b8b0d12d8a622c06": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.4, \"reason\": \"问句含义模糊，未涉及任何生鲜售后业务场景，暂归域外闲聊\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:f80756e5af89908407669eacf69ab4dc87ff386a": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.4, \"reason\": \"表述与售后无关且语义不明，疑似误输入或域外内容\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:d4105b48b694ae7250c64e24d292723b2c53bbb5": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.35, \"reason\": \"表述与生鲜售后无关，疑似域外或上下文缺失，无法判断具体意图\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:a25fda16bae85e77da5a52317de022b7761ddebe": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.4, \"reason\": \"用户表述与售后业务无关，疑似对话中的过渡语句，无法判断具体意图\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:dc291947612c4901928329906e4854c49cd07902": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.9, \"reason\": \"与生鲜售后无关的域外话题\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 30
+  },
+  "intent:deepseek-chat:1shot:0ef56765b6864ca6f319625059e5f387d08fbd66": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户询问配送时间能否更改，属于配送安排类订单查询，但表述较模糊\"}",
+    "prompt_tokens": 1990,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:603d776318832167cbe36820688d1e8e416e2af1": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"用户问的是下单后是否需截图，与生鲜售后10类业务无关，且上下文为小米手机差价对比，属域外话题\"}",
+    "prompt_tokens": 1970,
+    "completion_tokens": 51
+  },
+  "intent:deepseek-chat:1shot:0d76f814d7b8953aa9a491969eb9f077acdcda15": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"问句缺少上下文，无法判断具体售后意图，暂归闲聊与域外\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:961a9eff537f66b5d5a94e0f818ac62030701a12": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.95, \"reason\": \"键盘输入故障与生鲜售后无关，属域外话题\"}",
+    "prompt_tokens": 1954,
+    "completion_tokens": 34
+  },
+  "intent:deepseek-chat:1shot:8192182670f51fea4ede06847d18bb8e94072f8c": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"表述含义不明，无法判断具体售后诉求，暂归域外闲聊\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:617d051601e97f897146f1e65778a3dbf69f8063": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.4, \"reason\": \"表述模糊，疑似评价操作问题，不属于10类售后业务，倾向域外\"}",
+    "prompt_tokens": 1949,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:fa59bfb363ac9eb36e581b674bb2a63f7413a19b": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"问句缺少上下文，无法判断具体售后意图，暂归域外\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:2738956dcee47018f4e7d6fc83141fb59d9fac9e": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.6, \"reason\": \"问句与生鲜售后业务无关，疑似询问验证码发送机制，归为域外闲聊\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:4c1e58c5bb50e0f10bd6752dd63f64c850992b7e": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.9, \"reason\": \"与售后无关的闲聊内容\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 27
+  },
+  "intent:deepseek-chat:1shot:15697b28dac58e9f1d2c5730b8fb4af83cea31ac": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"表述模糊，无法判断具体售后意图，暂归域外\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 34
+  },
+  "intent:deepseek-chat:1shot:fafcfe850b00396d57a53e5b774b7fa85bc0378c": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"问句语义不完整，未明确指向任何售后业务类别，暂按域外处理\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:94dd410544e1801b630244e0d66b04ad72b6546a": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"表述模糊，疑似在跟进订单/物流相关事项，但无明确诉求，倾向订单查询\"}",
+    "prompt_tokens": 1949,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:42eca89be859eec1cbd2cd7a82cf474dbe6967c7": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.4, \"reason\": \"用户表示尚未下单，语义模糊，无明确售后诉求，暂归闲聊域外\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:cd3c24e56bd854064cbe71ca100848038248499a": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"问句缺少上下文，无法判断具体售后意图，暂归域外兜底\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:ff43fc6e3725515f1bd409549e67a486f6d08209": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.9, \"reason\": \"京东卡充值属于电商平台账户操作，与生鲜售后无关，归为域外闲聊\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:443dfbd1555b003d60e1dfb4483e882248491a0e": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.85, \"reason\": \"与生鲜售后无关的域外话题，归入闲聊\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 34
+  },
+  "intent:deepseek-chat:1shot:115d9879886ddc49d3b958181cef0e5293ec16b8": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.6, \"reason\": \"未表达任何售后诉求，属于无明确意图的寒暄式表述，倾向域外兜底\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:2217857a2da4576cb0fddfdcf31371710e954b71": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.6, \"reason\": \"余额提现不属于生鲜售后10类业务，疑似账户资金问题，归为域外\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:dde00172806b081ec1eaa3b0bc9bfd1935bc0ade": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"用户表达不便使用京东快递，可能涉及配送安排或物流方式，倾向订单配送相关，但表述模糊，置信度较低\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 47
+  },
+  "intent:deepseek-chat:1shot:2f5e655b5a84a42ea0588b9edd5811f02044795b": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.85, \"reason\": \"换货操作不属于生鲜售后10类业务，属域外话题\"}",
+    "prompt_tokens": 1951,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:fe7db6db8db3ec4f5ceae9e1be0856b2287cad2d": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.6, \"reason\": \"用户仅询问是否在线并抱怨未回复，未涉及具体售后业务，属闲聊/域外，但可能隐含转人工诉求，故置信度中等\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 54
+  },
+  "intent:deepseek-chat:1shot:19a19ec87287df7d59c89ef32dfb5abfab90f053": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"表述模糊，无法判断与生鲜售后业务相关，暂归域外\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:4bb84dce4d3a69191bbf49bf05cd839081f55274": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"表述模糊，无法判断具体售后意图，暂归闲聊与域外\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:2bbdbd5c8e339d8d6b53c32f1fd45a2d25e6c94d": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"用户提到买错书，属于图书类售后，不在生鲜电商售后意图范围内，且表述模糊无法归入现有类别\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 48
+  },
+  "intent:deepseek-chat:1shot:35697fe5116feacc6d171869e6529c7f5a553993": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.9, \"reason\": \"手机维修进度与生鲜电商售后无关，属域外话题\"}",
+    "prompt_tokens": 1948,
+    "completion_tokens": 35
+  },
+  "intent:deepseek-chat:1shot:e221643ed1f2394730d6af7ffb72945a2f6e53d7": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.6, \"reason\": \"用户询问评价操作方式，与生鲜售后十类业务无关，属域外话题\"}",
+    "prompt_tokens": 1966,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:634aff2c57da852723fd7593ac60c2b5f277784d": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.55, \"reason\": \"用户对上一轮APP操作指引表示不适用，暗示需要人工协助，但未明确要求转人工，置信度中等\"}",
+    "prompt_tokens": 1993,
+    "completion_tokens": 48
+  },
+  "intent:deepseek-chat:1shot:b9f80a867fae2229d0dce3335cb958210a4e43b9": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.4, \"reason\": \"换型号诉求与生鲜售后10类业务均不匹配，且缺少上下文，倾向域外兜底\"}",
+    "prompt_tokens": 1985,
+    "completion_tokens": 44
+  },
+  "intent:deepseek-chat:1shot:b962c5d7f19e91bac99b0c710ca8359188c9845e": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"表述模糊，疑似告知/更正配送地址，与订单配送安排相关，暂归订单查询，置信度低\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 44
+  },
+  "intent:deepseek-chat:1shot:69151b96c119c93014ed1f272b3a87a8df8db5a4": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.4, \"reason\": \"表述模糊，未明确是售后相关诉求，暂归域外\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 35
+  },
+  "intent:deepseek-chat:1shot:03954a337e2fa05a3ec6c17a53bebe0bc549fc01": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.4, \"reason\": \"表述模糊，未明确是售后诉求，暂归域外闲聊\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 35
+  },
+  "intent:deepseek-chat:1shot:2e17342b50834dca7a080944d771b86282667788": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.9, \"reason\": \"询问截屏操作与生鲜售后无关，属域外闲聊\"}",
+    "prompt_tokens": 1970,
+    "completion_tokens": 35
+  },
+  "intent:deepseek-chat:1shot:c8a723465c6938a0a7304e546c9e53ec4aafde34": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.6, \"reason\": \"换货诉求不属于生鲜售后10类业务，且非寒暄，但无更贴切类别，暂归域外兜底\"}",
+    "prompt_tokens": 1948,
+    "completion_tokens": 50
+  },
+  "intent:deepseek-chat:1shot:8053fe06f85a5272d896db263e3bee88d24c088f": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.6, \"reason\": \"问句涉及订单但语义模糊，疑似调侃或无关话题，无法归入具体售后意图\"}",
+    "prompt_tokens": 1950,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:5c7cb5ea5e23aeee0252858943e83aeed5dde41f": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.4, \"reason\": \"问句语义模糊，疑似询问下单流程但与售后10类业务均不匹配，暂归域外\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 43
+  },
+  "intent:deepseek-chat:1shot:bb99eb9a6918c22e89969f255342a4e81fa14f78": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"问句语义不明，疑似与生鲜售后无关的闲聊或误发，无法判断具体售后意图\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 43
+  },
+  "intent:deepseek-chat:1shot:f376cc44f8ea3ffb3e0520773144e55ceae3f6c1": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"用户描述订单中衣服一件合适一件不合适，属于服装退换货场景，不在生鲜电商售后10类意图范围内，无法匹配具体类别\"}",
+    "prompt_tokens": 1951,
+    "completion_tokens": 52
+  },
+  "intent:deepseek-chat:1shot:5a699ae21009073e8e9dca09683006bad095d518": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"用户担心退货被拒，核心是退货/退款能否顺利办理的规则咨询，未涉及具体赔付认定或物流催促\"}",
+    "prompt_tokens": 1997,
+    "completion_tokens": 48
+  },
+  "intent:deepseek-chat:1shot:9a484c289d78a816d6a2c1c8ff5669843a6feb43": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"结合上一轮配送安排语境，用户在协商配送时间，属配送安排类查询，但信息不足把握较低\"}",
+    "prompt_tokens": 1951,
+    "completion_tokens": 43
+  },
+  "intent:deepseek-chat:1shot:a0d8990b61e902923f629ec48ec75ca3d4d77b01": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.85, \"reason\": \"用户表示稍后再看需要什么一起下单，属于与售后无关的寒暄/暂别语，无明确售后诉求\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 47
+  },
+  "intent:deepseek-chat:1shot:bd9e1d0212f89478cd5a71b41f56f507b457d1aa": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.95, \"reason\": \"用户结束会话的寒暄，与售后业务无关\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 32
+  },
+  "intent:deepseek-chat:1shot:4460e8d3318ce52e2b2367c075c7164cb9ea8e4d": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"表述与生鲜售后无关，疑似硬件安装问题，无法归入任一售后类别，暂判域外\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 44
+  },
+  "intent:deepseek-chat:1shot:6eebe8b0a0b37a91ba9026e9db5068919979fe18": {
+    "response": "{\"labels\": [\"complaint\"], \"confidence\": 0.9, \"reason\": \"明确表达要投诉商家，属投诉意图\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 29
+  },
+  "intent:deepseek-chat:1shot:a9019371b34d36342bf2fbb428dfd202ad17221b": {
+    "response": "{\"labels\": [\"complaint\"], \"confidence\": 0.6, \"reason\": \"用户对价格波动快表达不满，属对平台服务的抱怨，但未明确要求追责或赔付，倾向投诉类\"}",
+    "prompt_tokens": 1948,
+    "completion_tokens": 46
+  },
+  "intent:deepseek-chat:1shot:98d60029588bc8da194f0df3aaba1d159887a126": {
+    "response": "{\"labels\": [\"complaint\"], \"confidence\": 0.9, \"reason\": \"用户明确表示要投诉商家，属于投诉意图\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 30
+  },
+  "intent:deepseek-chat:1shot:8f604d43d5ee3e92f8e846b8229e51e339519349": {
+    "response": "{\"labels\": [\"complaint\"], \"confidence\": 0.55, \"reason\": \"表达对配送/商品结果的不满与后悔，隐含追责情绪，但未明确要求赔付或转人工，倾向投诉\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 46
+  },
+  "intent:deepseek-chat:1shot:0efcc29494e0a4f545eeab2b6f28d2570c7e4548": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.4, \"reason\": \"用户表达不希望再收到短信，未明确涉及订单、理赔、退款等售后业务，也无明确转人工诉求，暂归为域外/闲聊，置信度较低\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 57
+  },
+  "intent:deepseek-chat:1shot:367dc5b9bb95f815e3e00928da3d525cf79d034a": {
+    "response": "{\"labels\": [\"complaint\"], \"confidence\": 0.95, \"reason\": \"明确要求投诉商家，属投诉意图\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 28
+  },
+  "intent:deepseek-chat:1shot:ae00a8721a1dacbff516466a57734210809f6e81": {
+    "response": "{\"labels\": [\"complaint\"], \"confidence\": 0.6, \"reason\": \"用户对拒收扣京豆表达不满，属于对平台处理的追责诉求，但表述模糊，未明确要求人工或赔付\"}",
+    "prompt_tokens": 1951,
+    "completion_tokens": 48
+  },
+  "intent:deepseek-chat:1shot:4b960d0482832b3ba64d81843d3f699b61cb91cc": {
+    "response": "{\"labels\": [\"complaint\"], \"confidence\": 0.9, \"reason\": \"用户明确表示要投诉商家，属于投诉意图\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 30
+  },
+  "intent:deepseek-chat:1shot:4aaf6ad2b485f479f257a0c2a9001218f1d60094": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.75, \"reason\": \"抱怨退款速度慢，诉求是退款时效与流程改进，属退款咨询；未明确要求追责或转人工\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 47
+  },
+  "intent:deepseek-chat:1shot:42a9d749a6082ff2605cffc24ff15934b88f2b8a": {
+    "response": "{\"labels\": [\"complaint\"], \"confidence\": 0.95, \"reason\": \"明确表达投诉客服的追责诉求\"}",
+    "prompt_tokens": 1940,
+    "completion_tokens": 28
+  },
+  "intent:deepseek-chat:1shot:489d2c3f59004199a251252260fbf96dd3365909": {
+    "response": "{\"labels\": [\"complaint\"], \"confidence\": 0.9, \"reason\": \"明确表达对商家的投诉诉求，要求追责\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 31
+  },
+  "intent:deepseek-chat:1shot:b01ed433ebab01181b30f6e9ef7124ada8d4fe6f": {
+    "response": "{\"labels\": [\"complaint\"], \"confidence\": 0.6, \"reason\": \"表达对客服业务能力或平台规则的不满，属投诉情绪，但未明确要求追责或转人工\"}",
+    "prompt_tokens": 1951,
+    "completion_tokens": 43
+  },
+  "intent:deepseek-chat:1shot:b83b4357d5b00de831b250d87cfbe85c862395fe": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户询问保价申请流程为何看不到，属于订单相关状态查询，但表述模糊，可能需转人工核实\"}",
+    "prompt_tokens": 1979,
+    "completion_tokens": 44
+  },
+  "intent:deepseek-chat:1shot:648cfdbf079aaaac5e66ab157caa08d1b8b09467": {
+    "response": "{\"labels\": [\"complaint\"], \"confidence\": 0.6, \"reason\": \"抱怨客服电话无人接听，表达对服务不满，但未明确要求转人工或追责，倾向投诉\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 44
+  },
+  "intent:deepseek-chat:1shot:9fd8c26fe0081f27401677800a79c375a81f97e4": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"问句缺少上下文，无法判断具体售后意图，暂归域外兜底\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:a1b9c5e24f2a3dcfcecc8c1226ee0ec7194dccb9": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户提及申请取消订单，未明确诉求，倾向订单状态查询，但表述模糊置信度较低\"}",
+    "prompt_tokens": 1967,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:46f82bfe81ab78e58ca3f8bb7c7cef7d267f0e06": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.4, \"reason\": \"表述不完整，疑似描述与客服沟通退单事宜，未明确诉求，倾向需要人工介入核实\"}",
+    "prompt_tokens": 1960,
+    "completion_tokens": 44
+  },
+  "intent:deepseek-chat:1shot:7123c7df8cd698087bc1960d8b30a7239d44ef39": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"询问能否过去拿货，属于配送安排类订单查询，但表述模糊，把握较低\"}",
+    "prompt_tokens": 1951,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:544c4bd13e1041ca7920b39cfc1090f5e965e2d9": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.3, \"reason\": \"问句过于模糊，无具体对象，倾向订单确认但把握低\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 35
+  },
+  "intent:deepseek-chat:1shot:47a26a6e8659bbb55eaf2545ad515bebf2c800e9": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"问句缺少具体售后对象与诉求，无法判断属于哪类业务，倾向域外或信息不足\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 43
+  },
+  "intent:deepseek-chat:1shot:63b6ecb9cb1d94e2f60e6bb80fd1e51769dd02e4": {
+    "response": "{\"labels\": [\"human_handoff\", \"complaint\"], \"confidence\": 0.95, \"reason\": \"明确要求转人工且同时表达投诉，按规则转人工优先\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:4de61eeb562b37460bb13dbfa0b4b23220a94ac5": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.3, \"reason\": \"表述模糊，疑似要求人工查看处理，但无明确售后意图，置信度低\"}",
+    "prompt_tokens": 1940,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:ed222cbc94b2a4dbe4f0b3d2de9c36c913603b66": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.4, \"reason\": \"表述模糊，'审核'未指向具体售后业务，但'马上给我'带有要求人工介入的倾向，暂归转人工待确认\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 52
+  },
+  "intent:deepseek-chat:1shot:008cd31366642da616cc660e84cb09766ffb5092": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.4, \"reason\": \"用户询问是否需要另一个服务单号，疑似在配合人工处理流程，但语义模糊，倾向转人工分支\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:d64b6e1ea802f1a2b59c8cb83e59bd134d75b05b": {
+    "response": "{\"labels\": [\"complaint\"], \"confidence\": 0.75, \"reason\": \"用户抱怨找不到联系方式且只有机器人回复，表达对服务的不满，但未明确要求转人工，归为投诉\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 44
+  },
+  "intent:deepseek-chat:1shot:a616ebf4d0643cae26872c3d1c30ac325c6344db": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.98, \"reason\": \"用户明确要求人工客服\"}",
+    "prompt_tokens": 1939,
+    "completion_tokens": 27
+  },
+  "intent:deepseek-chat:1shot:fa2aa10e8da338715adfa19dfa15ccf32e2c9d62": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.95, \"reason\": \"用户明确要求售后人员电话联系，属于转人工诉求\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 34
+  },
+  "intent:deepseek-chat:1shot:f92e789ef7b2fe85a40dd46686a190a870efe9ec": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.4, \"reason\": \"询问联系方式，疑似想联系人工或商家，但表述模糊，倾向转人工\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:12701f41168b4912a276101dfaa9e13929556573": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.6, \"reason\": \"用户表达对机器人能力不满，暗示需要人工介入，但未明确说转人工，置信度中等\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 44
+  },
+  "intent:deepseek-chat:1shot:29db91993609e844aff9f20f32b2a5296fe582f6": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.95, \"reason\": \"用户询问是否为人工，属于明确要求人工客服的通道诉求\"}",
+    "prompt_tokens": 1939,
+    "completion_tokens": 35
+  },
+  "intent:deepseek-chat:1shot:710043cc67b46a6f0e893f91036964e98b624ed7": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.6, \"reason\": \"用户反馈提供的电话无人接听，结合上下文是寻求人工协助，倾向转人工；但表述较模糊，把握一般\"}",
+    "prompt_tokens": 1975,
+    "completion_tokens": 48
+  },
+  "intent:deepseek-chat:1shot:dbcd4d1568c086d1f076658dde039274ab439d8e": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.6, \"reason\": \"用户要求联系自己，隐含希望人工客服主动联系，倾向转人工，但表述较模糊\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:3b79c45e99a0d02cb4a071d05b153f9a0fc6a983": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"问句缺少上下文，无法判断具体售后意图，暂归域外\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:b257d55d3ba83e2ec7891f89d847275692663576": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"问句指代不明，无法判断具体售后诉求，暂归闲聊与域外\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:3f8ce9bf18f20f6a3395b79ae7c066ea7f9d83a5": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.4, \"reason\": \"表述模糊，疑似要求给出明确答复/回应，倾向转人工，但缺乏明确售后意图，置信度较低\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 46
+  },
+  "intent:deepseek-chat:1shot:eb81bb225ed44fbfa307944644c9516c1a932eaf": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.6, \"reason\": \"用户提及与客服的聊天截图，暗示需要人工介入处理，但表述模糊，倾向转人工\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 43
+  },
+  "intent:deepseek-chat:1shot:76cc93734b4883e61d3c3015518d33bb6aed5f10": {
+    "response": "{\"labels\": [\"complaint\"], \"confidence\": 0.6, \"reason\": \"抱怨客服电话打不通，表达对服务的不满，倾向投诉；未明确要求转人工\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:f4e5efba5110e1e5a5db229e5180f73232f3a137": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.3, \"reason\": \"表述模糊，疑似延续前文申请操作，缺乏明确业务指向，倾向需人工协助处理\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:7ec3a6039bfb0066c23690b61198a9fd36d53ef9": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.85, \"reason\": \"用户索要售后电话，意图为联系人工客服\"}",
+    "prompt_tokens": 1956,
+    "completion_tokens": 33
+  },
+  "intent:deepseek-chat:1shot:9ea36f6dfc0c994ebeddd4fea7ce8dcc6b469d2e": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.4, \"reason\": \"账号换绑/验证码问题不属于10类售后业务，用户需人工协助处理，倾向转人工但置信度较低\"}",
+    "prompt_tokens": 1949,
+    "completion_tokens": 48
+  },
+  "intent:deepseek-chat:1shot:5e616615638f7ca2d4a774ec5d2f8e596e6506b4": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.6, \"reason\": \"e卡激活问题不属于生鲜售后10类业务，且用户无订单号寻求其他办法，倾向转人工协助处理\"}",
+    "prompt_tokens": 1950,
+    "completion_tokens": 48
+  },
+  "intent:deepseek-chat:1shot:d24ffd9b604381a7adea1164569938bed7e16673": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.4, \"reason\": \"修改预留电话属于账户信息变更，不在10类业务内，需人工处理，但用户未明确要求转人工，置信度较低\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 51
+  },
+  "intent:deepseek-chat:1shot:13915836fe608af21cca0610953457493de35b48": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.7, \"reason\": \"用户对机器人引导表示不理解，隐含希望获得人工协助，倾向转人工\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:3baea1baaa0f283e9e92483eabc0fe54e689d0c1": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.9, \"reason\": \"用户询问客服是否在线，属于明确要求人工客服\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 33
+  },
+  "intent:deepseek-chat:1shot:ca756420b4e0e4976a076b54fc09c4e32f1499fd": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.4, \"reason\": \"用户表达请求协助处理但未指明具体业务，倾向转人工，信息不足置信度低\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:8c0b2bd82d6eea289a7bcabda84e39f06b2c3eea": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.4, \"reason\": \"要求联系他人并自行取货，语义模糊，疑似需要人工协助处理，但无法明确归入现有业务类别\"}",
+    "prompt_tokens": 1951,
+    "completion_tokens": 47
+  },
+  "intent:deepseek-chat:1shot:7b82ca735672b83f9a15437f532e14374873bd32": {
+    "response": "{\"labels\": [\"invoice\"], \"confidence\": 0.85, \"reason\": \"涉及发票信息，归入发票开具类\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 28
+  },
+  "intent:deepseek-chat:1shot:7254dca3852a5d12b1dcc1f721e3053e36ccf6f7": {
+    "response": "{\"labels\": [\"invoice\"], \"confidence\": 0.85, \"reason\": \"询问赠品能否随发票寄送，核心涉及发票与配送安排，归发票类\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:f1cdb1b3cef902d07253af8d3ecc1038b50042d7": {
+    "response": "{\"labels\": [\"invoice\"], \"confidence\": 0.85, \"reason\": \"用户提及电子发票，属于发票相关咨询\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 28
+  },
+  "intent:deepseek-chat:1shot:6a767046be6442146ccdf1f409f856de8f78923b": {
+    "response": "{\"labels\": [\"invoice\"], \"confidence\": 0.95, \"reason\": \"询问订单能否开电子发票，属发票开具类\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 30
+  },
+  "intent:deepseek-chat:1shot:73a447e76fc508df50f25163656db833456d8056": {
+    "response": "{\"labels\": [\"invoice\"], \"confidence\": 0.95, \"reason\": \"用户咨询发票补开，属于发票开具类\"}",
+    "prompt_tokens": 1956,
+    "completion_tokens": 29
+  },
+  "intent:deepseek-chat:1shot:9e80c1d6f117ed405432ffe026a31ed9bd1c813f": {
+    "response": "{\"labels\": [\"invoice\"], \"confidence\": 0.95, \"reason\": \"询问能否开具专用发票，属发票开具类\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 29
+  },
+  "intent:deepseek-chat:1shot:a22f8f5542270bf370dbbf71f5b405ab2070c91e": {
+    "response": "{\"labels\": [\"invoice\"], \"confidence\": 0.95, \"reason\": \"询问订单能否开电子发票，属发票开具类\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 30
+  },
+  "intent:deepseek-chat:1shot:3ccbd75e9a29454a6ffeb13438e8a5156b28ca58": {
+    "response": "{\"labels\": [\"invoice\"], \"confidence\": 0.9, \"reason\": \"询问发票未提供，属发票开具类问题\"}",
+    "prompt_tokens": 1948,
+    "completion_tokens": 29
+  },
+  "intent:deepseek-chat:1shot:9f557c9b78da9d826604097f44d308a8cbef6ed5": {
+    "response": "{\"labels\": [\"invoice\"], \"confidence\": 0.95, \"reason\": \"询问订单能否开电子发票，属发票开具类\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 30
+  },
+  "intent:deepseek-chat:1shot:9747a968e892db8253f86ac6b576b1c2ef767b12": {
+    "response": "{\"labels\": [\"invoice\"], \"confidence\": 0.9, \"reason\": \"用户提供订单号并反馈查不到发票信息，属于发票相关问题\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 33
+  },
+  "intent:deepseek-chat:1shot:d0695856c0d6cb16a710246fc90f0740465d459e": {
+    "response": "{\"labels\": [\"invoice\"], \"confidence\": 0.95, \"reason\": \"用户要求修改发票，属于发票开具类\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 28
+  },
+  "intent:deepseek-chat:1shot:3a2a8d0281c3c3b220557e62524a1575adfa4876": {
+    "response": "{\"labels\": [\"invoice\"], \"confidence\": 0.9, \"reason\": \"询问发票金额是否包含运费，属发票开具相关问题\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 30
+  },
+  "intent:deepseek-chat:1shot:441113e7b8a69df3bf8b4c187bbb30a75135eaed": {
+    "response": "{\"labels\": [\"invoice\"], \"confidence\": 0.9, \"reason\": \"询问电子发票保存时效，属发票相关问题\"}",
+    "prompt_tokens": 1950,
+    "completion_tokens": 28
+  },
+  "intent:deepseek-chat:1shot:1254f26bbc77c260b35247dd0f04f6f4cde2d789": {
+    "response": "{\"labels\": [\"invoice\"], \"confidence\": 0.9, \"reason\": \"发票丢失属于发票相关问题，归入发票开具类别\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 30
+  },
+  "intent:deepseek-chat:1shot:db84b3d68f1b167c4377403aa66ab1ced53b80f8": {
+    "response": "{\"labels\": [\"invoice\"], \"confidence\": 0.95, \"reason\": \"询问订单能否开电子发票，属发票开具类\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 30
+  },
+  "intent:deepseek-chat:1shot:1ff8f61040712280ceec81a707cdb2020aa991dd": {
+    "response": "{\"labels\": [\"invoice\"], \"confidence\": 0.85, \"reason\": \"用户诉求围绕发票信息错误并要取消订单，核心是发票问题\"}",
+    "prompt_tokens": 1951,
+    "completion_tokens": 34
+  },
+  "intent:deepseek-chat:1shot:1fb6a35afc7d278dd8f315abade9abd6c4472fee": {
+    "response": "{\"labels\": [\"invoice\"], \"confidence\": 0.95, \"reason\": \"用户要求修改发票抬头税号，属发票类\"}",
+    "prompt_tokens": 1958,
+    "completion_tokens": 30
+  },
+  "intent:deepseek-chat:1shot:70a07b39febb5283f2465e9c441354c6543b5c56": {
+    "response": "{\"labels\": [\"invoice\"], \"confidence\": 0.9, \"reason\": \"涉及发票开具方式，属于发票类问题\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 28
+  },
+  "intent:deepseek-chat:1shot:a61ca70869a2339f2215d2b1c01a92289d298bae": {
+    "response": "{\"labels\": [\"invoice\"], \"confidence\": 0.95, \"reason\": \"发票信息填错要求重开，属发票作废重开场景\"}",
+    "prompt_tokens": 1950,
+    "completion_tokens": 34
+  },
+  "intent:deepseek-chat:1shot:b2562c763f343bf91ee0de4b708d2118b0b9de59": {
+    "response": "{\"labels\": [\"invoice\"], \"confidence\": 0.6, \"reason\": \"提及发票信息填写，属发票相关话题，但表述模糊，可能为闲聊式回应\"}",
+    "prompt_tokens": 1948,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:4f940dedbe84fa572e16ef7cc2dc2cd2ef382595": {
+    "response": "{\"labels\": [\"invoice\"], \"confidence\": 0.95, \"reason\": \"用户要求修改发票，属于发票开具类\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 28
+  },
+  "intent:deepseek-chat:1shot:d5b119dbe8e62757cfee77d2a8e357286e74eb94": {
+    "response": "{\"labels\": [\"invoice\"], \"confidence\": 0.85, \"reason\": \"用户提及发票，属于发票开具意图，附带订单号\"}",
+    "prompt_tokens": 1979,
+    "completion_tokens": 31
+  },
+  "intent:deepseek-chat:1shot:bbba235949a5c161b44074c046e0b57799b1cc92": {
+    "response": "{\"labels\": [\"invoice\"], \"confidence\": 0.95, \"reason\": \"询问发票能否分开开具，属发票开具类问题\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 30
+  },
+  "intent:deepseek-chat:1shot:edbe23125dbad327db6d63a2a11851b523fc0bbd": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.85, \"reason\": \"询问春节期间配送安排，属配送时效规则类知识咨询\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 33
+  },
+  "intent:deepseek-chat:1shot:e101ba324bf9db2e9d94644ab1ede0d50364c76c": {
+    "response": "{\"labels\": [\"invoice\"], \"confidence\": 0.6, \"reason\": \"“改成”结合地址信息，疑似修改发票抬头/地址，但表述不完整，置信度较低\"}",
+    "prompt_tokens": 1948,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:fac69ece5c04579768fab3b9eaa3f11967582799": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.95, \"reason\": \"询问橙子储存方式，属品质咨询\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 30
+  },
+  "intent:deepseek-chat:1shot:dfb666684ab554578adc67ae280c30c44318b4ab": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.2, \"reason\": \"内容与生鲜电商售后无关，疑似域外或误发，无法归入任一业务类别\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:a34ec3313ce86f5ca7948d487df96e522100de79": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.35, \"reason\": \"表述模糊，疑似询问食材处理/清洗是否干净，属品质咨询，但语义不明确置信度低\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 44
+  },
+  "intent:deepseek-chat:1shot:9769996d0257bcf070e34d881f358d73dd88f70d": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.4, \"reason\": \"问句缺少上下文，无法确定'一年周期'指什么，按售后政策时效类咨询归入品质咨询，置信度较低\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 49
+  },
+  "intent:deepseek-chat:1shot:fe60e9e680b6b0a784af74da82cefffb72d2ab1c": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.6, \"reason\": \"询问保修期是否收费，属售后政策类知识咨询，但表述与生鲜场景略有偏差，置信度中等\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 46
+  },
+  "intent:deepseek-chat:1shot:79467504b15cde591a3508e6315b237bd08f0a58": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.95, \"reason\": \"询问商品储存保鲜方法，属品质咨询\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 30
+  },
+  "intent:deepseek-chat:1shot:9a8dbf1e3e54ba8d8120848be115dad02b6fddac": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.6, \"reason\": \"询问换货后运费承担规则，属售后政策咨询，未涉及具体赔付认定或催单\"}",
+    "prompt_tokens": 1969,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:778e8cdbf3b1fcb61ccb954ee6fc376652e26ff5": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.85, \"reason\": \"询问价格保护申请时效，属售后政策咨询，归品质咨询\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 35
+  },
+  "intent:deepseek-chat:1shot:2f2789f7df0f229a5139334d61defbcc7d26869a": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.55, \"reason\": \"询问未购买时能否查看售后情况，属售后政策咨询，但表述模糊，把握较低\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:f6e8d629b54309b75fd3bb2787eadfee37eda18b": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.95, \"reason\": \"询问商品储存时长，属品质咨询\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 29
+  },
+  "intent:deepseek-chat:1shot:ca87264fc809f98e770cb98731d7615bb412dcd5": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.95, \"reason\": \"询问鸡蛋储存时长，属商品保鲜知识咨询\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 31
+  },
+  "intent:deepseek-chat:1shot:2e52b131f8b9196e4cdc44aa6baeddf0cef38b6a": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.95, \"reason\": \"询问商品储存时长，属品质咨询\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 29
+  },
+  "intent:deepseek-chat:1shot:4559d3d21dee499e7ae0f7028a0497c604ee4239": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.95, \"reason\": \"询问生蚝储存方式，属品质咨询\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 30
+  },
+  "intent:deepseek-chat:1shot:5e64395d6799a65e39c94a4e04eea835c77eae09": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.6, \"reason\": \"询问活动参与规则与发货延迟的关系，属售后政策类知识咨询，非具体订单赔付或催单\"}",
+    "prompt_tokens": 1952,
+    "completion_tokens": 44
+  },
+  "intent:deepseek-chat:1shot:ddcfe988260a0a1f805814a2001c7ff977320f48": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.4, \"reason\": \"询问商品售后换货政策，属售后政策咨询，但商品为老人机非生鲜，且表述模糊，把握较低\"}",
+    "prompt_tokens": 1985,
+    "completion_tokens": 48
+  },
+  "intent:deepseek-chat:1shot:195e1e21e59e2f31365cda1df3f51e2ae430c7ec": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"用户对订单来源存疑，想确认订单/商品归属，属订单信息核实，但表述模糊，把握一般\"}",
+    "prompt_tokens": 1966,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:4e429b50f7b005849437eb059c0ca7a6bac3636f": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"表述模糊，无法判断具体售后诉求，疑似域外或上下文缺失，降级为闲聊兜底\"}",
+    "prompt_tokens": 1948,
+    "completion_tokens": 43
+  },
+  "intent:deepseek-chat:1shot:c917cac0663143aa6c73ae94b6a51f2bd90089a2": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.55, \"reason\": \"询问保价服务能否追溯，属售后政策规则咨询，但保价非生鲜售后典型场景，置信度偏低\"}",
+    "prompt_tokens": 1953,
+    "completion_tokens": 47
+  },
+  "intent:deepseek-chat:1shot:0d39243ad33e85a31ed8c28a60fbc2db371369ff": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.4, \"reason\": \"表述模糊，疑似询问说明书/使用说明类知识问题，暂归品质咨询，建议低置信转人工\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 44
+  },
+  "intent:deepseek-chat:1shot:31a0c7d1ed2f6342f80543b05d407b118fda7859": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"表述与生鲜售后无关，疑似域外话题，但语义模糊无法确定具体意图\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:bd374f5bc7c168ccae1874cc9a5b86b50256e7ab": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.95, \"reason\": \"询问冷鲜肉储存时长，属商品保鲜知识咨询\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 33
+  },
+  "intent:deepseek-chat:1shot:0f7e92f9e300be71916dd4e4e384371743fd80fd": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.55, \"reason\": \"询问换货寄回流程，属售后政策咨询，但表述涉及京东自提点，与生鲜电商场景存在偏差，置信度较低\"}",
+    "prompt_tokens": 1950,
+    "completion_tokens": 52
+  },
+  "intent:deepseek-chat:1shot:4c4f6b652f7cda4396bed63a09480b4cccf9a577": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.35, \"reason\": \"问句表述模糊，疑似询问商品配件/套装不齐全的处理方式，更接近售后政策咨询，但无法确定具体意图\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 48
+  },
+  "intent:deepseek-chat:1shot:af1012a581c833d1f953696fc5fef850d866d82f": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.85, \"reason\": \"询问退货运费规则属于售后政策咨询，归品质咨询\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 34
+  },
+  "intent:deepseek-chat:1shot:a1c25d6cde1f7864bbbacac8355957dbb59e4b23": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.95, \"reason\": \"询问香蕉储存方式，属商品保鲜知识咨询\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 31
+  },
+  "intent:deepseek-chat:1shot:1a1bb41b3911dd8e088a39ea29bdd78dc8f55f1b": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.4, \"reason\": \"涉及订单赠品描述疑问，非明确售后类别，倾向商品/活动咨询，置信度低\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:229e53b12a6655d121b9357a795727fafa85449d": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.4, \"reason\": \"表述模糊，未明确是质量问题赔付还是使用咨询，暂归品质咨询待澄清\"}",
+    "prompt_tokens": 1949,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:59420da425ad122698baebdb9bf7de1b40729037": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"询问配送时间安排，属订单配送安排查询，但表述模糊可能涉及政策咨询\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:78ebf710092dde803b921307052dfedc24a59b69": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.95, \"reason\": \"询问商品冷冻后能否食用，属储存与食用安全的知识型咨询\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:522a91963f548c2ff6adce1531f8440306d69322": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.95, \"reason\": \"询问黄桃储存方式，属品质咨询\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 30
+  },
+  "intent:deepseek-chat:1shot:88ebf8220602813021683314b64a5465c21efb63": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.95, \"reason\": \"询问商品储存时长，属品质咨询\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 29
+  },
+  "intent:deepseek-chat:1shot:b5b153189ce9f760f6858ea16802dd943f5be59c": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.6, \"reason\": \"询问e卡付款与京享值权益，属平台支付权益类问题，非生鲜售后10类业务，归为域外闲聊\"}",
+    "prompt_tokens": 1949,
+    "completion_tokens": 51
+  },
+  "intent:deepseek-chat:1shot:e256bde4bf8fbfaba2950efb923a7a7c96859230": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.5, \"reason\": \"换货诉求未明确是质量问题还是政策咨询，按售后政策咨询归入品质咨询\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:e73cd988eca6ce7633530d55e77be93102b24723": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.4, \"reason\": \"问下单时无提示，属售后流程/规则咨询，但表述模糊，倾向品质咨询类知识问答\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 44
+  },
+  "intent:deepseek-chat:1shot:67ddb89b47574e26bcaa8ff6d0abb95dc8a61691": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.55, \"reason\": \"询问能否拒收，属售后政策咨询，但表述模糊缺乏上下文，置信度偏低\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:7ed6a068ac90ef46bb7cd2d014564a004bc82788": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.6, \"reason\": \"询问保修期属售后政策类知识咨询，但生鲜商品通常无保修概念，置信度偏低\"}",
+    "prompt_tokens": 1974,
+    "completion_tokens": 43
+  },
+  "intent:deepseek-chat:1shot:1fc8ea91df6ddb3245f601324f31a83239447c7b": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.3, \"reason\": \"问句缺少上下文，无法确定申请对象，倾向需要人工协助但置信度低\"}",
+    "prompt_tokens": 1939,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:915ebf3147688e6bcc7467a6a147d91ee0d6d512": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"问句缺少上下文，无法判断指向订单、理赔还是商品咨询，暂归域外低置信\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:8d40c753b45ed9e159c606ca66bbb4ed91b5df7a": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"问句指代不明，疑似询问退货寄回流程，但缺少上下文，暂按订单相关流程咨询处理\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 44
+  },
+  "intent:deepseek-chat:1shot:4453960f951fbcf7834bc065db5713ae9876172d": {
+    "response": "{\"labels\": [\"bad_fruit_claim\"], \"confidence\": 0.6, \"reason\": \"用户担心鲜花在配送中受损变坏，隐含对商品品质的赔付诉求，但表述较模糊\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:bf1ac91de1dc75086fadf768d45cc4f0c605d464": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.4, \"reason\": \"鞋子不属于生鲜电商售后范围，且未表达明确售后诉求，倾向域外\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:45a088c94e5f52edd40643c6b0c212b9f73feaac": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.85, \"reason\": \"询问退换货时效规则，属退款咨询\"}",
+    "prompt_tokens": 1954,
+    "completion_tokens": 32
+  },
+  "intent:deepseek-chat:1shot:cea515e59acd7b550cfdfd70fc32952405146520": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.55, \"reason\": \"询问秒杀/闪购能否价保，属售后政策咨询，但价保不在明确列举范围，置信度较低\"}",
+    "prompt_tokens": 1951,
+    "completion_tokens": 47
+  },
+  "intent:deepseek-chat:1shot:2ec76c3a7f6b466f4f9569a0dced32a2d8cf9e75": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.4, \"reason\": \"涉及换货流程与寄回要求的售后政策咨询，但表述模糊，未明确是规则咨询还是具体订单操作，置信度较低\"}",
+    "prompt_tokens": 1948,
+    "completion_tokens": 50
+  },
+  "intent:deepseek-chat:1shot:7fd4f884f9a57f60d2a63ea18859c5c72e12ade2": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.6, \"reason\": \"用户询问换新政策是否一年有效，属于售后政策咨询，但表述模糊可能涉及具体订单争议，置信度中等\"}",
+    "prompt_tokens": 1964,
+    "completion_tokens": 47
+  },
+  "intent:deepseek-chat:1shot:8bfc57d27f7a9c3e1ad4a22fd443cb105369fe6a": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"仅提供订单信息，未说明具体诉求，倾向订单查询但置信度低\"}",
+    "prompt_tokens": 1962,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:18ebebb276ad09765c149bb766b0c268853836e6": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"询问配送人员是否与之前相同，属配送安排类订单查询，但表述模糊\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:e4697c97b20eab15955bfa7b104e627b0505d9ac": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"修改配送地址属于订单配送安排相关，归入订单查询，但表述较模糊\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:f2aaef3244c6053618396089fbdaaaae7040ecd6": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.4, \"reason\": \"用户询问修改退货单地址，属于售后操作但不在10类明确范围内，且上下文为客服会话，倾向转人工处理\"}",
+    "prompt_tokens": 1965,
+    "completion_tokens": 49
+  },
+  "intent:deepseek-chat:1shot:01b134596dc8969a6a8e0a04846152242dbf594b": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户提供订单号和商品ID咨询，未明确诉求，最接近订单查询，但表述模糊置信度较低\"}",
+    "prompt_tokens": 1954,
+    "completion_tokens": 43
+  },
+  "intent:deepseek-chat:1shot:7be7b2bc56f6240df45926c1d662f10fb12ed92a": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"用户询问订单能否修改，未明确是地址、发票还是退款等具体诉求，暂归订单查询，置信度较低\"}",
+    "prompt_tokens": 1966,
+    "completion_tokens": 46
+  },
+  "intent:deepseek-chat:1shot:3307dff7c294de831b2991904f058a1c6c11b9e8": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"表述模糊，疑似询问订单/物流状态未更新，倾向订单查询但把握较低\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:80d37a2205c32f265ace228e459da37ec96c33c1": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"仅提供订单号，未说明具体诉求，按最常见订单查询处理\"}",
+    "prompt_tokens": 1949,
+    "completion_tokens": 35
+  },
+  "intent:deepseek-chat:1shot:35ce8d48629c7e364a9a8f9a97951326ea52cfce": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"表述模糊，疑似询问订单/售后处理进度，但未明确诉求，倾向订单查询\"}",
+    "prompt_tokens": 1948,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:22aba365f0ceeaf83a7d86fa9abae32a78665c4a": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.9, \"reason\": \"询问订单当前状态，属典型订单查询\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 29
+  },
+  "intent:deepseek-chat:1shot:face3032fbe688faf21668cadf5ad33bdb4474c9": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"询问订单暂停服务原因，属于订单状态查询\"}",
+    "prompt_tokens": 1948,
+    "completion_tokens": 30
+  },
+  "intent:deepseek-chat:1shot:f05a4a12af586cbd9341bf4529b9260c37fdcf35": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"仅提供订单编号和金额，未说明具体诉求，倾向订单查询但信息不足\"}",
+    "prompt_tokens": 1965,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:0d3c0a437ff8125b005714c2d8be57c6e7daf216": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.9, \"reason\": \"用户提供订单号并询问能否查询订单，属于订单查询意图\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 34
+  },
+  "intent:deepseek-chat:1shot:084e5e9474bc0ad35713a6882b36489fe5d8ab73": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户提及送达日期，疑似询问配送安排或送达时间，属订单查询，但表述不完整，把握较低\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 44
+  },
+  "intent:deepseek-chat:1shot:e52ff462dfca17f3dd88734928cdaf8005149e9a": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户提及订单号并说明刚申请换货，更像询问该订单换货进度/状态，但表述较模糊，未明确诉求\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 49
+  },
+  "intent:deepseek-chat:1shot:db64ff25027f4593c08dcf8b9895a96223677d0a": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.75, \"reason\": \"想获取配送员联系方式，属于配送安排/订单查询范畴，未带催促或赔付诉求\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:d772253d87cb87af8ae0862b060f792f4d2b379e": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"用户提到订单弄错想重新下单，诉求不明确，可能涉及订单处理，暂归订单查询，置信度较低\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 46
+  },
+  "intent:deepseek-chat:1shot:be39e5d057e49124b4f84f093751c1054d5fff85": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"仅提供订单号，未说明具体诉求，按最可能的订单查询处理\"}",
+    "prompt_tokens": 1956,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:fcb47f4f9f94d28250a86d2ab722cc6c492db47f": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户提供订单号、金额、下单时间，疑似想查询该订单状态，但问句未明确诉求，按最近类别归为订单查询\"}",
+    "prompt_tokens": 1961,
+    "completion_tokens": 51
+  },
+  "intent:deepseek-chat:1shot:9aa74d71620f53f56081dfc2e06b24ef554c9872": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"用户抱怨看不到订单信息才找客服，隐含查询订单状态诉求，但表述模糊且带情绪，置信度较低\"}",
+    "prompt_tokens": 1954,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:b007102df51030df14f99d76191c063901c84489": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"问句缺少上下文，推测为询问订单配送地址或联系电话，倾向订单查询，但信息不足置信度较低\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 44
+  },
+  "intent:deepseek-chat:1shot:f12a78780821b5f21f9bc37350c57ffa433667db": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户想查询申请是否成功，属于订单/申请状态查询，但未明确是退款还是其他申请，故置信度中等\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 47
+  },
+  "intent:deepseek-chat:1shot:90fee3aeed8936e9398b7d20b8639a6da85c2427": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"用户询问未收到货，属于订单签收/物流状态查询，无催促或赔付诉求\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:0cd30998adef2e8352e8af905dc3c5182b41c9cc": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.95, \"reason\": \"询问是否已发货，属订单状态查询\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 29
+  },
+  "intent:deepseek-chat:1shot:b08b83c4e75f30069ca888d73fd85b2660d215f9": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"询问配送对接方式，属订单配送安排查询，但表述模糊\"}",
+    "prompt_tokens": 1948,
+    "completion_tokens": 34
+  },
+  "intent:deepseek-chat:1shot:3d3910c7898f245fb904f1f27cfcc35eb27926d9": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"表述模糊，疑似询问发货/换货状态，倾向订单查询但把握较低\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:e3167534909b93c0fd82d6199d45e1935577a51c": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"用户想修改订单，未明确是查询、退款还是其他售后动作，暂归订单相关但置信度低\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 44
+  },
+  "intent:deepseek-chat:1shot:48dcda42f3b89fe5f271e23a18e10d3edb1265ce": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"问句过短且缺少上下文，推测是想了解订单配送地址或物流去向，暂归订单查询，置信度较低\"}",
+    "prompt_tokens": 1940,
+    "completion_tokens": 46
+  },
+  "intent:deepseek-chat:1shot:853493e99b069a0490c9778b6288a204774f841b": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"仅说已申请售后，未明确是查进度、催单还是理赔，倾向订单/售后状态查询，置信度较低\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 47
+  },
+  "intent:deepseek-chat:1shot:730ad265cf1baa3fe8324635ea0fdfde40b4ab82": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"用户描述取消订单后被告知无法拦截需拒收，核心是想了解订单当前状态与配送处理，属订单查询；但表述模糊，也可能涉及退款流程，故置信度中等\"}",
+    "prompt_tokens": 1958,
+    "completion_tokens": 60
+  },
+  "intent:deepseek-chat:1shot:0fefea8b71ec96b33db02ba438e543439009069b": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.5, \"reason\": \"用户仅提供订单编号、金额和下单时间，未明确诉求，最可能是想查询订单状态，但信息不足，置信度较低\"}",
+    "prompt_tokens": 1962,
+    "completion_tokens": 49
+  },
+  "intent:deepseek-chat:1shot:ed707ad99e3209b6cfbd11ad8b1b7bd0daf8520a": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"询问是否已与快递联系，属于物流进展查询，但表述模糊，把握一般\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:104637db59ff1e9e0ceaf777e4a91df63746d41b": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"询问物流状态为何仍显示派件，属订单查询\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 32
+  },
+  "intent:deepseek-chat:1shot:268c4cb46ad11c6935859df8508902dfad0cba5f": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.95, \"reason\": \"询问是否已发货，属订单状态查询\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 29
+  },
+  "intent:deepseek-chat:1shot:86d3ecada2f4a4b65827bd064a771cc447eff4c4": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"询问货物当前所在位置，属物流状态查询\"}",
+    "prompt_tokens": 1948,
+    "completion_tokens": 30
+  },
+  "intent:deepseek-chat:1shot:4fa5897c719eeda61615542fa0ab7abfaad9812b": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"修改地址属于订单配送安排相关，但表述简短未明确是查询还是操作诉求，倾向归入订单查询类\"}",
+    "prompt_tokens": 1939,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:e56d88d4fab24183f21d5f3d0ffc4b7b4167f563": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.95, \"reason\": \"询问是否已发货，属订单状态查询\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 29
+  },
+  "intent:deepseek-chat:1shot:7fa99825881f063f710d66edeb4fa6a8afe4a0fc": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"询问配送安排能否更改，属订单配送安排查询\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 31
+  },
+  "intent:deepseek-chat:1shot:d0c5071724de190ed94fe071afcbe073274733e6": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"询问订单被谁取消，属于订单状态/原因查询，但表述较模糊，可能需结合上下文确认\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 43
+  },
+  "intent:deepseek-chat:1shot:d7cafa86178bb33d62af0b0e0800a1279b85d0f4": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"用户想确认订单对应的快递公司，属于订单/物流信息查询\"}",
+    "prompt_tokens": 1995,
+    "completion_tokens": 34
+  },
+  "intent:deepseek-chat:1shot:442bb754424410999555d9dfe1fa999eb18bb6fe": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户提供订单号咨询，未明确诉求，按订单查询处理\"}",
+    "prompt_tokens": 1961,
+    "completion_tokens": 34
+  },
+  "intent:deepseek-chat:1shot:411abda85778fbeaf40d3ce2a24463a6b31d7219": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"询问物流节点并咨询能否自提，属订单配送安排查询\"}",
+    "prompt_tokens": 1953,
+    "completion_tokens": 34
+  },
+  "intent:deepseek-chat:1shot:76dd92908f09a8406bbf84bcc1d9dfbf5b484855": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户提供订单号等信息咨询订单，未明确具体诉求，按订单查询处理\"}",
+    "prompt_tokens": 1961,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:8473044754510cd2c7a3a71a39f1fb06a885532a": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.9, \"reason\": \"询问配送时间安排，属订单查询\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 28
+  },
+  "intent:deepseek-chat:1shot:11e411eb51a165e5deb363de8563a9d4dbd66f2c": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"索要配送员联系方式属于配送安排相关，但涉及隐私，归为订单查询类\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:2c57030cf54a776cac729ed50823ae09af3f7ac6": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"地址写错想修改配送信息，属订单配送安排类，但表述模糊，可能需转人工处理\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 43
+  },
+  "intent:deepseek-chat:1shot:121ebe66ac544c68de7aa63aabde619bfa50a1af": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户仅发送订单编号、金额、下单时间等订单信息，未明确诉求，最可能是想查询该订单状态，但意图不明确故置信度中等\"}",
+    "prompt_tokens": 1974,
+    "completion_tokens": 54
+  },
+  "intent:deepseek-chat:1shot:2d587d00e9a942f59f60dd3dca8083e2cddccbe7": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户咨询指定订单与商品，未明确诉求，按订单查询处理\"}",
+    "prompt_tokens": 1954,
+    "completion_tokens": 35
+  },
+  "intent:deepseek-chat:1shot:adf0b040acc86fda6af74a93492477a881c8d8cc": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"询问快递预留电话能否修改，属于配送安排类订单查询，但表述模糊，把握一般\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:6a6d03f544593a9e1df5ff3924757f2ab05e933a": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.95, \"reason\": \"典型订单查询问法\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 25
+  },
+  "intent:deepseek-chat:1shot:bded75b2231467e8100f045a36a594266eec36c8": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"用户表述模糊，疑似询问订单被自动取消的情况，倾向订单状态查询，但语义不明确\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:9014b3a07ff5b8026e8be3f53589b5579b09acf9": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"问句模糊，疑似询问订单能否完成/状态，倾向订单查询但把握较低\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:ab1cff7ad2731529728fbabfa1640c0e043d50b1": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"用户对订单识别方式有疑问，涉及具体订单但表述模糊，倾向订单查询，置信度较低\"}",
+    "prompt_tokens": 1953,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:e771ebf3c5c1fbc9b5268aa8275a5538e37f7528": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.75, \"reason\": \"用户表示未收到货，属于询问签收/配送情况，但表述模糊未带催促或赔付诉求\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 43
+  },
+  "intent:deepseek-chat:1shot:42636eeb900a7a0b28bcabaaa8e9cf921872959b": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.7, \"reason\": \"询问配送方式，属订单配送安排查询\"}",
+    "prompt_tokens": 1978,
+    "completion_tokens": 29
+  },
+  "intent:deepseek-chat:1shot:9870ca3ea4ce17b708d6a7430c97602dd99a1912": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"询问订单签收状态与交易完成异常，属订单查询\"}",
+    "prompt_tokens": 1949,
+    "completion_tokens": 33
+  },
+  "intent:deepseek-chat:1shot:b079ab6a22b3868ec85ef78a6514c9ed68ef6da6": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"询问配送到达时间，属订单配送安排查询\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 30
+  },
+  "intent:deepseek-chat:1shot:b47d5324a83725dcdb79983033bfbb0b029d12ef": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"询问物流分拣节点，属订单状态查询\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 30
+  },
+  "intent:deepseek-chat:1shot:9e474390110f5c0942d5928e162fa39b34d59863": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.9, \"reason\": \"询问指定订单是否已发货，属订单状态查询\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 31
+  },
+  "intent:deepseek-chat:1shot:3e421756305fca3b84923a1e337678681625535b": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.9, \"reason\": \"询问今日能否送达，属于配送安排查询，无催促诉求\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 33
+  },
+  "intent:deepseek-chat:1shot:8950b25775a2807e27e0a6864e0b7e7bc151a187": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"询问配送/到货时间，属订单查询；但'鞋子'非生鲜品类，语义略模糊\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 43
+  },
+  "intent:deepseek-chat:1shot:023c061455b6ee5757081b2391806bc0760b0839": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"用户提及查网址，倾向查询订单/物流，但表述模糊，置信度中等\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:636b438db3d22ae019e7082b97f6b1054c3f20e1": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.9, \"reason\": \"询问配送能否按时到达，属订单配送安排查询，无催促或赔付诉求\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:c82e32fdc1a2e027ef2da43fd6250d01cfd4b545": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"涉及配送员信息，偏向配送安排查询，但表述模糊，置信度较低\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:816bc5d05f1627c9e94effb826f3837f1e38bae4": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.9, \"reason\": \"询问订单是否已取消，属于订单状态查询\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 30
+  },
+  "intent:deepseek-chat:1shot:8e7a5ecc347f54a9105e4c7febf1aa497989c8e2": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户想修改配送地址，属于配送安排相关，归入订单查询；但改地址诉求较模糊，把握一般\"}",
+    "prompt_tokens": 1950,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:6d690302e97b01058c1a273a21f8df076288a730": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"用户想查看今天全部订单，属于订单查询诉求\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 31
+  },
+  "intent:deepseek-chat:1shot:3cbffbb7ce78a3f1e520d2627286779673b67c0f": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.7, \"reason\": \"用户反馈取消订单后仍有商品发货，想了解订单状态与配送情况，属订单查询；未明确催单或赔付诉求\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 48
+  },
+  "intent:deepseek-chat:1shot:7c2a2a82c8c27b625bcfe5222ea938f46f42b4da": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.95, \"reason\": \"典型订单物流查询问法\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 26
+  },
+  "intent:deepseek-chat:1shot:22e1e05a4ef8fe106a78493942ea86c82883d298": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"询问申请状态，语义模糊，最接近订单/申请进度查询，但未明确是退款还是订单\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:144e56a88c0a2fc1e245756722f2030e17a4a745": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.9, \"reason\": \"询问配送安排与预计送达时间，属订单查询\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 31
+  },
+  "intent:deepseek-chat:1shot:80878f51c5e52555d62c1f8a1be0bfc252248158": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户提供订单号和商品ID咨询，未说明具体诉求，最接近订单查询，但信息不足置信度较低\"}",
+    "prompt_tokens": 1954,
+    "completion_tokens": 44
+  },
+  "intent:deepseek-chat:1shot:2d15c72327430891d872523f08b7842419d2c46a": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.55, \"reason\": \"用户问'不是退货了吗'，语义模糊，可能是在确认退货/退款进度，倾向退款咨询，但信息不足置信度较低\"}",
+    "prompt_tokens": 1940,
+    "completion_tokens": 51
+  },
+  "intent:deepseek-chat:1shot:c81778579870edb25d55ee0091255d09f136a4af": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"询问预约是否成功，偏向订单/预约状态查询，但'预约'场景不明确，置信度中等\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 43
+  },
+  "intent:deepseek-chat:1shot:d79af8aa8ace2fbcebce61fa5294018c3a97c84c": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"用户说刚点错取消订单，意图偏向订单状态/取消结果查询，但表述模糊，可能涉及退款或人工协助，置信度中等\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 51
+  },
+  "intent:deepseek-chat:1shot:aaebec4abba79eb585e6ea6a6d895e50207239b0": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"询问配送范围/能否送达，属配送安排类订单查询，但表述较模糊\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:7c4a22afa713699cfdc7ff659eb5cd9d2a3f5584": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户询问配送地址变更，属于配送安排类订单查询，但表述简短存在歧义\"}",
+    "prompt_tokens": 1959,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:dab9b4d201611823b4168da631dc2301f0471acb": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.9, \"reason\": \"询问发货时间安排，属订单状态查询，无催促诉求\"}",
+    "prompt_tokens": 1961,
+    "completion_tokens": 33
+  },
+  "intent:deepseek-chat:1shot:cb74b7f5bb5dd1178fe88bd75f64dd2de6358de9": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.55, \"reason\": \"用户咨询修改订单手机号，涉及跨平台操作，疑似需要人工协助处理，但表述模糊，置信度较低\"}",
+    "prompt_tokens": 1954,
+    "completion_tokens": 47
+  },
+  "intent:deepseek-chat:1shot:3d73e834054fe2179ca12fc14316ea3287087356": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户提供订单号等信息咨询订单，未明确具体诉求，最接近订单查询\"}",
+    "prompt_tokens": 1961,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:b188314baffbab10a6c0a8a9f49672ee9d7ad882": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.5, \"reason\": \"仅提供订单信息，未说明具体诉求，按最可能的订单查询处理\"}",
+    "prompt_tokens": 1962,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:c1b1a196f1e096595250c4cb545daa48a7c5343f": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户提供订单号、金额、下单时间，疑似想查询该订单状态，但问句本身未明确诉求，按最近类别归订单查询\"}",
+    "prompt_tokens": 1961,
+    "completion_tokens": 51
+  },
+  "intent:deepseek-chat:1shot:47f382fedec80b8f1c8b5b07f7e116435ba335ec": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"询问微信端能否查单，属订单查询渠道问法，但表述模糊，把握一般\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:148e47868f6deccb037b4376b3ba85aef542a8e9": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户提供订单号咨询，未明确诉求，按订单查询处理\"}",
+    "prompt_tokens": 1961,
+    "completion_tokens": 34
+  },
+  "intent:deepseek-chat:1shot:41fef11bd69de78b25660f1eeeec682647630342": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"询问取件单号当前状态，属于订单/物流状态查询\"}",
+    "prompt_tokens": 1951,
+    "completion_tokens": 34
+  },
+  "intent:deepseek-chat:1shot:6f41a6c573f22895c21b5cf06741e16a8346710e": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"用户表示未看到物流信息，属于询问订单物流状态，无催促或赔付诉求\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:33c41b12be627b8862f6349a39cd132ad209f465": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"用户提供新订单号，疑似想查询该订单状态，但表述不完整，意图不够明确\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:0e25a8ce206e6a5226656f251de70b541c0a4fff": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.95, \"reason\": \"典型订单查询问法，询问物流进度\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 29
+  },
+  "intent:deepseek-chat:1shot:e2cb3eb21b7a801d4d256a4ef5b9f5fd8250e61e": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.7, \"reason\": \"询问配送是否正常，属配送安排类订单查询，但未指明具体订单，置信度中等\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:3096b85050e7c77315c7919f83a4e17863183284": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"用户询问订单为何显示已签收但未收到货，属于订单状态与签收情况查询\"}",
+    "prompt_tokens": 1952,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:8ffc514b77b48fb4c337f838dcbb05a41f1a70ea": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"修改订单表述模糊，可能涉及订单操作或查询，暂归订单查询但置信度低\"}",
+    "prompt_tokens": 1939,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:815e920c2e265fdcb6a78834c25dd70ffddbc5ee": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"表述模糊，疑似询问安装服务取消状态，倾向订单/服务状态查询，但信息不足\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:adf919d265a4c080c80df756ef327b1d7de8ba01": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"用户陈述取消订单，未明确诉求，最接近订单状态查询，但意图模糊\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:f50a4c00c61719bd5ff393898d3cfad2028dd936": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"涉及订单地址/定位问题，偏向订单信息核对，但表述模糊，可能需人工确认\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:f31d47f5baed35a399e0836bc798015df1e727fa": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"用户提到自己取消了订单，疑似想确认订单状态，但表述模糊，暂归订单查询\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:aef9055f81c447d0c0681327c2a6b9432cd11482": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.9, \"reason\": \"询问快递送达时间，属订单物流状态查询，无催促诉求\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 34
+  },
+  "intent:deepseek-chat:1shot:c9e65d03b00359f457e0a706130854b237d21755": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.95, \"reason\": \"典型订单查询问法，想了解物流进度\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 30
+  },
+  "intent:deepseek-chat:1shot:5eb5ccefafeb870a56b59f17b707f8a3fccdc9c9": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.75, \"reason\": \"想联系配送员了解配送安排，属订单配送查询范畴\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 33
+  },
+  "intent:deepseek-chat:1shot:af1a6371e3bca6ba80c5bc254d560f96cd10d354": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"表述模糊，可能指没有物流信息或未收到货，倾向订单查询，但信息不足\"}",
+    "prompt_tokens": 1939,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:3395cfb0f679d635226014a297fa2a113972bb82": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户提供订单号咨询，未明确诉求，按订单查询处理\"}",
+    "prompt_tokens": 1961,
+    "completion_tokens": 34
+  },
+  "intent:deepseek-chat:1shot:a0228eb2ded8287f71ff69201412b3318e606cc0": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.4, \"reason\": \"用户仅陈述刚拍下手机，未表达查询、催单、理赔等任何售后诉求，信息不足难以归入具体业务类别\"}",
+    "prompt_tokens": 1975,
+    "completion_tokens": 50
+  },
+  "intent:deepseek-chat:1shot:b8027534788dd82ba8edd53c3025ca52249e9327": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"表述像在说明自提点取货流程，涉及订单号与配送安排，倾向订单查询，但语义不完整、把握较低\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 49
+  },
+  "intent:deepseek-chat:1shot:742cb73c9835cad66a9a80cc1297eb200033023a": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.9, \"reason\": \"询问物流派送状态，属订单查询\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 29
+  },
+  "intent:deepseek-chat:1shot:14c26e1db1ecf0efa66475eb27625362a73d6485": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.95, \"reason\": \"用户明确要查询订单配送信息，属典型订单查询\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 32
+  },
+  "intent:deepseek-chat:1shot:e3ca64ec66bc91202aa98b5395b595e1883600fc": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.75, \"reason\": \"用户按预期时间推测应到货，隐含询问物流/签收状态，无催促或赔付诉求，归订单查询\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 46
+  },
+  "intent:deepseek-chat:1shot:52224b262a44129745bcd50dcc5bbfc30d79c157": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"表述不完整，疑似询问快递当前状态或配送安排，倾向订单查询但把握较低\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:c4d283bbb6672c1dabc843175dea5062c14dd9a9": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"用户追问签收情况，属订单查询，延续上一轮查单语境\"}",
+    "prompt_tokens": 1970,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:d532015947812fded29f0eb3df570d9bca1fbf04": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"仅问候并提及地址，未表达任何售后诉求，无法判断具体意图\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:47909348982ce9dc972502c894bc4b7b19ffba79": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"用户表述不完整，仅提到买了两个并请求查看，倾向订单查询但信息不足\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:9504d4a2f9728a8ee6531b0af7fafb5bbf1ca667": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.4, \"reason\": \"提及售后要求退货，疑似对处理不满或需人工介入，但表述模糊，倾向转人工\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 43
+  },
+  "intent:deepseek-chat:1shot:03bc137cb8a907dbd588ebd27cfe0259cfadea91": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"用户描述客服来电告知换货尺码无货并已同意申请，想了解该情况含义，偏向订单/换货状态查询，但表述模糊，把握较低\"}",
+    "prompt_tokens": 1954,
+    "completion_tokens": 56
+  },
+  "intent:deepseek-chat:1shot:86d4a6d14532df935c68ed98dd6143bff408cbdf": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.4, \"reason\": \"改收货地址不属于10类售后意图，且含寒暄致谢，倾向域外；但地址修改可能需人工处理，置信度较低\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 52
+  },
+  "intent:deepseek-chat:1shot:eb78c401c9962a46883ce8893b0d4df87fe76524": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"询问等待时长，偏向订单状态查询，但表述模糊未指明具体环节\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:c45368e6010c5392fb0b7a4ea4a3ebac6d2cc1e8": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"询问物流承运方，属订单物流信息查询，但表述模糊，把握一般\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:04c12f9fe697c1644239266a22d9dfe42546c7d8": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户仅发送订单编号、金额、下单时间等订单信息，未明确诉求，最接近订单查询，但意图不明确\"}",
+    "prompt_tokens": 1974,
+    "completion_tokens": 47
+  },
+  "intent:deepseek-chat:1shot:da646118be700b332f1653079342cd673074c1fb": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.75, \"reason\": \"用户确认自提点已收到货，属于订单签收情况确认，归为订单查询\"}",
+    "prompt_tokens": 1951,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:5a36f8d3bcc97aa8b56c900a3c6b244c5c8aecb5": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"仅提供订单编号和金额，未说明具体诉求，倾向订单查询但信息不足\"}",
+    "prompt_tokens": 1965,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:1d4463c3d7d3564037740d903fc58b1abbdf2890": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"表述模糊，疑似询问配送安排是否可避免白跑，倾向订单查询但把握较低\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:09de8ae63d784aa8107181bee4be39745eb6d3bf": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.95, \"reason\": \"典型订单物流查询问法\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 26
+  },
+  "intent:deepseek-chat:1shot:fcf292ca195bdc719bde917928de4deaabd89072": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.95, \"reason\": \"典型订单查询问法，询问物流进度\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 29
+  },
+  "intent:deepseek-chat:1shot:50a94f9abb407fd7d41c18506527018acc313070": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"问句涉及邮寄往返时间，语义模糊且与生鲜售后10类业务无明确对应，倾向域外兜底\"}",
+    "prompt_tokens": 1986,
+    "completion_tokens": 47
+  },
+  "intent:deepseek-chat:1shot:403fee8af4a99665cc5730e208d54d72886b144e": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"询问自提点位置是否与京东配送点一致，属配送安排类订单查询，但表述较模糊\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 43
+  },
+  "intent:deepseek-chat:1shot:030f05d459ad0f4e5a45802ec75bc0a10facfe34": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"用户反映签收状态与实际不符，属于订单签收情况查询，诉求是核实订单状态\"}",
+    "prompt_tokens": 1951,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:28f9dcd41ae0f90c9ba7b76040dab466e0cb0c9f": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"询问配送后收货码未发，属订单配送状态查询\"}",
+    "prompt_tokens": 1956,
+    "completion_tokens": 33
+  },
+  "intent:deepseek-chat:1shot:18e311248c74ab7eb81220952937365bafe3e2dc": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.5, \"reason\": \"仅提供订单号，无明确诉求，按最近类别归为订单查询\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:74b0f2154a3589e418429712af81678a61227e50": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"用户抱怨历史订单未合并发货，倾向询问发货/配送安排，属订单查询，但表述模糊、无明确诉求\"}",
+    "prompt_tokens": 1948,
+    "completion_tokens": 46
+  },
+  "intent:deepseek-chat:1shot:3858c9cec1693cab9b2762fe9ea89ce3cc2b13c2": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.9, \"reason\": \"询问签收人，属于订单签收情况查询\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 31
+  },
+  "intent:deepseek-chat:1shot:c35973d7862c53fdcb9b8b4e1194b889c05cc19c": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"用户引用客服此前建议拒收，意图不明确，可能涉及订单配送状态或售后处理，暂归订单查询，置信度低\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 49
+  },
+  "intent:deepseek-chat:1shot:4650aa9865809d1164debb84d5ffbc4ea3c17a2d": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.95, \"reason\": \"询问是否已发货，属订单状态查询\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 29
+  },
+  "intent:deepseek-chat:1shot:936f3c1e074e71960267c6f141d00a032099b81c": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户提供订单号并说明是杯子订单，未明确诉求，倾向订单查询，但表述模糊\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:76f460c184d7307904130c8063d04d5e304de4f6": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.75, \"reason\": \"用户描述显示已签收但本人未收到，核心诉求是核实订单签收与配送情况，属订单查询；未明确要求赔付或催单\"}",
+    "prompt_tokens": 1968,
+    "completion_tokens": 53
+  },
+  "intent:deepseek-chat:1shot:638921aeb92dcb9e848632ca44411545cfc8231b": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.6, \"reason\": \"询问退货取件与营业厅投递的售后流程规则，属政策咨询；未明确要求人工或投诉\"}",
+    "prompt_tokens": 1949,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:5e048614246e1d0711ca1b838190f8b416de95dd": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"用户询问订单显示已完成是否代表周一配送，属于配送安排与订单状态查询\"}",
+    "prompt_tokens": 1992,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:a5d730d8cdb02a846abbb42834b2bfa27d30cb97": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户提供订单号、金额、下单时间，疑似想查询该订单状态，但问句不完整，按订单查询处理\"}",
+    "prompt_tokens": 1961,
+    "completion_tokens": 47
+  },
+  "intent:deepseek-chat:1shot:f79606a303b4c650341e4c016f4d39d2c94e60b2": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.95, \"reason\": \"用户想查询生蚝订单的物流进度，属于典型订单查询\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 34
+  },
+  "intent:deepseek-chat:1shot:15c8c79a5e79dff3c51be5cbe60d18571f8382d6": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"询问确认收货操作入口，属于订单状态相关查询\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 31
+  },
+  "intent:deepseek-chat:1shot:2641c4631cda59df52ab20cdb2333d52520130d0": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"用户询问自取点位置，属于配送安排类订单查询，但表述较模糊，把握一般\"}",
+    "prompt_tokens": 1969,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:92b8d34a10fecf397a91424ad06e00c766f23e35": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"表述模糊，疑似确认配送地址，倾向订单配送安排查询，但信息不足\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:030724557a4d39c0e508af40cafd1685c4b4a235": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户提供订单号并提及新订单号，疑似想查询该订单状态，但表述不完整，倾向订单查询\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:4b2ddc676fcea19e43cf0b16460b51da123fd5ab": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.7, \"reason\": \"询问订单被取消的状态，属订单状态查询，但未明确诉求，置信度中等\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:87bc3af142a7070f7a04ac9b67037c32fa58b3da": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户提供订单号和商品ID咨询，未明确诉求，最接近订单查询，但表述模糊置信度较低\"}",
+    "prompt_tokens": 1954,
+    "completion_tokens": 43
+  },
+  "intent:deepseek-chat:1shot:41fcd5651aa68708b6e8db054e18d74109efe873": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"问物流为何没更新，倾向订单查询，但表述模糊缺少订单指代\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:b9be7d80d126caa8691149d4990351f176619c65": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"询问采购/到货时间进度，属订单状态查询；但'书本采购'非生鲜典型场景，置信度偏低\"}",
+    "prompt_tokens": 1965,
+    "completion_tokens": 47
+  },
+  "intent:deepseek-chat:1shot:f107e19cfd5298427bbf65931afafcb2ce314856": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.35, \"reason\": \"表述模糊，'改订单'可能指修改订单信息或查询订单，缺乏明确动作指向，倾向订单相关但不确定\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 46
+  },
+  "intent:deepseek-chat:1shot:2cc4d4eece86d3566264431200143438b2bda1ae": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.7, \"reason\": \"询问配送是否含安装，属配送安排类订单查询，但表述较模糊\"}",
+    "prompt_tokens": 1977,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:85307abb4f216507426db884c47527903419a99e": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.95, \"reason\": \"用户想查询玉米订单的物流进度，属典型订单查询\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 33
+  },
+  "intent:deepseek-chat:1shot:9fd529ac88c5e7115d844b25b01271959474d5fb": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.95, \"reason\": \"用户提供订单号并明确要求物流查询，属订单状态查询\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 34
+  },
+  "intent:deepseek-chat:1shot:a0bdb5fa6174236afcda94a4c2856bfa10a2add4": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"描述代收未成、快递被退回，属配送签收情况查询，但表述模糊，把握一般\"}",
+    "prompt_tokens": 1955,
+    "completion_tokens": 43
+  },
+  "intent:deepseek-chat:1shot:c0df65b0955cde74ed56a6cc2b2facbfade6293e": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"仅提供订单编号，未说明具体诉求，按最近类别推测为订单查询，置信度较低\"}",
+    "prompt_tokens": 1939,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:ad3efcc139cdff6b38784a6561422b705c56cdcc": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"用户询问已签收订单的退款处理方式及能否留货，涉及订单状态与退款流程，意图模糊，倾向订单查询/退款咨询\"}",
+    "prompt_tokens": 2016,
+    "completion_tokens": 51
+  },
+  "intent:deepseek-chat:1shot:de437fc9cabf8fe7b4e1a00374d61e606d9da5e3": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.9, \"reason\": \"询问配送安排，属订单查询\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 27
+  },
+  "intent:deepseek-chat:1shot:027a4ede26a869604ef833ab607bac83e0d4460f": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户误取消订单想恢复，涉及订单状态处理，最接近订单查询类，但表述较特殊置信度中等\"}",
+    "prompt_tokens": 1953,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:903a05e8b2c62b49681d5b9237f6491e13a6d0f1": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"询问预计到达时间变化，属订单配送安排查询，无催促或赔付诉求\"}",
+    "prompt_tokens": 1962,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:6b77c40f74ff458a30d7c19ff2602c2fe38012f8": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户提供订单号、金额、下单时间，疑似想查询该订单状态，但问句本身未明确诉求，按最近类别归为订单查询\"}",
+    "prompt_tokens": 1961,
+    "completion_tokens": 52
+  },
+  "intent:deepseek-chat:1shot:02275784901b02f4a22c4e30286b24d3d5d053b5": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户仅提供订单编号和下单时间，未明确诉求，按最近类别推测为订单查询\"}",
+    "prompt_tokens": 1957,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:ebd7eb3f5c54f50f9702eb1125ee2efabf4c1ef3": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"用户仅提供订单号，未说明具体诉求，按最可能的订单查询处理，但信息不足置信度较低\"}",
+    "prompt_tokens": 1940,
+    "completion_tokens": 44
+  },
+  "intent:deepseek-chat:1shot:98d27135de2d073b8a3a422c424693acb75694ee": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"用户反馈订单未收到货，属于订单签收/物流状态查询诉求\"}",
+    "prompt_tokens": 1962,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:89cf596a3f6e770acbe7b10ea721b43917b1a24f": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"表述模糊，疑似询问快递距离/物流进度，倾向订单查询但把握较低\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:c842c7ded6a75445cad8efbaf58f83fea567264f": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.3, \"reason\": \"换货诉求不属于现有10类业务，无法判断具体分支，建议转人工处理\"}",
+    "prompt_tokens": 1949,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:924c75b4b1c5db300da444728b86f87f0ae7d4c3": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"表述模糊，疑似对订单签收状态有疑问，倾向订单查询，但语义不明确\"}",
+    "prompt_tokens": 1940,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:f815e32b027d4bfa5f2521b6404e2f3c83bac301": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户提供订单号等信息咨询，未明确具体诉求，最接近订单查询\"}",
+    "prompt_tokens": 1961,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:55e633ba7c86047626c483f290527e66840a386b": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"询问订单能否取消，属于订单状态与操作咨询，未明确催单或赔付诉求\"}",
+    "prompt_tokens": 1973,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:8eeca3e7c349a5394c9e062521bd6237705a5489": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.9, \"reason\": \"询问订单签收状态，属订单查询\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 29
+  },
+  "intent:deepseek-chat:1shot:e7394ae3019e2d2b6cba10743b6497ee8fcb68ff": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"用户陈述取件时间安排，偏向配送/取件进度信息，但表述模糊，可能是对物流安排的确认或查询\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 46
+  },
+  "intent:deepseek-chat:1shot:33f79da1e78c1ad3a14cb2b21890c1565110bca5": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"用户询问退货/寄件地址，属于订单配送安排类查询，但表述模糊，把握较低\"}",
+    "prompt_tokens": 1950,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:7fd8ceb050bb198b53dc1b0827dcd2d395404144": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"用户想处理下错的订单，但未明确是查询、退款还是修改，倾向订单相关操作，置信度较低\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:dee55d9e20fc3b6da26466e5995e2e9ee3b225e8": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.75, \"reason\": \"用户询问订单配送更新情况，属于订单状态查询，无催促或赔付诉求\"}",
+    "prompt_tokens": 1992,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:30896fad083cea7413983c482469075126346d49": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"询问派件员身份，属配送安排类订单查询，但表述模糊且上下文缺失，把握较低\"}",
+    "prompt_tokens": 1949,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:14103bf461e51c682c2f0f3054c701aabe4514f6": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户提供订单号和商品ID咨询，未说明具体诉求，最可能是订单查询，但表述模糊置信度较低\"}",
+    "prompt_tokens": 1954,
+    "completion_tokens": 44
+  },
+  "intent:deepseek-chat:1shot:948e003bf2d09ca7fc38d733fd3ea32bc60ced02": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.35, \"reason\": \"表述模糊，疑似涉及某订单中商品不合适，但无法确定是查询、退换还是理赔诉求\"}",
+    "prompt_tokens": 1948,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:e52ea212c29a79b92e044b03264fddd4688f5b95": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"取消订单属于订单操作诉求，未明确对应退款或理赔，暂归订单查询类，把握较低\"}",
+    "prompt_tokens": 1940,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:fe3ac95388080e037502ec4a9dc9b66cca98ea6d": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"询问已签收订单的处理方式，偏向订单状态查询，但表述模糊，未明确是赔付还是咨询\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 43
+  },
+  "intent:deepseek-chat:1shot:b5601afa634e5e79da5dac933309107a36c93caf": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"取消订单属于订单操作，未在10类中明确覆盖，最接近订单查询/处理，置信度较低\"}",
+    "prompt_tokens": 1940,
+    "completion_tokens": 44
+  },
+  "intent:deepseek-chat:1shot:481b160d444db1b942699a2a0d046681d3ad2200": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"仅提供订单编号，未说明具体诉求，按最可能的订单查询处理\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:2fa0ec1dbc9e4bbca99e474b1e9cc0577c504431": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"提到收到配送电话，倾向询问配送/订单状态，但表述不完整，置信度中等\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:dffc6862b68dac8ab7f38bcc513b4c674b4a07a0": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户陈述配送比以往慢，未明确催促或投诉，倾向询问配送进度，归为订单查询\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:06c3c4021aec0e8e717c5829fd7463f267d193e6": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"用户说订单申请取消了，意图偏向询问订单取消状态，但表述模糊，可能涉及退款或取消流程，暂归订单查询\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 48
+  },
+  "intent:deepseek-chat:1shot:4a6538298155ead66c05d5c07d0d977ebd323315": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"询问订单状态原因，属订单查询范畴\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 29
+  },
+  "intent:deepseek-chat:1shot:0ca86f14d0fffff3629f124ffdce7fd2d89ac2c9": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.75, \"reason\": \"用户询问快递下落，属于订单物流状态查询，未带催促或赔付诉求\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:d95e84420635443fdf78baa6f999704d641ec7ef": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.75, \"reason\": \"用户提及收货时间安排，属于配送安排类订单查询，但表述较简略\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:92cba236db6b64beaa5d2d816f6019ee49d77191": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"询问取消订单后是否重拍，偏向订单操作与状态咨询，但表述模糊，未明确是退款、催单还是政策咨询\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 49
+  },
+  "intent:deepseek-chat:1shot:56b42ea71212e9da15df4a8af9efd3228d44fa41": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"用户关注商品库存/到货情况，倾向订单或配送安排查询，但表述模糊，把握较低\"}",
+    "prompt_tokens": 1954,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:a3ce8d86bb6befeb418649433cfaf1ad2ffc1d36": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"用户询问退货订单的约定时间安排，偏向订单状态/配送安排查询，但表述模糊，把握较低\"}",
+    "prompt_tokens": 1968,
+    "completion_tokens": 43
+  },
+  "intent:deepseek-chat:1shot:637824c29030805af623d1d5b36e6c1bc8021c55": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"询问签收情况，属订单查询\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 28
+  },
+  "intent:deepseek-chat:1shot:f1d93480f91deec762bf8d864600ece3deb46a06": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"询问物流到达节点，属订单查询，但表述较模糊\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 33
+  },
+  "intent:deepseek-chat:1shot:8ffc4a1afcb5008937427c2f7a8bea8075c27c3b": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户要求配送备注直接送，属于配送安排类订单查询，但表述较模糊\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:7dc34485e761b759ea73dd09a012665aed400b99": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"询问配送快递公司，属于订单配送信息查询\"}",
+    "prompt_tokens": 1940,
+    "completion_tokens": 30
+  },
+  "intent:deepseek-chat:1shot:aa143656f1168d24f68c678760c95e1a72f4cb97": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"用户补充说明配送地址预期，疑似询问配送安排，但表述模糊，倾向订单查询\"}",
+    "prompt_tokens": 1949,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:af8ccafd16aa607c6fad498b027922994ac46bd9": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"用户询问配送时间变化，属于配送安排与订单状态查询，无催促或赔付诉求\"}",
+    "prompt_tokens": 1965,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:7f6e3fe18520593755c6160b7ddd2161181c5060": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.75, \"reason\": \"询问配送是否送错，属于配送安排/签收情况查询，无催促或赔付诉求\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:42e8d99ce1a7508d58d2ffbcb58a3bc672d95bbb": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.9, \"reason\": \"询问物流信息缺失，属于订单状态查询\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 29
+  },
+  "intent:deepseek-chat:1shot:e7bbfa1cd59d8209e4a0bdbc96ac20341e1fc058": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户咨询已取消订单又送达该如何处理，属于订单状态与配送安排类查询，诉求不明确未涉及赔付或催单\"}",
+    "prompt_tokens": 1962,
+    "completion_tokens": 48
+  },
+  "intent:deepseek-chat:1shot:55a441b44023f17696063cba8af6556c701ac072": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"用户仅提供订单号，未说明具体诉求，最可能是准备查询订单，但信息不足，置信度较低\"}",
+    "prompt_tokens": 1940,
+    "completion_tokens": 44
+  },
+  "intent:deepseek-chat:1shot:9b5550e18f354e437bf985e4783b11fa5714965a": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.9, \"reason\": \"询问是否已发货，属订单状态查询，无催促诉求\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 33
+  },
+  "intent:deepseek-chat:1shot:d651f15290437977837c8ce3ca9942c1df393f0e": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.7, \"reason\": \"想了解今天下单的订单情况，属订单查询，但表述较模糊\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:565f413e5d6cf418e5eda6a823880d18ea1da786": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"用户陈述配送时效预期，隐含询问当前订单配送安排，偏订单查询，但表述模糊\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:55f9e2f0f39b188f79302eae6071334a7de7b5b0": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.95, \"reason\": \"询问是否已发货，属订单状态查询\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 29
+  },
+  "intent:deepseek-chat:1shot:495bf1bd3e0942a207726fb981df59c7988c80e3": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"表述模糊，疑似询问配送安排/是否等待上门，倾向订单查询但把握较低\"}",
+    "prompt_tokens": 1940,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:8d2f8d008ce32b8107403dd0ef219868c08ffac5": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"地址修改诉求，与订单配送安排相关，但无明确类别，暂归订单查询\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:2a6b3bc06e944ef00eb37503fdc5752f20453cac": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"表述模糊，无法判断是订单取消、退款还是其他售后诉求，暂归域外\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:3fd71f41cf07d71cd192fbcb79a184f4f1f1e543": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"询问配送快递与上门安排，属订单配送状态查询\"}",
+    "prompt_tokens": 1948,
+    "completion_tokens": 32
+  },
+  "intent:deepseek-chat:1shot:e7458281817382f5796949563ed8058ecd405119": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户提供订单号和商品ID咨询，未明确诉求，按订单查询处理\"}",
+    "prompt_tokens": 1954,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:28205e315c141e50acbf2addde875d2655b958bb": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.5, \"reason\": \"仅提供订单信息，未说明具体诉求，按最近类别归为订单查询\"}",
+    "prompt_tokens": 1962,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:62672d133ecf4e89e80b1f4deef79984cb190de2": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"表述模糊，疑似询问审核/订单状态，倾向订单查询但把握较低\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:bb77d6e808be9799c74b11729e801fd921632c4a": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"询问配送是否按显示时间到达，属配送安排查询\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 32
+  },
+  "intent:deepseek-chat:1shot:430282fe5ea4ed75aa7d104e9892d9745fbf6c34": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"提到配送师傅来电，疑似询问配送安排，但表述不完整，倾向订单查询\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:fa9277b299068e894ed1449c94c029ea51b4efab": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"询问是否还需等待两天，偏向物流/订单进度确认，但表述模糊，未明确催促或赔付\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:4781e6c3299b1b8d0d21574fd7df5a91f77f1df2": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"询问未支付订单现在下单是否来得及，属订单/配送安排类查询，但表述较模糊\"}",
+    "prompt_tokens": 1953,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:d3cffcda97b716f3ffabb96c566172e65a28d7b7": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.95, \"reason\": \"询问是否已发货，属订单状态查询，无催促诉求\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 33
+  },
+  "intent:deepseek-chat:1shot:c31899023f6a96d95e9f5296e688a5ac1c4766f9": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户仅发送订单编号和金额信息，未明确诉求，最可能是想查询该订单状态\"}",
+    "prompt_tokens": 1977,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:1aaaae196cde1817d47ef95a15cc9572bde2c485": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户仅发送订单编号与订单信息，未明确诉求，按最近类别归为订单查询\"}",
+    "prompt_tokens": 1978,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:d2d91e9de6b0b37dad8d08ac66e91809d50ffa8d": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户反馈快递公司信息与配送安排不符，属于配送安排相关的订单查询，但表述模糊，把握一般\"}",
+    "prompt_tokens": 1966,
+    "completion_tokens": 43
+  },
+  "intent:deepseek-chat:1shot:95240259e4cb688b5031850efaa818bce50bdc9b": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"用户表示看的不是这个单子，疑似想核对或查询另一笔订单，但表述模糊，暂归订单查询\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:178f4fbbec0ff2d3cc13db4779a8403fd6b887d6": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.4, \"reason\": \"表述模糊，疑似用户想说明订单非本账号购买，可能需人工核实订单归属，但无法确定具体意图\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 47
+  },
+  "intent:deepseek-chat:1shot:132323c252b561e090ad1a04ca9d64f0417253a7": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"问句不完整，推测是想问订单查询入口，但信息不足，置信度较低\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:f03ffbda9f6a57da904f6aa612bfa2c4c39cb44d": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"询问是否收到货，属签收情况查询，但表述模糊且含错别字，把握一般\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:0af70b6588ceb43ec6f60d08ef4f6e501cd24648": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户提供订单号和商品ID咨询，未说明具体诉求，最接近订单查询，但信息不足置信度较低\"}",
+    "prompt_tokens": 1954,
+    "completion_tokens": 44
+  },
+  "intent:deepseek-chat:1shot:7237ac2271aa88bfc60f880835f3991dc7349ca5": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"用户表示找不到对应订单，属于订单识别/查询范畴，但表述模糊，把握较低\"}",
+    "prompt_tokens": 1982,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:114686290e8bbf8db306d68d396aa8d34513abc4": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"用户提到取消订单，但未明确是查询状态、催单还是退款，语义模糊，暂归订单相关查询\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:1d4f3fa085a4363c4af49b80ebea79f014564cf7": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户对发货地有疑问，属于订单物流信息查询，但表述模糊，可能涉及配送安排咨询\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:1e00d6b39b5d27e0bcf05f2a6bf83f4efdd9d75b": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"询问配送地址与放柜安排，属配送安排类订单查询，但表述模糊、缺少订单上下文，把握一般\"}",
+    "prompt_tokens": 1954,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:f2f8b0193a5ae178d8ca3e5de83e6cf8adc2f72d": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"问句不完整，疑似询问退货单号或退货进度，倾向订单查询但把握较低\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:c8fdf4cec96c7e1d9455cd1b1b25f617b97c134a": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.4, \"reason\": \"提及退货但表述模糊，未明确是退款规则咨询还是具体赔付，倾向退款咨询\"}",
+    "prompt_tokens": 1954,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:6671fe0d4e620c89081b7b461ecdb05bd6593f89": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.9, \"reason\": \"询问退款是否成功，属于退款进度/状态咨询\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 33
+  },
+  "intent:deepseek-chat:1shot:cae3fa562969aa97bde5ca9418d4638295b5b32e": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.3, \"reason\": \"问句表述模糊，无法判断是赔付金额、退款金额还是其他，缺乏售后上下文，暂归域外\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:18cf15d20134e92ea3a84a1dee0603be2166f3bf": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.85, \"reason\": \"询问退货审核进度，属退款流程咨询\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 31
+  },
+  "intent:deepseek-chat:1shot:638fad3c23fa59b7f4e653e69085c37e5b0886b5": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.85, \"reason\": \"询问服务单退款时间，属退款时效咨询\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 32
+  },
+  "intent:deepseek-chat:1shot:2728cd5fbc3b757428f905d8ba99a7fe1af4f21e": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"用户请求退款但未说明原因，无法判定是品质理赔还是流程咨询，暂归退款咨询\"}",
+    "prompt_tokens": 1940,
+    "completion_tokens": 43
+  },
+  "intent:deepseek-chat:1shot:ed1ef4e6e08db2bce1ddaac2b03530ecdb4b8aab": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"用户提到已申请退款，但未说明具体诉求，按退款相关咨询处理\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:7e0a527ae22e2c29f5330606678db4a7b7275c03": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.75, \"reason\": \"询问已发货订单能否退货，属退款流程咨询，未涉及具体赔付认定\"}",
+    "prompt_tokens": 1960,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:198a9af2f8a6e9aa861c601bba40be29bd345924": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.55, \"reason\": \"涉及退货流程中数量/操作入口的疑问，偏向退款流程咨询，但表述模糊\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:198d387bf3f7b7caaa9401a528284a8ceab56dff": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"用户陈述已拒收并提及联系不上卖家，未明确诉求，最接近订单状态/配送情况查询，但意图模糊置信度较低\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 50
+  },
+  "intent:deepseek-chat:1shot:7427b83277ced149fa1d72bae458e7e4fa66fe07": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"用户描述已退货到提货点并点了售后退货，诉求偏向退货退款流程，但表述模糊，未明确是咨询时效还是要求赔付\"}",
+    "prompt_tokens": 1981,
+    "completion_tokens": 54
+  },
+  "intent:deepseek-chat:1shot:f8a03880000c4921b388892d55efa4ab7ca538c5": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.4, \"reason\": \"用户提及退货，倾向退款/退货规则咨询，但表述模糊，未明确具体诉求\"}",
+    "prompt_tokens": 1951,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:ee4edfccfa6c44502e4aa29dc9176b904236a233": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"用户想申请退货，属于退款/退货流程咨询，但生鲜电商场景下鞋类商品为域外商品，置信度较低\"}",
+    "prompt_tokens": 1949,
+    "completion_tokens": 51
+  },
+  "intent:deepseek-chat:1shot:8105addf80a5baffe57582760dbab7802918deff": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"用户要求处理退款，未说明具体原因，倾向退款流程咨询，但表述模糊可能涉及理赔或转人工\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 46
+  },
+  "intent:deepseek-chat:1shot:9d76a3c939fea315b6f2fec6c25817978c8e91b4": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.4, \"reason\": \"仅表达不想退货，未明确是咨询退款规则还是理赔诉求，倾向退款流程咨询但置信度低\"}",
+    "prompt_tokens": 1939,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:47d8e65d71d12e18c52443548c035e075b37349d": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"用户提及退货等待商家审核、担心耗时，属于退款流程与时效咨询，但表述较模糊\"}",
+    "prompt_tokens": 1954,
+    "completion_tokens": 43
+  },
+  "intent:deepseek-chat:1shot:d7f6b71fe1507c0fed414c1a3466d3b6949038e6": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.9, \"reason\": \"询问退款进度与审核状态，属退款咨询\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 32
+  },
+  "intent:deepseek-chat:1shot:86ab2df9e93547f18e1ba7f9f39d47dc9b624db7": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"用户提及已申请退款，属于退款流程相关咨询，但表述不完整，意图不够明确\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:0c687859c08d8aa36599dd0dce3d06216cbfd803": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"询问退货是否收运费，属退货运费规则咨询；表述含客服来电背景，但诉求是规则解释而非赔付认定\"}",
+    "prompt_tokens": 1965,
+    "completion_tokens": 49
+  },
+  "intent:deepseek-chat:1shot:cd54cc4ac3b2c2ba9e57e42a33215695d2f05253": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.4, \"reason\": \"问句涉及订单号与补安装服务，语义模糊，疑似售后政策咨询，但无法确定具体业务类别\"}",
+    "prompt_tokens": 1950,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:e2cbceacf89f142e423ab82efbd2ea9be2c1e047": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.4, \"reason\": \"涉及订单金额与付款金额不一致，疑似支付/退款金额问题，但表述模糊，暂归退款咨询\"}",
+    "prompt_tokens": 1959,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:601f1d046b67b68ae04179f33086d427e5a8cdee": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.85, \"reason\": \"询问拒收后是否退款的规则，属退款流程咨询而非具体赔付认定\"}",
+    "prompt_tokens": 1953,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:51901c5bd5d3529f675812889beaf87f0adc3d5d": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.6, \"reason\": \"询问退货及会员运费双免规则，属售后政策咨询，未涉及具体赔付认定或退款时效\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 43
+  },
+  "intent:deepseek-chat:1shot:22f9e5092b26b75300395986fffdf4f6d1934734": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"用户询问已退款如何退回，涉及退款流程处理，但表述模糊，可能需人工协助\"}",
+    "prompt_tokens": 1953,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:4264f4f4b013753325c0b7126b86269ac2ba4abc": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"用户提及退货事宜，未明确是规则咨询还是具体赔付，按退款咨询处理\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:671135975fcd92a414df7bd027c2bb6c7ca0801e": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.85, \"reason\": \"询问退款去向/到账渠道，属退款咨询\"}",
+    "prompt_tokens": 1975,
+    "completion_tokens": 33
+  },
+  "intent:deepseek-chat:1shot:b19c030d4d5dd9d4864eeec679b094d5d9d4ddbf": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.55, \"reason\": \"询问换购补差价不退款的处理方式，属退款/换货规则咨询，但表述模糊，把握一般\"}",
+    "prompt_tokens": 1950,
+    "completion_tokens": 46
+  },
+  "intent:deepseek-chat:1shot:78c44acbb3ca54768215dccfcc530284a1cb0536": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.85, \"reason\": \"询问退货退款处理时效，属退款咨询\"}",
+    "prompt_tokens": 1952,
+    "completion_tokens": 31
+  },
+  "intent:deepseek-chat:1shot:22004cf4234f27e4064bd199eae2b145492e0d88": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"询问退款是否针对整个订单，属退款流程咨询，但表述模糊\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:b41658ed6fcd01ec07fb6891bcbbfd7c8080db2c": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.4, \"reason\": \"提到退货但未明确是退款规则咨询还是具体赔付，且火花塞非生鲜商品，语义模糊\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:0a6b6041bbbde8768e8b6aa49e7f8c1fc8d5d504": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.55, \"reason\": \"询问订单退款后免邮券是否退还，属退款相关规则咨询，但表述较模糊\"}",
+    "prompt_tokens": 1952,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:afa24f15628db94165b750925a1b885b1e5f608f": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.85, \"reason\": \"询问货到付款场景下的退款流程，属退款规则咨询\"}",
+    "prompt_tokens": 1948,
+    "completion_tokens": 35
+  },
+  "intent:deepseek-chat:1shot:b50a50c64e6d5863d44a245b4d1cdbf95374a134": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.4, \"reason\": \"提到退款但语义模糊，疑似询问订单能否恢复以决定是否退款，暂归退款咨询\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:052cf7315a8d2ab7cb2fa3d239cf04d88e4bd34a": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"用户表达希望尽快退款，属于退款进度/时效诉求，但缺少具体订单与赔付认定信息，故归退款咨询\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 48
+  },
+  "intent:deepseek-chat:1shot:966d9f765e710096afb12454af0248573e98e256": {
+    "response": "{\"labels\": [\"chitchat\"], \"confidence\": 0.4, \"reason\": \"用户陈述优惠券已重新使用，未表达明确售后诉求，与十类业务均不匹配，倾向域外兜底\"}",
+    "prompt_tokens": 1981,
+    "completion_tokens": 48
+  },
+  "intent:deepseek-chat:1shot:fd8a3b1e95d4470802b6fb109438927e7d766897": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"询问退款到账方式（退回余额），属退款流程与到账咨询，但表述较模糊\"}",
+    "prompt_tokens": 1948,
+    "completion_tokens": 43
+  },
+  "intent:deepseek-chat:1shot:efe7e62558336fcaa54866485b8387aa7436fd85": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.85, \"reason\": \"询问退货退款流程中显示取消的原因，属退款咨询\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 34
+  },
+  "intent:deepseek-chat:1shot:7dea2cf5fc75a1b5a0772e9d3800513b84ebd96f": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"退换货表述模糊，偏向退款/退货流程咨询，未涉及具体赔付或订单状态\"}",
+    "prompt_tokens": 1940,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:05950850b4ac6c8587b783f50af41f2367c946f9": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.4, \"reason\": \"取消订单不属于10类明确意图，最接近订单操作类，但语义模糊，置信度低\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:084a01a81fa5fd87faa54987f2d59351af99c1ee": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.55, \"reason\": \"涉及退款与白条还款的账务处理咨询，未明确赔付或订单状态诉求，归退款咨询\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:0493f7531a5b00c4c821a667e3d7ea4e84a09330": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.95, \"reason\": \"询问退款到账时效，属退款咨询\"}",
+    "prompt_tokens": 1940,
+    "completion_tokens": 31
+  },
+  "intent:deepseek-chat:1shot:e7ba32c6c997eb5dfaeb4699929799334e57d3ce": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"用户提及到账，疑似退款到账进度咨询，但表述模糊，需结合上下文确认\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:ef250d3e5aee3af6063e396026fc1ab723548117": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.55, \"reason\": \"问句省略主语，结合售后场景最可能指退款是否退回，属退款进度咨询；表述模糊故置信度偏低\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 48
+  },
+  "intent:deepseek-chat:1shot:9e4b7060c32c2607ee7f2910b1c33cb450357cfd": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.55, \"reason\": \"价保申请涉及退款/差价返还流程，最接近退款咨询，但表述陌生且无明确诉求，置信度较低\"}",
+    "prompt_tokens": 1966,
+    "completion_tokens": 48
+  },
+  "intent:deepseek-chat:1shot:3942defbd6b41e4d587662c50741368d36c37b9c": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"用户提出退货诉求，但未说明是质量问题赔付还是流程咨询，按退货流程咨询归入退款咨询\"}",
+    "prompt_tokens": 1956,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:f55101f733ae76b64b666adedf577a9dddd3722f": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"退货诉求未明确是赔付认定还是流程咨询，按退款咨询处理\"}",
+    "prompt_tokens": 1939,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:ddf53ecb81ad8aca6ac4aa94e3dc7144d106b22f": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.75, \"reason\": \"询问价保退款形式，属退款规则咨询，非具体赔付认定\"}",
+    "prompt_tokens": 1948,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:7a56ed1a21a1212850ecdb9ef97b48e86b6c7a83": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.4, \"reason\": \"用户延续上一轮退款话题，但表述模糊，倾向退款进度咨询，置信度较低\"}",
+    "prompt_tokens": 1966,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:0ccb6735e582c549ca5a21d80fd755237e52b74e": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.75, \"reason\": \"询问退货是否来得及，属于退货/退款时效规则咨询，未涉及具体赔付认定\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:9c0ecffaac39774e5a6d4bf345ad6d46c89b926b": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.9, \"reason\": \"询问退款到账时间与退款去向，属退款咨询\"}",
+    "prompt_tokens": 1950,
+    "completion_tokens": 34
+  },
+  "intent:deepseek-chat:1shot:cfb1100785fdda017a25a6bc6c5fc9e9e62641c6": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.85, \"reason\": \"询问退款到账情况，属退款进度/时效咨询\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 34
+  },
+  "intent:deepseek-chat:1shot:63baaeaa8207c8532cd2ecbd053d9798c7e9d3c6": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"内容为退款受理到账时效通知，属退款咨询范畴，但文本疑似系统通知而非用户提问，置信度较低\"}",
+    "prompt_tokens": 1992,
+    "completion_tokens": 48
+  },
+  "intent:deepseek-chat:1shot:4faa9d9c8dcde3a156a536f9913b99fdb3d01419": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"提到退货但未说明具体诉求，倾向退款/退货流程咨询，信息不足置信度较低\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:b1c5fe44d931cbeac7d8a33113f63444c44d258d": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"涉及退货申请，偏向退款/退货流程咨询，但表述模糊，未明确诉求\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:c555da51c08d7384fe202d46aebd6b03fb629385": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"用户询问退货/退款记录相关流程，属退款咨询；表述模糊，把握中等\"}",
+    "prompt_tokens": 1970,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:3c18b3d5459970216d51b8e1a026335d2f567db2": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"用户提及具体订单号并询问优惠券如何计算，偏向订单相关咨询，但意图不够明确，暂归订单查询\"}",
+    "prompt_tokens": 1953,
+    "completion_tokens": 46
+  },
+  "intent:deepseek-chat:1shot:e554c5be681997229c0d1004136dbf3a4b84c7b1": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.75, \"reason\": \"询问赔付审核/退款规则与流程，未涉及具体订单赔付认定，归退款咨询\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:7455799d30065b55be5c784c6cca30c2b56ed491": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"用户描述部分签收部分拒收退回，涉及退货退款流程，但未明确诉求，倾向退款咨询\"}",
+    "prompt_tokens": 1962,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:ad17dd78a95e766e4813b630f49d839f08b59ab2": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.75, \"reason\": \"询问退货/取消退货的规则流程，属退款咨询；未涉及具体赔付认定\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:0d254f1c717ad04989eb55b3e799bacee69567ce": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.4, \"reason\": \"用户要求直接进入退换货流程，疑似要求人工处理，但表述模糊，无法确定具体意图\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 44
+  },
+  "intent:deepseek-chat:1shot:2ce2d305fae07edfadcae194998eccd0b735488f": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"用户请求帮忙退款，未说明具体原因，倾向退款流程咨询，但表述模糊\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:2c72798f0213038be85a13fd659d28634c2e9d5f": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"用户询问无法修改订单后是否退货重买，属退款/退货流程咨询，未明确要求人工或投诉\"}",
+    "prompt_tokens": 1986,
+    "completion_tokens": 46
+  },
+  "intent:deepseek-chat:1shot:c305d5782fdc8348879e5064ef573bbb28d2560c": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.55, \"reason\": \"用户提到申请的退货但表述不完整，未明确是查询进度、退款时效还是赔付认定，暂归退款咨询\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 47
+  },
+  "intent:deepseek-chat:1shot:153759c846f81a92e50cd5900757939e93140ef8": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"询问签收后退货是否可行，属退货/退款流程咨询，未涉及具体赔付认定\"}",
+    "prompt_tokens": 1995,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:15c7641031488833c1df6ae9ac9f5220f7fd38c9": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"询问退款与再购买的关系，属退款流程咨询，但表述含占位符较模糊\"}",
+    "prompt_tokens": 1951,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:1462ae00d9892027c89bfcd08f7e58f8f9ea8487": {
+    "response": "{\"labels\": [\"refund_consult\", \"invoice\"], \"confidence\": 0.6, \"reason\": \"用户想退货并提到电子发票，主诉求是退货退款流程咨询，发票为辅助信息\"}",
+    "prompt_tokens": 1952,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:04ba75fc5af2d97f700589b70eb03e72a9e2abd8": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.85, \"reason\": \"询问退款去向与流程，属退款咨询\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 31
+  },
+  "intent:deepseek-chat:1shot:c12cfc3100393de8a8605b7f3534f424f6238b03": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"询问退货地址，属于退货流程咨询，未明确要求人工或赔付认定\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:20b371f96ff2381fbd0df26c74cf0c83882459fc": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.55, \"reason\": \"询问退货是否扣运费属售后政策咨询，但表述涉及订单与退货场景，把握一般\"}",
+    "prompt_tokens": 1962,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:403dd767fc55bc2bc9291dd5bec97ce1e7874e86": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.9, \"reason\": \"询问退款到账时效，属退款咨询\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 31
+  },
+  "intent:deepseek-chat:1shot:871eb28c4703a48febd8b418e0351fe48552dce5": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.4, \"reason\": \"问句缺少上下文，无法确定是退款、理赔还是发票申请受限，暂按退款咨询处理，置信度较低\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 47
+  },
+  "intent:deepseek-chat:1shot:88b9b2e8d6051152b06d2431eb7ed15ae306eb24": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.4, \"reason\": \"提现失败疑似退款/资金到账问题，但表述模糊，暂归退款咨询\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:198ceacf603dcb29c546559a5ca99f0bc065b792": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"询问包装盒丢失能否退货，属退款/退货规则咨询，未涉及具体赔付认定\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:9e8a0eb06e2709d1c17444e42846b9c950602ba8": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.55, \"reason\": \"用户表达不想退款想换货，属于售后处理方式咨询，但未明确具体订单或质量问题，倾向退款/换货规则咨询\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 51
+  },
+  "intent:deepseek-chat:1shot:070192d95b7d4bf8d309dd508cb55655c8be5112": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.95, \"reason\": \"询问退款进度查询方式，属退款咨询\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 31
+  },
+  "intent:deepseek-chat:1shot:b0d6952a9a12db4b674526ba99915322a387ce6a": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"用户询问是否属于申请退款，偏向退款流程咨询，但表述模糊，未指明具体订单或赔付认定\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:472ea2769dba020ed0cd13559b93028d6f1c0970": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.9, \"reason\": \"询问退款是否原路返回，属退款规则咨询\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 33
+  },
+  "intent:deepseek-chat:1shot:989a2c41be1a1c34d252beeb29985ba663debf30": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"用户表达退货退款意愿，未涉及具体赔付认定或物流催促，归退款咨询；表述较模糊故置信度中等\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 48
+  },
+  "intent:deepseek-chat:1shot:23ed4ad43be0f9b887a0c2ea5c05da8c1abd76d6": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.9, \"reason\": \"用户询问退款申请是否成功、订单无显示，属于退款进度/状态咨询，不涉及具体赔付认定\"}",
+    "prompt_tokens": 2000,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:cb0e7235ba779b5cb9f5bceced3abef0d41b2e1d": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"询问能否取消订单，属于订单取消/退款流程咨询，未明确要求人工或赔付\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:a03c10f7044d7ce2e70b9516eb85f6e887685402": {
+    "response": "{\"labels\": [\"quality_qa\"], \"confidence\": 0.6, \"reason\": \"价格保护属于售后政策咨询，非具体赔付或订单状态，归品质咨询；若知识库无此政策则走无据转人工\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 51
+  },
+  "intent:deepseek-chat:1shot:79238d27cd80d8e1a53196f52b56e211bcd78bd0": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.55, \"reason\": \"表述模糊，疑似询问有退货记录能否退款，属退款规则咨询，但语义不完整置信度较低\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:cdc00323a51e419d16d6b85c4b43f37439aaa766": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.9, \"reason\": \"询问退款到账去向，属退款流程咨询\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 32
+  },
+  "intent:deepseek-chat:1shot:ca87bfb2b5794e7743099c7eada409c3b097b845": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.9, \"reason\": \"询问货到付款订单原路径退款的具体退款方式，属退款流程咨询\"}",
+    "prompt_tokens": 1957,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:d1367a4e77863c2a000e3369a8957b00a5f44d65": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.4, \"reason\": \"问句缺少上下文，推测为询问退款或售后是否还有额外费用，属退款咨询；信息不足置信度较低\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 47
+  },
+  "intent:deepseek-chat:1shot:4f56a93663a5229e4cafb83749dbd95396ac5122": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.55, \"reason\": \"涉及价保申请失败与退款诉求，但价保不在10类业务中，最接近退款咨询，置信度较低\"}",
+    "prompt_tokens": 1965,
+    "completion_tokens": 48
+  },
+  "intent:deepseek-chat:1shot:0867b8436649ed0cb936bb246931144f7d4dfed8": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.75, \"reason\": \"用户要求取消退款，属于退款流程操作咨询，未涉及具体赔付认定或转人工诉求\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:796da747eb41d9f78584ffadca1743d9bf9263ad": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"用户提到申请退款但订单不存在，属于退款流程/进度咨询，表述模糊未明确要求人工或赔付\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:feef39109954200fa5908fc6c781d615de024a6c": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.85, \"reason\": \"重复付款询问能否退回，属退款流程与时效咨询，未涉及具体赔付认定\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:f8ae91da8d643c354b9cbc978b4a6530f75d1b67": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"涉及退货申请被改为返厂检测的售后流程问题，属退款/退货流程咨询，非生鲜品质或重量问题\"}",
+    "prompt_tokens": 1954,
+    "completion_tokens": 49
+  },
+  "intent:deepseek-chat:1shot:6bd1ab79c5b233cf4526c98983ecd7a6c78b5533": {
+    "response": "{\"labels\": [\"short_weight\"], \"confidence\": 0.95, \"reason\": \"重量不足属于缺斤少两\"}",
+    "prompt_tokens": 1940,
+    "completion_tokens": 27
+  },
+  "intent:deepseek-chat:1shot:a550ed54164d4725f72aa57bcb0fa6481b38982e": {
+    "response": "{\"labels\": [\"short_weight\"], \"confidence\": 0.85, \"reason\": \"用户反馈缺两双拖鞋（数量不符），属缺斤少两，并要求跟踪处理\"}",
+    "prompt_tokens": 1962,
+    "completion_tokens": 39
+  },
+  "intent:deepseek-chat:1shot:6840a214879c3bc492eeb137c722959e476dd74a": {
+    "response": "{\"labels\": [\"short_weight\"], \"confidence\": 0.9, \"reason\": \"数量与标注不符，属缺斤少两\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 30
+  },
+  "intent:deepseek-chat:1shot:8358f0a31f6ff264fd20fca0c07b1f930542e799": {
+    "response": "{\"labels\": [\"short_weight\"], \"confidence\": 0.95, \"reason\": \"用户反映草莓重量不足，属于缺斤少两问法\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 33
+  },
+  "intent:deepseek-chat:1shot:1ebcc29ba408a2e2f809d81009c77ebb721f656a": {
+    "response": "{\"labels\": [\"short_weight\"], \"confidence\": 0.9, \"reason\": \"数量与标注不符，属缺斤少两\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 30
+  },
+  "intent:deepseek-chat:1shot:9ce558e0952c08b7301f84977ecffcc60919f0a1": {
+    "response": "{\"labels\": [\"short_weight\"], \"confidence\": 0.95, \"reason\": \"重量不足属于缺斤少两\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 27
+  },
+  "intent:deepseek-chat:1shot:9d2fb7d7b0eb78ef39f43d2e359aac54b5296249": {
+    "response": "{\"labels\": [\"short_weight\"], \"confidence\": 0.95, \"reason\": \"用户反映重量不足，属缺斤少两\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 30
+  },
+  "intent:deepseek-chat:1shot:fb049573e32e6809d8b802c629e38303c69edd86": {
+    "response": "{\"labels\": [\"short_weight\"], \"confidence\": 0.95, \"reason\": \"数量与订单不符，属缺斤少两\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 30
+  },
+  "intent:deepseek-chat:1shot:104ffd678f5496b080c4bab64936b14143b89723": {
+    "response": "{\"labels\": [\"short_weight\"], \"confidence\": 0.9, \"reason\": \"数量与订单不符，属缺斤少两\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 30
+  },
+  "intent:deepseek-chat:1shot:c7ea65903d9229aa13c267de3d23362441350f73": {
+    "response": "{\"labels\": [\"short_weight\"], \"confidence\": 0.6, \"reason\": \"收到商品数量与下单不符（两双只收到一双），属数量不符的缺斤少两类；但用户上一轮在问是否人工，存在转人工倾向，当前句未明确要求人工，故未加 human_handoff\"}",
+    "prompt_tokens": 1998,
+    "completion_tokens": 70
+  },
+  "intent:deepseek-chat:1shot:9687dedfe6d165e4332ea69d0dbc6ad1e2839d4f": {
+    "response": "{\"labels\": [\"short_weight\"], \"confidence\": 0.95, \"reason\": \"用户反映猕猴桃重量不足，属于缺斤少两诉求\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 33
+  },
+  "intent:deepseek-chat:1shot:3d280c5a69c1b3a0829890ed28b9054ee6828974": {
+    "response": "{\"labels\": [\"short_weight\"], \"confidence\": 0.85, \"reason\": \"商品数量少了一个拉手，属于数量不符的缺斤少两诉求\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:775f3159ab4b08da4c987d0469e22c1a7af40965": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"涉及配送安排与派送沟通，属订单配送相关，但表述模糊，倾向查询/配送安排类\"}",
+    "prompt_tokens": 1950,
+    "completion_tokens": 43
+  },
+  "intent:deepseek-chat:1shot:6a0728a59b4850a296fde0fbf971525770d02a2c": {
+    "response": "{\"labels\": [\"urge_logistics\", \"query_order\"], \"confidence\": 0.85, \"reason\": \"用户主要诉求是催促发货（一直不发货、催了也没发），同时反映物流状态异常变为已签收，属于物流推进与状态查询的复合意图，主意图为催物流\"}",
+    "prompt_tokens": 1968,
+    "completion_tokens": 67
+  },
+  "intent:deepseek-chat:1shot:7d1699159c7781dad36bc2160d7472fdb5a8344d": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户提及配送时效预期，倾向询问配送安排，但表述模糊，未明确催单或投诉\"}",
+    "prompt_tokens": 1955,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:faa8257f84c7c4797e6ee41775fa8f0d069667fc": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.85, \"reason\": \"用户要求优先配送急需商品，属于催促物流诉求\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 33
+  },
+  "intent:deepseek-chat:1shot:db695c4e9a3c7707a4e810cf7f8cf047eb44add1": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.6, \"reason\": \"用户催促快递员取件，诉求为推进物流，但表述含'帮忙下单'较模糊\"}",
+    "prompt_tokens": 1950,
+    "completion_tokens": 43
+  },
+  "intent:deepseek-chat:1shot:0926b724519e7d5b675fef9609ea632f89a29deb": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.85, \"reason\": \"要求今天送到，带时间压力的配送推进诉求，属催物流\"}",
+    "prompt_tokens": 1955,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:96302f35d64a0db9c944e68568ad36e9bc15e663": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.95, \"reason\": \"明确要求催促快递配送进度\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 28
+  },
+  "intent:deepseek-chat:1shot:d29becc6cc9270f03c0507f956b807bac0cb0c55": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.75, \"reason\": \"用户抱怨太慢并请求取消订单，核心诉求是推进/终止物流，带时间压力，归催物流\"}",
+    "prompt_tokens": 1959,
+    "completion_tokens": 46
+  },
+  "intent:deepseek-chat:1shot:3da0de7a3499962a6d9f3d6d86fef68bf6ab5709": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.9, \"reason\": \"询问订单物流信息，属状态查询，无催促诉求\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 32
+  },
+  "intent:deepseek-chat:1shot:87579ac98cacecab3aff06034fb2607f37965db6": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.9, \"reason\": \"带时间压力催促发货，属催物流\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 31
+  },
+  "intent:deepseek-chat:1shot:f478295da0674c9d1fb5d6b90f3d711b9794727d": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.6, \"reason\": \"用户表达尽快、等着用，带时间压力，倾向催物流，但缺少明确订单或商品上下文，把握一般\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 47
+  },
+  "intent:deepseek-chat:1shot:465d78a02875f513d35eefcc1f77789afbe1c120": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"询问京东超市配送是否正常，属配送安排类订单查询，但表述较泛且与生鲜售后场景关联弱，把握中等\"}",
+    "prompt_tokens": 1964,
+    "completion_tokens": 49
+  },
+  "intent:deepseek-chat:1shot:6e305e6492196f8fed1c8a89821389c02ed015b4": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.55, \"reason\": \"用户表达仍想要货，倾向推进发货/配送，但表述模糊，可能承接前文理赔语境\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 44
+  },
+  "intent:deepseek-chat:1shot:32c81a13b3ef6a05d7bdf75873075f4ab92711db": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.35, \"reason\": \"问句不完整，疑似询问配送/快递费用安排，倾向订单配送相关，但语义模糊置信度低\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 44
+  },
+  "intent:deepseek-chat:1shot:9803f2d5fe449567759562452fdfbf506ef88ee7": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.55, \"reason\": \"表达等待过久并提及联系厂家，倾向催促物流推进，但表述模糊，未明确订单或赔付诉求\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 46
+  },
+  "intent:deepseek-chat:1shot:196ca5e4083dbfa0cb17b2a0a58ddeceb234c628": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.6, \"reason\": \"用户抱怨配送联系不上、两天没音讯，诉求是推进配送联系，属催物流；表述较模糊，故置信度中等\"}",
+    "prompt_tokens": 1957,
+    "completion_tokens": 51
+  },
+  "intent:deepseek-chat:1shot:3a9bff882175609fce38cffa78f949ec3f4d3f14": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.9, \"reason\": \"带时间压力的发货催促，属催物流\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 31
+  },
+  "intent:deepseek-chat:1shot:8afef17892b84d968584901430dc98a83bc3f9ff": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.55, \"reason\": \"表述模糊，'等半天也不取消'疑似催促处理进度，但未明确是取消订单还是物流，倾向催单\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 48
+  },
+  "intent:deepseek-chat:1shot:a3c41645d0c114911184b0903e584eac962d6b2b": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.9, \"reason\": \"用户带时间预期催促配送进度，属催物流\"}",
+    "prompt_tokens": 1948,
+    "completion_tokens": 33
+  },
+  "intent:deepseek-chat:1shot:2555395868aa4325228a44871fea7261ce913355": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.9, \"reason\": \"用户要求催促配送进度，属于催物流\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 31
+  },
+  "intent:deepseek-chat:1shot:5f19b985bb1fb41c2048eddd249ca60484afb4cd": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.6, \"reason\": \"要求联系派送员调整配送安排，属配送环节诉求，但意图偏特殊指令，把握一般\"}",
+    "prompt_tokens": 1949,
+    "completion_tokens": 44
+  },
+  "intent:deepseek-chat:1shot:423d3118a06ad7526c930d1e2597ef34bed6a2c3": {
+    "response": "{\"labels\": [\"refund_consult\"], \"confidence\": 0.6, \"reason\": \"用户询问退货时间来不及、出差在即如何处理，属于退货/退款流程与时效咨询，未明确要求人工或投诉\"}",
+    "prompt_tokens": 1948,
+    "completion_tokens": 48
+  },
+  "intent:deepseek-chat:1shot:dad4c3851dd554f66d94fa02df49d93e64e0d861": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.95, \"reason\": \"用户催促冷鲜肉配送进度，属典型催物流\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 34
+  },
+  "intent:deepseek-chat:1shot:e01dcce9d5ef16bda54be2ba69019f3ab6adfad9": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.7, \"reason\": \"反映配送员未联系，属于配送安排/签收情况查询，无催促或赔付诉求\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 40
+  },
+  "intent:deepseek-chat:1shot:ab79a95439bfeda4948d3320e5dd542bc24c95a0": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"询问能否再次配送，属配送安排类订单查询，但表述模糊，把握一般\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:086c2edce52e940da096f84c01cd95f51a9c7c47": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.75, \"reason\": \"询问未发货原因，偏向状态查询，无明显催促或时间压力\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 34
+  },
+  "intent:deepseek-chat:1shot:52744a817d9e76a83fefbf4d7d4a405e5fa8e336": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.75, \"reason\": \"询问发货时间，属配送安排查询；无催促情绪，归订单查询\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:6aba138d30e1f4a91f722f2cb875eeadbd3a2077": {
+    "response": "{\"labels\": [\"human_handoff\"], \"confidence\": 0.6, \"reason\": \"用户要求联系快递员并修改收件手机号，属于需要人工介入的配送信息变更，非标准查询/催单/理赔类，倾向转人工处理\"}",
+    "prompt_tokens": 1966,
+    "completion_tokens": 57
+  },
+  "intent:deepseek-chat:1shot:7c56ac7dfff4327cae89a2461a56cf774f1172ad": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"表述模糊，'货都拉走三天了'更像询问退货/取件后的进度状态，无明确催促或赔付诉求，暂归订单查询\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 52
+  },
+  "intent:deepseek-chat:1shot:6251df8c10a381fd4ef0f1283aae247d42646954": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.75, \"reason\": \"用户表达等待但带时间压力，暗示催促配送，否则取消订单，诉求仍是推进物流\"}",
+    "prompt_tokens": 1963,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:0515ec1434709d5691b73a36fb433012bbe831cf": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.85, \"reason\": \"到站后无配送信息，隐含催促派送诉求\"}",
+    "prompt_tokens": 1952,
+    "completion_tokens": 34
+  },
+  "intent:deepseek-chat:1shot:d4aa9ba77537595ceee4b94f42fe9aab75990733": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"用户表达配送地址/送达方式诉求，倾向配送安排查询，但表述模糊，置信度较低\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:d9d2e6e8f6b6bec71be3bc25aa3fab5f125cc820": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.95, \"reason\": \"用户明确要求催促配送进度，属催物流\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 32
+  },
+  "intent:deepseek-chat:1shot:580d680be5fe16db602831e0ca090c1829dfdb18": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.6, \"reason\": \"“早点”暗示希望加快配送/发货，属催物流，但表述模糊缺乏订单上下文\"}",
+    "prompt_tokens": 1940,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:c172e8e4e69a09bef045c35b8d531ec823e58309": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.85, \"reason\": \"要求尽快安排派送，属推进配送进度的催单诉求\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:534adaa3818dda4f93c12bccea87e0da260140d6": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"询问下单后被告知无货的原因，偏向订单状态与配送安排查询，但表述模糊，可能涉及退款或投诉，置信度中等\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 50
+  },
+  "intent:deepseek-chat:1shot:de73a46e60a2ffcc930e732de383108bb4c76f44": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"询问发货时间，属配送安排类订单查询，无催促情绪\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 34
+  },
+  "intent:deepseek-chat:1shot:cb0a9954e4d3e10de84372523d3209be1d0315b7": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.85, \"reason\": \"用户要求帮忙催促，属于催物流诉求\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 31
+  },
+  "intent:deepseek-chat:1shot:de1c4f19435cd490ba04b4332680a0a525a77532": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.85, \"reason\": \"用户带时间压力催促配送进度，属催物流\"}",
+    "prompt_tokens": 1976,
+    "completion_tokens": 33
+  },
+  "intent:deepseek-chat:1shot:b28f022c878b832858990baf42eb461fb120c08c": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.85, \"reason\": \"询问不发货原因，带推进物流诉求，属催发货\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 35
+  },
+  "intent:deepseek-chat:1shot:a09f77b54dc8afaed8197e1c9dde39b848c5eb82": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"用户提到新订单明天到、旧订单还没人取走，倾向询问旧订单的取件/配送安排，属订单查询；但表述较模糊，也可能是催取件，置信度中等\"}",
+    "prompt_tokens": 1951,
+    "completion_tokens": 62
+  },
+  "intent:deepseek-chat:1shot:b3c20d547e30629fb7e95ba8824e102c16af4459": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户提及下单与收货时间，隐含询问配送安排或能否改约，属订单/配送状态查询，但表述模糊\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 46
+  },
+  "intent:deepseek-chat:1shot:309d0518d10c81a918531935fd1ff6b146e74da2": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.95, \"reason\": \"明确要求催促胡萝卜快递配送，属催物流\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 32
+  },
+  "intent:deepseek-chat:1shot:b3de6a5a491b353115902a5b53051c634aab4c3a": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.6, \"reason\": \"用户表达急用并提及配送地址，诉求偏向推进配送进度，但表述不完整，置信度中等\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:f54c0d1eed3be8a5c677bf42ead2c2ac7ab48dae": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"用户提及订单号并关注配送安排，附带退货意愿，主意图偏向配送查询，但表述模糊\"}",
+    "prompt_tokens": 1949,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:1cd53b7d854f5870c61af3cf9ddde80903254435": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.7, \"reason\": \"用户希望推进派送，带请求优先配送的诉求，属催物流；表述较模糊，把握中等\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 45
+  },
+  "intent:deepseek-chat:1shot:0360c7ee7d0058f5b022401b8040d9dc29570dee": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.85, \"reason\": \"带时间压力的发货催促，属催物流\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 31
+  },
+  "intent:deepseek-chat:1shot:0124e877c97c970c1ef49b04cd43a5a1ccb1f245": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.85, \"reason\": \"要求加快配送，带时间压力，属催物流\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 33
+  },
+  "intent:deepseek-chat:1shot:0b161a732eea1775b446b883a34b5cc25cad87cf": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.55, \"reason\": \"用户暗示自己已下单却未发货，而新买可立即发货，带催促发货诉求，但表述较模糊\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 47
+  },
+  "intent:deepseek-chat:1shot:3be7aca8f16eaf3c6467c9d89480bac1e3f7489e": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.75, \"reason\": \"用户抱怨承诺的隔日达未兑现，带时间压力，诉求偏向推进物流进度，归为催物流\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 46
+  },
+  "intent:deepseek-chat:1shot:f0ca9c94062e4c2eb9aaf7866a9fdf47c0352740": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.95, \"reason\": \"用户明确要求催促配送进度，属于催物流\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 32
+  },
+  "intent:deepseek-chat:1shot:874216a0a025cfd2d76d15d7e0a0b9ae15741d55": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.95, \"reason\": \"用户催促发货，带时间压力，属催物流\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 33
+  },
+  "intent:deepseek-chat:1shot:b12e6486ee6a2987c7c4e6c824455ba85be5f0c9": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户表达配送时间安排诉求，属于配送安排类订单查询，但表述较模糊\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:5851d614acef46939a178b80e0144d43f607545c": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.95, \"reason\": \"明确要求催促快递，属催物流\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 30
+  },
+  "intent:deepseek-chat:1shot:71a703322dd5cbf4836d9fc38a5fb4678beb6b0b": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"询问配送站到派送的时间安排，属配送进度查询，虽带着急情绪但无明确催促诉求\"}",
+    "prompt_tokens": 1956,
+    "completion_tokens": 43
+  },
+  "intent:deepseek-chat:1shot:691b8a809f56d9536c8fae0809c8eed8a0e4705c": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"询问订单是否已签收，属订单状态查询\"}",
+    "prompt_tokens": 1948,
+    "completion_tokens": 31
+  },
+  "intent:deepseek-chat:1shot:99ab5c941fcb333a2a9a5354eff5adf5e11ef123": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.55, \"reason\": \"询问快递停运与寄送安排，偏向配送安排查询，但表述模糊，可能涉及时效规则咨询\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 44
+  },
+  "intent:deepseek-chat:1shot:91c5822877d786ccbfb52e18672c0b827dd63901": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.6, \"reason\": \"表达对等待时间的不满并暗示可能放弃，诉求偏向推进物流，但缺少明确订单与催促词，置信度中等\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 48
+  },
+  "intent:deepseek-chat:1shot:22bdd467f1860b8d54f5128495960796ec87e25f": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.75, \"reason\": \"用户追问配送延迟原因，属订单配送安排查询，无催促或赔付诉求\"}",
+    "prompt_tokens": 1962,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:83a20f14b6e10f9cde700ef17823a622cca70a6e": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.75, \"reason\": \"抱怨快递慢，带催促物流诉求，但未指明具体订单\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:27c0788ca88a26a013e9be96e9272c00866d7642": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.9, \"reason\": \"用户要求今天派送并愿加运费，属于催促配送进度\"}",
+    "prompt_tokens": 1964,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:5244abca9a7a8cbb19629afb2d63809680571e0e": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.75, \"reason\": \"要求周末安排配送，属推进配送安排的催单诉求\"}",
+    "prompt_tokens": 1948,
+    "completion_tokens": 34
+  },
+  "intent:deepseek-chat:1shot:a6c9d21e3ee65ba48921ab20419a2348f97b7a26": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.85, \"reason\": \"用户要求今天先发货，带时间压力，属催发货\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 35
+  },
+  "intent:deepseek-chat:1shot:cd0200cebbd26a55e2be21e800ed198a11e253ca": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"询问今日能否派送，属配送安排查询，但表述不完整，把握中等\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:84983ff39590ec6d5d292a9884b557b878c4efcd": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.9, \"reason\": \"用户强调前天已订仍未发货，带时间压力，属催发货\"}",
+    "prompt_tokens": 1945,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:1c0c4ed3e9264003d717b768aaef6398a252087c": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.85, \"reason\": \"带时间压力要求今天送达，否则取消，诉求仍是推进配送\"}",
+    "prompt_tokens": 1950,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:6061c738f69d3da63d1f1f8fcc502656290323ca": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"询问发货时间，属配送安排类订单查询，无催促情绪\"}",
+    "prompt_tokens": 1940,
+    "completion_tokens": 34
+  },
+  "intent:deepseek-chat:1shot:89bf9045c97885810caac2ef63a3d789b82169c2": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.85, \"reason\": \"用户抱怨配送未按时送达，带时间压力，诉求是推进物流\"}",
+    "prompt_tokens": 1955,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:34b9fddf73a83359d39392de13239e3df92866c5": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.9, \"reason\": \"用户要求催促配送进度，属催物流\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 31
+  },
+  "intent:deepseek-chat:1shot:33c63798feada7058ae46b7baf7ba3889a0bcda4": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.6, \"reason\": \"用户提到想让对方帮忙发货，带推进发货诉求，但表述模糊，可能涉及订单催促\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 42
+  },
+  "intent:deepseek-chat:1shot:a20caa28283e3d832082ec47041d1d3ea6d6a441": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"用户询问是否刚发货，同时提到已拒收一周，核心是想了解订单当前状态，属订单查询；拒收一周带轻微不满但无明确催单或赔付诉求\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 58
+  },
+  "intent:deepseek-chat:1shot:3bcefc5cef7b7cc6a23b2a97620b400fd6152181": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.9, \"reason\": \"带时间压力的催发货问法，属催物流\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 33
+  },
+  "intent:deepseek-chat:1shot:4b9b0f6c0e7f204c30233df9c7d514a3079870a2": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"询问订单是否发货及是否有货，属订单状态查询，无催促诉求\"}",
+    "prompt_tokens": 1950,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:ac1e6617af8a426e9487ad6a45944db92e743a37": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.85, \"reason\": \"用户抱怨物流长时间未更新，带时间压力，诉求是推进物流进度\"}",
+    "prompt_tokens": 1970,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:480a4da1071d902380f63afc1e6c0a6c55e5ad13": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.95, \"reason\": \"明确要求催促榴莲快递配送进度\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 30
+  },
+  "intent:deepseek-chat:1shot:d3ceb1ce31a964e4d9c0c798d8a76828ec139ad9": {
+    "response": "{\"labels\": [\"urge_logistics\", \"refund_consult\"], \"confidence\": 0.6, \"reason\": \"用户希望加快退货速度并及时退款，诉求偏向推进退货退款进度，但未明确是催物流还是退款时效咨询，故按催单与退款咨询组合处理\"}",
+    "prompt_tokens": 1957,
+    "completion_tokens": 63
+  },
+  "intent:deepseek-chat:1shot:8113bb7dcabaf604d131954ccd9e43bc76505056": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"询问订单物流信息缺失，属状态查询，无催促或赔付诉求\"}",
+    "prompt_tokens": 1944,
+    "completion_tokens": 35
+  },
+  "intent:deepseek-chat:1shot:288f1cfe81c8c0c840ae719f598a15dcf59e4a6f": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.6, \"reason\": \"询问配送安排是否今天能进行，属订单查询，但表述模糊缺乏上下文\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:6bd6d4743d581b8c68a900c4e613a2b2bcdc46e6": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"询问配送安排与当前状态，属订单查询，无催促诉求\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 34
+  },
+  "intent:deepseek-chat:1shot:85aa8e4b138abd24a905422c6f72bab9413f9b90": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.9, \"reason\": \"带时间压力的发货催促，属催物流\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 31
+  },
+  "intent:deepseek-chat:1shot:5804371632c9cb2a2e967b7bb4b118a11d6dab30": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.75, \"reason\": \"用户希望取消预约直接发货，诉求是推进发货进度，属催物流\"}",
+    "prompt_tokens": 1947,
+    "completion_tokens": 38
+  },
+  "intent:deepseek-chat:1shot:b5c8b43cf0850d6d9f713016b23a084523573ecd": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.95, \"reason\": \"明确要求催促派送进度，属催物流\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 32
+  },
+  "intent:deepseek-chat:1shot:aa1eb714fd4649ef359cb3998d421539283ea414": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.75, \"reason\": \"询问发货状态为何暂停，属订单状态查询，无明显催促或赔付诉求\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 36
+  },
+  "intent:deepseek-chat:1shot:497f2ebfb89f063ebf981a2f45c1d0ba50aab3d5": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.85, \"reason\": \"带时间压力的配送进度抱怨，诉求是推进物流，属催单\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 37
+  },
+  "intent:deepseek-chat:1shot:59a2284ccef04f9fd9520aa8c4f3217268f07745": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.85, \"reason\": \"抱怨物流信息不更新，带推进诉求，属催物流\"}",
+    "prompt_tokens": 1941,
+    "completion_tokens": 35
+  },
+  "intent:deepseek-chat:1shot:00e96d684cff758a739cf16b39794d7ddf8e13a7": {
+    "response": "{\"labels\": [\"query_order\"], \"confidence\": 0.85, \"reason\": \"询问发货时间，属订单状态查询，无催促情绪\"}",
+    "prompt_tokens": 1946,
+    "completion_tokens": 32
+  },
+  "intent:deepseek-chat:1shot:df553bcb3b142a7eb6ac40f1e5c060281f1cdb4e": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.85, \"reason\": \"用户抱怨至今未出库，带时间压力，诉求是推进发货，属催物流\"}",
+    "prompt_tokens": 1942,
+    "completion_tokens": 41
+  },
+  "intent:deepseek-chat:1shot:3da44caa6eaf063867ba23994fa0011771ca49f5": {
+    "response": "{\"labels\": [\"urge_logistics\"], \"confidence\": 0.95, \"reason\": \"明确要求催促叶菜快递配送进度\"}",
+    "prompt_tokens": 1943,
+    "completion_tokens": 30
+  }
+}

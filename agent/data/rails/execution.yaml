@@ -1,0 +1,34 @@
+# 执行护栏：工具调用前后校验
+version: 1
+rules:
+  - id: execution.high_refund
+    scope: execution
+    priority: 80
+    match:
+      event: tool_result
+      conditions:
+        - field: tool
+          op: "=="
+          value: create_ticket
+        - field: refund_amount
+          op: ">"
+          value: 200
+    action: handoff
+    message: 赔付金额超过 200 元，需要人工确认后执行。
+    reason: 赔付金额超过自动审核上限
+    tags: [amount]
+
+  - id: execution.ticket_format
+    scope: execution
+    priority: 70
+    match:
+      event: tool_result
+      not_regex: "^TK-[0-9]{8}-[0-9]{4}$"
+      conditions:
+        - field: tool
+          op: "=="
+          value: create_ticket
+    action: handoff
+    message: 工单号异常，已转人工核对，避免给您错误单号。
+    reason: 工单号格式异常
+    tags: [ticket_format]

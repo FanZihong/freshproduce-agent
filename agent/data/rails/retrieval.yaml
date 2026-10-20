@@ -1,0 +1,33 @@
+# 检索护栏：没有可靠依据时宁可不答
+version: 1
+rules:
+  - id: retrieval.no_evidence
+    scope: retrieval
+    priority: 75
+    match:
+      event: retrieval
+      conditions:
+        - field: found
+          op: "=="
+          value: false
+    action: handoff
+    message: 没有找到可靠依据，为避免误导，已为您转接人工客服。
+    reason: 知识库无据
+    tags: [grounding]
+
+  # 预留开关：相关度过低时也不硬答。默认关闭，避免改变现有评测口径；
+  # 打开前先跑 dialogues_golden，确认没有把"覆盖率刚过线"的样本误杀。
+  - id: retrieval.low_relevance
+    enabled: false
+    scope: retrieval
+    priority: 70
+    match:
+      event: retrieval
+      conditions:
+        - field: top_score
+          op: "<"
+          value: 0.35
+    action: handoff
+    message: 检索结果与问题相关度较低，为避免误导，已为您转接人工客服。
+    reason: 检索相关度过低
+    tags: [grounding]

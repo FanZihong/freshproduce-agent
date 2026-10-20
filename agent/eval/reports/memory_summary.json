@@ -1,0 +1,252 @@
+{
+  "created_at": "2026-10-19 11:08:40",
+  "padding": 5,
+  "scenarios": [
+    "dg-01",
+    "dg-02",
+    "dg-03",
+    "dg-04",
+    "dg-05",
+    "dg-06"
+  ],
+  "variants": {
+    "rule": {
+      "mode": "rule",
+      "dialogues": 6,
+      "pass_rate": 1.0,
+      "tool_calls": 13,
+      "tool_success_rate": 1.0,
+      "handoff_rate": 0.0,
+      "avg_summary_len": 213.5,
+      "llm": {}
+    },
+    "llm": {
+      "mode": "llm",
+      "dialogues": 6,
+      "pass_rate": 1.0,
+      "tool_calls": 13,
+      "tool_success_rate": 1.0,
+      "handoff_rate": 0.0,
+      "avg_summary_len": 93.3,
+      "llm": {
+        "calls": 7,
+        "ok": 7,
+        "failed": 0,
+        "fallback": 0,
+        "prompt_tokens": 1685,
+        "completion_tokens": 585,
+        "cost": 0.00805,
+        "latency_ms": 26857.462081999074
+      }
+    }
+  },
+  "details": {
+    "rule": [
+      {
+        "id": "mem-dg-01",
+        "scenario": "查单-单轮命中订单号（垫 5 轮）",
+        "checks": {
+          "tools": true,
+          "reply_contains": true
+        },
+        "passed": true,
+        "tools": {
+          "calls": 2,
+          "success": 2
+        },
+        "handoff": false,
+        "summary": "用户: 你好 | Agent: 这个问题超出了售后服务的范围。我可以帮您查询订单物流、处理坏果理赔，或者在需要时... | 用户: 在吗 | Agent: 这个问题超出了售后服务的范围。我可以帮您查询订单物流、处理坏果理赔，或者在需要时... | 用户: 我想问下售后 | Agent: 这个问题超出了售后服务的范围。我可以帮您查询订单物流、处理坏果理赔，或者在需要时...",
+        "summary_len": 187,
+        "last_reply": "订单 2026093000123：红颜草莓 500g，实付 25.80 元，当前状态：已签收。包裹已于 2026-09-30 09:40 签收，签收人为本人。"
+      },
+      {
+        "id": "mem-dg-02",
+        "scenario": "查单-缺订单号（垫 5 轮）",
+        "checks": {
+          "reply_contains": true
+        },
+        "passed": true,
+        "tools": {
+          "calls": 0,
+          "success": 0
+        },
+        "handoff": false,
+        "summary": "用户: 你好 | Agent: 这个问题超出了售后服务的范围。我可以帮您查询订单物流、处理坏果理赔，或者在需要时... | 用户: 在吗 | Agent: 这个问题超出了售后服务的范围。我可以帮您查询订单物流、处理坏果理赔，或者在需要时... | 用户: 我想问下售后 | Agent: 这个问题超出了售后服务的范围。我可以帮您查询订单物流、处理坏果理赔，或者在需要时...",
+        "summary_len": 187,
+        "last_reply": "请提供订单号，我来帮您查询物流状态。"
+      },
+      {
+        "id": "mem-dg-03",
+        "scenario": "查单-两轮补订单号（垫 5 轮）",
+        "checks": {
+          "tools": true,
+          "reply_contains": true
+        },
+        "passed": true,
+        "tools": {
+          "calls": 2,
+          "success": 2
+        },
+        "handoff": false,
+        "summary": "用户: 你好 | Agent: 这个问题超出了售后服务的范围。我可以帮您查询订单物流、处理坏果理赔，或者在需要时... | 用户: 在吗 | Agent: 这个问题超出了售后服务的范围。我可以帮您查询订单物流、处理坏果理赔，或者在需要时... | 用户: 我想问下售后 | Agent: 这个问题超出了售后服务的范围。我可以帮您查询订单物流、处理坏果理赔，或者在需要时...",
+        "summary_len": 187,
+        "last_reply": "订单 2026092800451：智利车厘子 1kg，实付 88.00 元，当前状态：运输中。包裹运输中，预计明日 18:00 前送达。"
+      },
+      {
+        "id": "mem-dg-04",
+        "scenario": "查单-已发货状态（垫 5 轮）",
+        "checks": {
+          "tools": true,
+          "reply_contains": true
+        },
+        "passed": true,
+        "tools": {
+          "calls": 2,
+          "success": 2
+        },
+        "handoff": false,
+        "summary": "用户: 你好 | Agent: 这个问题超出了售后服务的范围。我可以帮您查询订单物流、处理坏果理赔，或者在需要时... | 用户: 在吗 | Agent: 这个问题超出了售后服务的范围。我可以帮您查询订单物流、处理坏果理赔，或者在需要时... | 用户: 我想问下售后 | Agent: 这个问题超出了售后服务的范围。我可以帮您查询订单物流、处理坏果理赔，或者在需要时...",
+        "summary_len": 187,
+        "last_reply": "订单 2026092500107：锦绣黄桃 1kg，实付 32.00 元，当前状态：已发货。商家已发货，等待快递揽收。"
+      },
+      {
+        "id": "mem-dg-05",
+        "scenario": "查单-催单口语变体（垫 5 轮）",
+        "checks": {
+          "tools": true,
+          "reply_contains": true
+        },
+        "passed": true,
+        "tools": {
+          "calls": 2,
+          "success": 2
+        },
+        "handoff": false,
+        "summary": "用户: 你好 | Agent: 这个问题超出了售后服务的范围。我可以帮您查询订单物流、处理坏果理赔，或者在需要时... | 用户: 在吗 | Agent: 这个问题超出了售后服务的范围。我可以帮您查询订单物流、处理坏果理赔，或者在需要时... | 用户: 我想问下售后 | Agent: 这个问题超出了售后服务的范围。我可以帮您查询订单物流、处理坏果理赔，或者在需要时...",
+        "summary_len": 187,
+        "last_reply": "订单 2026092800451：智利车厘子 1kg，实付 88.00 元，当前状态：运输中。包裹运输中，预计明日 18:00 前送达。"
+      },
+      {
+        "id": "mem-dg-06",
+        "scenario": "理赔-三轮填满槽位（垫 5 轮）",
+        "checks": {
+          "tools": true,
+          "reply_contains": true
+        },
+        "passed": true,
+        "tools": {
+          "calls": 5,
+          "success": 5
+        },
+        "handoff": false,
+        "summary": "用户: 你好 | Agent: 这个问题超出了售后服务的范围。我可以帮您查询订单物流、处理坏果理赔，或者在需要时... | 用户: 在吗 | Agent: 这个问题超出了售后服务的范围。我可以帮您查询订单物流、处理坏果理赔，或者在需要时... | 用户: 我想问下售后 | Agent: 这个问题超出了售后服务的范围。我可以帮您查询订单物流、处理坏果理赔，或者在需要时...\n用户: 稍等我看看订单 | Agent: 请提供订单号，我来帮您查询物流状态。 | 用户: 还在吗 | Agent: 请提供订单号，我来帮您查询物流状态。 | 用户: 订单 2026093000123 草莓坏了 | Agent: 订单 2026093000123：红颜草莓 500g，实付 25.80 元，当前...",
+        "summary_len": 346,
+        "last_reply": "已核对订单：红颜草莓 500g，实付 25.80 元。按赔付标准，坏果比例 50% 对应赔付比例 50%，应赔付 12.90 元。工单号 TK-20261019-0078，预计 2 小时内审核完成。"
+      }
+    ],
+    "llm": [
+      {
+        "id": "mem-dg-01",
+        "scenario": "查单-单轮命中订单号（垫 5 轮）",
+        "checks": {
+          "tools": true,
+          "reply_contains": true
+        },
+        "passed": true,
+        "tools": {
+          "calls": 2,
+          "success": 2
+        },
+        "handoff": false,
+        "summary": "用户三次问候并咨询售后，客服均统一回复超出范围，未获取到订单号、商品、坏果比例等信息，亦未确认具体诉求；用户“想问售后”的事项尚未办理，需转人工或进一步核实",
+        "summary_len": 78,
+        "last_reply": "订单 2026093000123：红颜草莓 500g，实付 25.80 元，当前状态：已签收。包裹已于 2026-09-30 09:40 签收，签收人为本人。"
+      },
+      {
+        "id": "mem-dg-02",
+        "scenario": "查单-缺订单号（垫 5 轮）",
+        "checks": {
+          "reply_contains": true
+        },
+        "passed": true,
+        "tools": {
+          "calls": 0,
+          "success": 0
+        },
+        "handoff": false,
+        "summary": "用户多次打招呼并表示想咨询售后，未说明具体问题，未提供订单号、商品、坏果比例或赔付金额。客服三次回复称超出售后服务范围，仅提示可查物流、处理坏果理赔或转人工。待办：需引导用户说明售后诉求并补充订单信息，或转接人工",
+        "summary_len": 106,
+        "last_reply": "请提供订单号，我来帮您查询物流状态。"
+      },
+      {
+        "id": "mem-dg-03",
+        "scenario": "查单-两轮补订单号（垫 5 轮）",
+        "checks": {
+          "tools": true,
+          "reply_contains": true
+        },
+        "passed": true,
+        "tools": {
+          "calls": 2,
+          "success": 2
+        },
+        "handoff": false,
+        "summary": "用户三次发起咨询（问候及\"想问下售后\"），客服均回复超出售后范围，未获实质处理。订单号、商品、坏果比例、赔付金额均未提及。用户售后诉求未确认，待转接人工客服跟进",
+        "summary_len": 80,
+        "last_reply": "订单 2026092800451：智利车厘子 1kg，实付 88.00 元，当前状态：运输中。包裹运输中，预计明日 18:00 前送达。"
+      },
+      {
+        "id": "mem-dg-04",
+        "scenario": "查单-已发货状态（垫 5 轮）",
+        "checks": {
+          "tools": true,
+          "reply_contains": true
+        },
+        "passed": true,
+        "tools": {
+          "calls": 2,
+          "success": 2
+        },
+        "handoff": false,
+        "summary": "用户主动打招呼并咨询售后，未提供订单号、商品、坏果比例及赔付信息；机器人连续回复超出服务范围，仅提示可查物流、处理坏果理赔或转人工。用户诉求尚未受理，需转接人工客服跟进",
+        "summary_len": 84,
+        "last_reply": "订单 2026092500107：锦绣黄桃 1kg，实付 32.00 元，当前状态：已发货。商家已发货，等待快递揽收。"
+      },
+      {
+        "id": "mem-dg-05",
+        "scenario": "查单-催单口语变体（垫 5 轮）",
+        "checks": {
+          "tools": true,
+          "reply_contains": true
+        },
+        "passed": true,
+        "tools": {
+          "calls": 2,
+          "success": 2
+        },
+        "handoff": false,
+        "summary": "用户多次问“在吗”“我想问下售后”，尚未说明具体订单或问题；客服反复回复超出售后范围，仅提示可查物流、处理坏果理赔或转人工。订单号、商品、坏果比例、赔付金额均未确认，用户诉求也待明确，此事尚未办结",
+        "summary_len": 98,
+        "last_reply": "订单 2026092800451：智利车厘子 1kg，实付 88.00 元，当前状态：运输中。包裹运输中，预计明日 18:00 前送达。"
+      },
+      {
+        "id": "mem-dg-06",
+        "scenario": "理赔-三轮填满槽位（垫 5 轮）",
+        "checks": {
+          "tools": true,
+          "reply_contains": true
+        },
+        "passed": true,
+        "tools": {
+          "calls": 5,
+          "success": 5
+        },
+        "handoff": false,
+        "summary": "用户查询订单2026093000123的红颜草莓500g（实付25.80元，已于2026-09-30签收）；用户反馈草莓坏了，但坏果比例和赔付金额尚未确认。待办：需核实坏果情况和用户诉求，并引导用户提供坏果照片或比例，以转接售后",
+        "summary_len": 114,
+        "last_reply": "已核对订单：红颜草莓 500g，实付 25.80 元。按赔付标准，坏果比例 50% 对应赔付比例 50%，应赔付 12.90 元。工单号 TK-20261019-0079，预计 2 小时内审核完成。"
+      }
+    ]
+  },
+  "recommendation": "两者打平：保持 rule（同样的结果，规则版零成本、可复现）"
+}

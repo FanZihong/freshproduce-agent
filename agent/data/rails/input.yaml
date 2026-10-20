@@ -1,0 +1,131 @@
+# 输入护栏：用户话一进来就跑（本段只做规则与内核，第二段接入图）
+version: 1
+rules:
+  - id: input.ask_internal
+    scope: input
+    priority: 95
+    match:
+      event: user_message
+      keywords: [系统提示词, 你的提示词, 内部规则, 后台数据, 忽略之前的指令]
+    action: block
+    message: 这个我没法提供。我可以帮您查询订单、处理售后，或者在需要时转接人工客服。
+    tags: [prompt_injection]
+
+  # 争议词：从 agent/graph/router.py 的 DISPUTE_RULES 迁过来，
+  # priority 保持原来的表顺序（先匹配到的先返回），行为零变化。
+  - id: input.dispute_full_refund
+    scope: input
+    priority: 90
+    match:
+      event: user_message
+      keywords: [全退]
+    action: handoff
+    message: 用户要求全额退款
+    reason: 用户要求全额退款
+    tags: [dispute]
+
+  - id: input.dispute_full_compensation
+    scope: input
+    priority: 89
+    match:
+      event: user_message
+      keywords: [全赔]
+    action: handoff
+    message: 用户要求全额赔付
+    reason: 用户要求全额赔付
+    tags: [dispute]
+
+  - id: input.dispute_complaint
+    scope: input
+    priority: 88
+    match:
+      event: user_message
+      keywords: [投诉]
+    action: handoff
+    message: 用户表达投诉意愿
+    reason: 用户表达投诉意愿
+    tags: [dispute]
+
+  - id: input.dispute_bad_review
+    scope: input
+    priority: 87
+    match:
+      event: user_message
+      keywords: [差评]
+    action: handoff
+    message: 用户威胁给差评
+    reason: 用户威胁给差评
+    tags: [dispute]
+
+  - id: input.dispute_expose
+    scope: input
+    priority: 86
+    match:
+      event: user_message
+      keywords: [曝光]
+    action: handoff
+    message: 用户威胁曝光
+    reason: 用户威胁曝光
+    tags: [dispute]
+
+  - id: input.dispute_too_bad
+    scope: input
+    priority: 85
+    match:
+      event: user_message
+      keywords: [太差]
+    action: handoff
+    message: 用户强烈不满
+    reason: 用户强烈不满
+    tags: [dispute]
+
+  - id: input.dispute_refuse_plan
+    scope: input
+    priority: 84
+    match:
+      event: user_message
+      keywords: [不行]
+    action: handoff
+    message: 用户拒绝当前赔付方案
+    reason: 用户拒绝当前赔付方案
+    tags: [dispute]
+
+  - id: input.explicit_handoff
+    scope: input
+    priority: 80
+    match:
+      event: user_message
+      keywords: [转人工, 人工客服]
+    action: handoff
+    message: 已为您转接人工客服，请稍候。
+    tags: [handoff]
+
+  - id: input.insult
+    scope: input
+    priority: 40
+    match:
+      event: user_message
+      keywords: [垃圾客服, 废物, 傻]
+    action: flag
+    tags: [emotion]
+
+  - id: input.pii_phone
+    scope: input
+    priority: 30
+    match:
+      event: user_message
+      regex: "1[3-9]\\d{9}"
+    action: flag
+    tags: [pii]
+
+  - id: input.ood
+    scope: input
+    priority: 20
+    match:
+      event: intent
+      conditions:
+        - field: out_of_domain
+          op: "=="
+          value: true
+    action: flag
+    tags: [ood]

@@ -1,0 +1,302 @@
+{
+  "rule|rule|||坏了一点点可以赔吗": {
+    "original": "坏了一点点可以赔吗",
+    "query": "坏了一点点可以赔吗",
+    "rewritten": false,
+    "reason": "问题自包含，无需改写",
+    "strategy": "rule",
+    "model": "",
+    "latency_ms": 0,
+    "error": ""
+  },
+  "rule|rule|||坏果很少能拿到补偿吗": {
+    "original": "坏果很少能拿到补偿吗",
+    "query": "坏果很少能拿到补偿吗",
+    "rewritten": false,
+    "reason": "问题自包含，无需改写",
+    "strategy": "rule",
+    "model": "",
+    "latency_ms": 0,
+    "error": ""
+  },
+  "rule|rule|||坏果两成赔多少": {
+    "original": "坏果两成赔多少",
+    "query": "坏果两成赔多少",
+    "rewritten": false,
+    "reason": "问题自包含，无需改写",
+    "strategy": "rule",
+    "model": "",
+    "latency_ms": 0,
+    "error": ""
+  },
+  "rule|rule|||坏果 20% 按什么比例赔付": {
+    "original": "坏果 20% 按什么比例赔付",
+    "query": "坏果 20% 按什么比例赔付",
+    "rewritten": false,
+    "reason": "问题自包含，无需改写",
+    "strategy": "rule",
+    "model": "",
+    "latency_ms": 0,
+    "error": ""
+  },
+  "rule|rule|||坏果 40% 按什么比例赔": {
+    "original": "坏果 40% 按什么比例赔",
+    "query": "坏果 40% 按什么比例赔",
+    "rewritten": false,
+    "reason": "问题自包含，无需改写",
+    "strategy": "rule",
+    "model": "",
+    "latency_ms": 0,
+    "error": ""
+  },
+  "rule|rule|||坏果三成到五成怎么赔": {
+    "original": "坏果三成到五成怎么赔",
+    "query": "坏果三成到五成怎么赔",
+    "rewritten": false,
+    "reason": "问题自包含，无需改写",
+    "strategy": "rule",
+    "model": "",
+    "latency_ms": 0,
+    "error": ""
+  },
+  "rule|rule|||坏果六成怎么算赔付": {
+    "original": "坏果六成怎么算赔付",
+    "query": "坏果六成怎么算赔付",
+    "rewritten": false,
+    "reason": "问题自包含，无需改写",
+    "strategy": "rule",
+    "model": "",
+    "latency_ms": 0,
+    "error": ""
+  },
+  "rule|rule|||坏果超过一半但不到八成赔多少": {
+    "original": "坏果超过一半但不到八成赔多少",
+    "query": "坏果超过一半但不到八成赔多少",
+    "rewritten": false,
+    "reason": "问题自包含，无需改写",
+    "strategy": "rule",
+    "model": "",
+    "latency_ms": 0,
+    "error": ""
+  },
+  "rule|rule|||水果基本都坏了怎么赔": {
+    "original": "水果基本都坏了怎么赔",
+    "query": "水果基本都坏了怎么赔",
+    "rewritten": false,
+    "reason": "问题自包含，无需改写",
+    "strategy": "rule",
+    "model": "",
+    "latency_ms": 0,
+    "error": ""
+  },
+  "rule|rule|||坏果九成以上能全额赔吗": {
+    "original": "坏果九成以上能全额赔吗",
+    "query": "坏果九成以上能全额赔吗",
+    "rewritten": false,
+    "reason": "问题自包含，无需改写",
+    "strategy": "rule",
+    "model": "",
+    "latency_ms": 0,
+    "error": ""
+  },
+  "rule|rule|||赔付超过 200 元还要人工审核吗": {
+    "original": "赔付超过 200 元还要人工审核吗",
+    "query": "赔付超过 200 元还要人工审核吗",
+    "rewritten": false,
+    "reason": "问题自包含，无需改写",
+    "strategy": "rule",
+    "model": "",
+    "latency_ms": 0,
+    "error": ""
+  },
+  "rule|rule|||大额赔付为什么不能自动通过": {
+    "original": "大额赔付为什么不能自动通过",
+    "query": "大额赔付为什么不能自动通过",
+    "rewritten": false,
+    "reason": "问题自包含，无需改写",
+    "strategy": "rule",
+    "model": "",
+    "latency_ms": 0,
+    "error": ""
+  },
+  "rule|rule|||少称一成怎么赔": {
+    "original": "少称一成怎么赔",
+    "query": "少称一成怎么赔",
+    "rewritten": false,
+    "reason": "问题自包含，无需改写",
+    "strategy": "rule",
+    "model": "",
+    "latency_ms": 0,
+    "error": ""
+  },
+  "rule|rule|||分量少了 10% 能赔多少": {
+    "original": "分量少了 10% 能赔多少",
+    "query": "分量少了 10% 能赔多少",
+    "rewritten": false,
+    "reason": "问题自包含，无需改写",
+    "strategy": "rule",
+    "model": "",
+    "latency_ms": 0,
+    "error": ""
+  },
+  "rule|rule|||重量申诉需要什么凭证": {
+    "original": "重量申诉需要什么凭证",
+    "query": "重量申诉需要什么凭证",
+    "rewritten": false,
+    "reason": "问题自包含，无需改写",
+    "strategy": "rule",
+    "model": "",
+    "latency_ms": 0,
+    "error": ""
+  },
+  "rule|rule|||称重照片有什么要求": {
+    "original": "称重照片有什么要求",
+    "query": "称重照片有什么要求",
+    "rewritten": false,
+    "reason": "问题自包含，无需改写",
+    "strategy": "rule",
+    "model": "",
+    "latency_ms": 0,
+    "error": ""
+  },
+  "rule|rule|||生鲜可以无理由退货吗": {
+    "original": "生鲜可以无理由退货吗",
+    "query": "生鲜可以无理由退货吗",
+    "rewritten": false,
+    "reason": "问题自包含，无需改写",
+    "strategy": "rule",
+    "model": "",
+    "latency_ms": 0,
+    "error": ""
+  },
+  "rule|rule|||买的水果不想要了能退吗": {
+    "original": "买的水果不想要了能退吗",
+    "query": "买的水果不想要了能退吗",
+    "rewritten": false,
+    "reason": "问题自包含，无需改写",
+    "strategy": "rule",
+    "model": "",
+    "latency_ms": 0,
+    "error": ""
+  },
+  "rule|rule|||退款审核通过后几天到账": {
+    "original": "退款审核通过后几天到账",
+    "query": "退款审核通过后几天到账",
+    "rewritten": false,
+    "reason": "问题自包含，无需改写",
+    "strategy": "rule",
+    "model": "",
+    "latency_ms": 0,
+    "error": ""
+  },
+  "rule|rule|||退款要几个工作日到账": {
+    "original": "退款要几个工作日到账",
+    "query": "退款要几个工作日到账",
+    "rewritten": false,
+    "reason": "问题自包含，无需改写",
+    "strategy": "rule",
+    "model": "",
+    "latency_ms": 0,
+    "error": ""
+  },
+  "rule|rule|||草莓放冰箱能放几天": {
+    "original": "草莓放冰箱能放几天",
+    "query": "草莓放冰箱能放几天",
+    "rewritten": false,
+    "reason": "问题自包含，无需改写",
+    "strategy": "rule",
+    "model": "",
+    "latency_ms": 0,
+    "error": ""
+  },
+  "rule|rule|||芒果需要放冰箱吗": {
+    "original": "芒果需要放冰箱吗",
+    "query": "芒果需要放冰箱吗",
+    "rewritten": false,
+    "reason": "问题自包含，无需改写",
+    "strategy": "rule",
+    "model": "",
+    "latency_ms": 0,
+    "error": ""
+  },
+  "rule|rule|||零下 18 度冻肉能放几个月": {
+    "original": "零下 18 度冻肉能放几个月",
+    "query": "零下 18 度冻肉能放几个月",
+    "rewritten": false,
+    "reason": "问题自包含，无需改写",
+    "strategy": "rule",
+    "model": "",
+    "latency_ms": 0,
+    "error": ""
+  },
+  "rule|rule|||物流信息一天没更新怎么办": {
+    "original": "物流信息一天没更新怎么办",
+    "query": "物流信息一天没更新怎么办",
+    "rewritten": false,
+    "reason": "问题自包含，无需改写",
+    "strategy": "rule",
+    "model": "",
+    "latency_ms": 0,
+    "error": ""
+  },
+  "rule|rule|||配送超时怎么补偿": {
+    "original": "配送超时怎么补偿",
+    "query": "配送超时怎么补偿",
+    "rewritten": false,
+    "reason": "问题自包含，无需改写",
+    "strategy": "rule",
+    "model": "",
+    "latency_ms": 0,
+    "error": ""
+  },
+  "rule|rule|草莓怎么保存|草莓|那它呢": {
+    "original": "那它呢",
+    "query": "草莓怎么保存",
+    "rewritten": true,
+    "reason": "用上文商品「草莓」替换指代词",
+    "strategy": "rule",
+    "model": "",
+    "latency_ms": 0,
+    "error": ""
+  },
+  "rule|rule|芒果怎么存放|芒果|这个要冷藏吗": {
+    "original": "这个要冷藏吗",
+    "query": "芒果要冷藏吗",
+    "rewritten": true,
+    "reason": "用上文商品「芒果」替换指代词",
+    "strategy": "rule",
+    "model": "",
+    "latency_ms": 0,
+    "error": ""
+  },
+  "rule|rule|冷鲜肉怎么保存|冷冻肉|它能放多久": {
+    "original": "它能放多久",
+    "query": "冷冻肉能放多久",
+    "rewritten": true,
+    "reason": "用上文商品「冷冻肉」替换指代词",
+    "strategy": "rule",
+    "model": "",
+    "latency_ms": 0,
+    "error": ""
+  },
+  "rule|rule|物流一直不更新||那能催单吗": {
+    "original": "那能催单吗",
+    "query": "那能催单吗",
+    "rewritten": false,
+    "reason": "问题自包含，无需改写",
+    "strategy": "rule",
+    "model": "",
+    "latency_ms": 0,
+    "error": ""
+  },
+  "rule|rule|订单晚到了两天||那超时有补偿吗": {
+    "original": "那超时有补偿吗",
+    "query": "那超时有补偿吗",
+    "rewritten": false,
+    "reason": "问题自包含，无需改写",
+    "strategy": "rule",
+    "model": "",
+    "latency_ms": 0,
+    "error": ""
+  }
+}

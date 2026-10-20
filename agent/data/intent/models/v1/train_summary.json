@@ -1,0 +1,21 @@
+{
+  "recovered": true,
+  "global_step": 327,
+  "epoch": 1.0,
+  "train_samples": null,
+  "eval_samples": null,
+  "steps": 327,
+  "final_train_loss": 0.4677,
+  "first_train_loss": 1.617,
+  "best_train_loss": 0.2831,
+  "loss_points": 32,
+  "eval_loss": null,
+  "eval_loss_history": [],
+  "eval_answer_token_accuracy_history": [],
+  "adapter_files": [
+    "adapter_config.json",
+    "adapter_model.safetensors",
+    "README.md"
+  ],
+  "note": "训练收尾阶段进程被中断，报告由 trainer_state.json 还原；验证 loss 可能缺失"
+}

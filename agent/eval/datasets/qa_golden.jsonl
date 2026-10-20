@@ -1,0 +1,30 @@
+{"id": "q001", "question": "坏了一点点可以赔吗", "context": null, "relevant_chunk_ids": ["赔付标准表#rule#006"], "case_type": "direct", "note": "低比例瑕疵的赔付档位"}
+{"id": "q002", "question": "坏果很少能拿到补偿吗", "context": null, "relevant_chunk_ids": ["赔付标准表#rule#006"], "case_type": "direct", "note": "同一 chunk 的第二种问法"}
+{"id": "q003", "question": "坏果两成赔多少", "context": null, "relevant_chunk_ids": ["赔付标准表#rule#007"], "case_type": "direct", "note": "10%-30% 档位"}
+{"id": "q004", "question": "坏果 20% 按什么比例赔付", "context": null, "relevant_chunk_ids": ["赔付标准表#rule#007"], "case_type": "direct", "note": "含数字的问法"}
+{"id": "q005", "question": "坏果 40% 按什么比例赔", "context": null, "relevant_chunk_ids": ["赔付标准表#rule#008"], "case_type": "direct", "note": "30%-50% 档位"}
+{"id": "q006", "question": "坏果三成到五成怎么赔", "context": null, "relevant_chunk_ids": ["赔付标准表#rule#008"], "case_type": "direct", "note": "中文数字问法"}
+{"id": "q007", "question": "坏果六成怎么算赔付", "context": null, "relevant_chunk_ids": ["赔付标准表#rule#009"], "case_type": "direct", "note": "50%-80% 档位"}
+{"id": "q008", "question": "坏果超过一半但不到八成赔多少", "context": null, "relevant_chunk_ids": ["赔付标准表#rule#009"], "case_type": "direct", "note": "区间描述问法"}
+{"id": "q009", "question": "水果基本都坏了怎么赔", "context": null, "relevant_chunk_ids": ["赔付标准表#rule#010"], "case_type": "direct", "note": "超过 80% 档位"}
+{"id": "q010", "question": "坏果九成以上能全额赔吗", "context": null, "relevant_chunk_ids": ["赔付标准表#rule#010"], "case_type": "direct", "note": "全额赔付问法"}
+{"id": "q011", "question": "赔付超过 200 元还要人工审核吗", "context": null, "relevant_chunk_ids": ["赔付标准表#rule#011"], "case_type": "direct", "note": "自动审核上限"}
+{"id": "q012", "question": "大额赔付为什么不能自动通过", "context": null, "relevant_chunk_ids": ["赔付标准表#rule#011"], "case_type": "direct", "note": "上限规则的口语问法"}
+{"id": "q013", "question": "少称一成怎么赔", "context": null, "relevant_chunk_ids": ["赔付标准表#rule#014"], "case_type": "direct", "note": "缺重 5%-15% 双倍赔付"}
+{"id": "q014", "question": "分量少了 10% 能赔多少", "context": null, "relevant_chunk_ids": ["赔付标准表#rule#014"], "case_type": "direct", "note": "含数字的缺重问法"}
+{"id": "q015", "question": "重量申诉需要什么凭证", "context": null, "relevant_chunk_ids": ["赔付标准表#rule#016"], "case_type": "direct", "note": "称重照片要求"}
+{"id": "q016", "question": "称重照片有什么要求", "context": null, "relevant_chunk_ids": ["赔付标准表#rule#016"], "case_type": "direct", "note": "凭证要求的口语问法"}
+{"id": "q017", "question": "生鲜可以无理由退货吗", "context": null, "relevant_chunk_ids": ["售后政策总则#rule#005"], "case_type": "direct", "note": "无理由退货政策"}
+{"id": "q018", "question": "买的水果不想要了能退吗", "context": null, "relevant_chunk_ids": ["售后政策总则#rule#005"], "case_type": "direct", "note": "同义口语问法"}
+{"id": "q019", "question": "退款审核通过后几天到账", "context": null, "relevant_chunk_ids": ["售后政策总则#rule#006", "常见问题FAQ#rule#012"], "case_type": "direct", "note": "政策与 FAQ 各有一处等价答案"}
+{"id": "q020", "question": "退款要几个工作日到账", "context": null, "relevant_chunk_ids": ["售后政策总则#rule#006", "常见问题FAQ#rule#012"], "case_type": "direct", "note": "同一答案的第二种问法"}
+{"id": "q021", "question": "草莓放冰箱能放几天", "context": null, "relevant_chunk_ids": ["商品储存手册#rule#001"], "case_type": "direct", "note": "浆果冷藏温度与天数"}
+{"id": "q022", "question": "芒果需要放冰箱吗", "context": null, "relevant_chunk_ids": ["商品储存手册#rule#004"], "case_type": "direct", "note": "热带水果不宜冷藏"}
+{"id": "q023", "question": "零下 18 度冻肉能放几个月", "context": null, "relevant_chunk_ids": ["商品储存手册#rule#012", "常见问题FAQ#rule#019"], "case_type": "direct", "note": "冷冻保存期，手册与 FAQ 等价"}
+{"id": "q024", "question": "物流信息一天没更新怎么办", "context": null, "relevant_chunk_ids": ["物流时效说明#rule#009"], "case_type": "direct", "note": "催单触发条件"}
+{"id": "q025", "question": "配送超时怎么补偿", "context": null, "relevant_chunk_ids": ["物流时效说明#rule#014"], "case_type": "direct", "note": "时效补偿标准"}
+{"id": "q026", "question": "那它呢", "context": {"last_question": "草莓怎么保存", "product": "草莓"}, "relevant_chunk_ids": ["商品储存手册#rule#001"], "case_type": "multi_turn", "note": "指代词替换 + 补上一轮主题"}
+{"id": "q027", "question": "这个要冷藏吗", "context": {"last_question": "芒果怎么存放", "product": "芒果"}, "relevant_chunk_ids": ["商品储存手册#rule#004"], "case_type": "multi_turn", "note": "指代词替换为商品"}
+{"id": "q028", "question": "它能放多久", "context": {"last_question": "冷鲜肉怎么保存", "product": "冷冻肉"}, "relevant_chunk_ids": ["商品储存手册#rule#012", "常见问题FAQ#rule#019"], "case_type": "multi_turn", "note": "指代词替换，答案在手册与 FAQ"}
+{"id": "q029", "question": "那能催单吗", "context": {"last_question": "物流一直不更新", "product": ""}, "relevant_chunk_ids": ["物流时效说明#rule#009"], "case_type": "multi_turn", "note": "问题自带主题，改写应保持不变"}
+{"id": "q030", "question": "那超时有补偿吗", "context": {"last_question": "订单晚到了两天", "product": ""}, "relevant_chunk_ids": ["物流时效说明#rule#014"], "case_type": "multi_turn", "note": "多轮但不需要改写的对照用例"}
